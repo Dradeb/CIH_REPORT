@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./particles.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image : linear-gradient(to bottom, #172157a9, #384485c0),
+    url('images/meeting.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
 </head>
 <body>
-    
+    <nav class="navbar sticky-top" style="position: absolute; left: 0; right: 0">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center pt-3"></a>
+            <form class="d-flex align-items-center">
+              <a class="btn text-white" style="font-weight: 700; font-size: small">FR / AR</a>
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                class="bi bi-list text-white" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+              </svg>
+            </form>
+        </div>
+      </nav>
+    <div class="container text-center h-100">
+        <div class="row d-flex flex-column justify-content-around h-100">
+            <div class="col-12">
+                <img src="./images/Asset 3.png" width="250px" alt="">
+            </div>
+            <div class="col-12">
+                <img src="./images/Asset 6@288x.png" width="350px" alt="">
+            </div>
+            <div class="col-12">
+                <a href="./mot-du-president.html"><img class="animate__animated animate__slower animate__shakeY animate__infinite" src="./images/Asset 7@288x.png" width="150px" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
 </body>
 </html>

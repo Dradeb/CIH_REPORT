@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="./images/lo.png" type="image/x-icon">
+  <title>Annual Report 2021</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="./particles.js"></script>
+</head>
+
+<body>
+  <img src="./images/bar.png" alt="" style="position: absolute; left: 35px; top:35px; width: 70px; height: auto; z-index: 2;">
+  <div id="particles-js"></div>
+  <nav class="navbar sticky-top" style="position: absolute; left: 0; right: 0">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center pt-3"><img src="./images/Asset 3.png" height="40px" alt="" />
+        <form class="d-flex align-items-center">
+          <a class="btn text-white" style="font-weight: 700; font-size: small">FR / AR</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+            class="bi bi-list text-white" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+        </form>
+    </div>
+  </nav>
+  <div class="d-flex align-items-center" style="
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 70px;
+        z-index: 4;
+      ">
+    <ul class="navigate d-flex flex-column justify-content-center" style="position: absolute; height: 100vh;">
+      <li class="nav-item">
+        <a href="./mot-du-president.html">
+          <span>01</span><span class="span">mot du président</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="./cih-bank-en-bref.html"><span>02</span><span class="span">CIH BANK EN BREF</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="./les-100-ans-timeline.html"><span>03</span><span class="span">LES 100 ANS EN
+            TIMELINE</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="./environnement.html"><span>04</span><span class="span">Environnement</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="./strategie-et-gouvernance.html" class="active"><span>05</span><span class="span"><img src="./images/lo.png" style="width: 10px; margin-right: 10px;"
+          alt="">stratégie et
+            gouvernance</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="./performance.html"><span>06</span><span class="span">performance et valeur partagée</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="./rapport-financier.html"><span>07</span><span class="span">rapport financier</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="./annexes.html"><span>08</span><span class="span">ANNEXES</span></a>
+      </li>
+    </ul>
+  </div>
+  <!-- Flickity HTML init -->
+  <div class="carousel js-flickity">
+    <!-- images from unsplash.com -->
+    <div class="carousel-cell d-flex flex-column">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637.31 427.44" width="50%"><defs><style>.cls-1{fill:none;stroke:#f4a49a !important;stroke-miterlimit:10;stroke-width:4px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1 FlJkoZpd_0" d="M40.89,373.9Q2,323.61,2,213.1T40.89,52.31Q79.77,2,160,2T279.15,52.31Q318,102.62,318,213.1T279.15,373.9Q240.27,424.23,160,424.21T40.89,373.9Zm159.87-37q15.42-13.28,22.53-43.21t7.1-80.56q0-50.59-7.1-80.55T200.76,89.34Q185.33,76.08,160,76.07T119.28,89.34q-15.44,13.29-22.53,43.21t-7.1,80.55q0,50.63,7.1,80.56t22.53,43.21Q134.7,350.15,160,350.14T200.76,336.87Z"></path><path class="cls-1 FlJkoZpd_1" d="M433.16,420.2q-36.12-5.24-59.57-12l-22.22-5.56,9.26-63q72.83,11.75,124.69,11.73,30.23,0,46.29-16.05t16-46.29q0-56.79-51.85-56.79-42.58,0-72.84,8l-9.26,2.47L363.1,231,374.21,10.64H623V84.71H440.87L430.38,173q38.26-14.8,72.84-14.81,132.07,0,132.09,122.83,0,69.15-36.42,106.79T495.81,425.44Q469.26,425.44,433.16,420.2Z"></path></g></g><style data-made-with="vivus-instant">.FlJkoZpd_0{stroke-dasharray:1908 1910;stroke-dashoffset:1909;animation:FlJkoZpd_draw 1000ms linear 0ms forwards;}.FlJkoZpd_1{stroke-dasharray:1985 1987;stroke-dashoffset:1986;animation:FlJkoZpd_draw 1000ms linear 0ms forwards;}@keyframes FlJkoZpd_draw{100%{stroke-dashoffset:0;}}@keyframes FlJkoZpd_fade{0%{stroke-opacity:1;}92.3076923076923%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
+      <h1 class="ml6 mt-5">
+        <span class="text-wrapper">
+          <span class="letters">Stratégie et gouvernance</span>
+        </span>
+      </h1>
+    </div>
+  </div>
+
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script>
+    LoadScripts();
+
+    function LoadScripts(async) {
+      if (async === undefined) {
+        async = false;
+      }
+      var scripts = [];
+      var _scripts = ['https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', './script.js'];
+
+      if (async) {
+        LoadScriptsAsync(_scripts, scripts)
+      } else {
+        LoadScriptsSync(_scripts, scripts)
+      }
+    }
+
+    // what you are looking for :
+    function LoadScriptsSync(_scripts, scripts) {
+
+      var x = 0;
+      var loopArray = function (_scripts, scripts) {
+        // call itself
+        loadScript(_scripts[x], scripts[x], function () {
+          // set x to next item
+          x++;
+          // any more items in array?
+          if (x < _scripts.length) {
+            loopArray(_scripts, scripts);
+          }
+        });
+      }
+      loopArray(_scripts, scripts);
+    }
+
+    // async load as in your code
+    function LoadScriptsAsync(_scripts, scripts) {
+      for (var i = 0; i < _scripts.length; i++) {
+        loadScript(_scripts[i], scripts[i], function () { });
+      }
+    }
+
+    // load script function with callback to handle synchronicity 
+    function loadScript(src, script, callback) {
+
+      script = document.createElement('script');
+      script.onerror = function () {
+        // handling error when loading script
+        alert('Error to handle')
+      }
+      script.onload = function () {
+        console.log(src + ' loaded ')
+        callback();
+      }
+      script.src = src;
+      document.getElementsByTagName('head')[0].appendChild(script);
+    }
+
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script>
+    // Wrap every letter in a span
+    var textWrapper = document.querySelector('.ml6 .letters');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({ loop: false })
+      .add({
+        targets: '.ml6 .letter',
+        translateY: ["1.1em", 0],
+        translateZ: 0,
+        duration: 1000,
+        delay: (el, i) => 50 * i
+      });
+  </script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
