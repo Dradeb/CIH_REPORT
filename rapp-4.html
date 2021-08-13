@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Environnement économique international</title>
+    <link rel="shortcut icon" href="./images/lo.png" type="image/x-icon">
+    <script src="./particles.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: "Cairo";
+            src: url(./fonts/Cairo/Cairo-SemiBold.ttf);
+        }
+
+        .carousel-control-next-icon {
+            background-image: url(./images/rapp/next.png);
+            width: 60px;
+            height: 60px;
+            position: relative;
+            right: -120px;
+            top: -30px;
+        }
+
+        .carousel-control-prev-icon {
+            background-image: url(./images/rapp/next.png);
+            transform: rotate(180deg);
+            width: 60px;
+            height: 60px;
+            position: relative;
+            right: -120px;
+            bottom: -30px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Cairo";
+            scrollbar-width: none !important;
+        }
+
+        #myVideo {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100vw !important;
+            height: auto !important;
+            z-index: -1;
+        }
+
+        .heading {
+            position: relative;
+            background-color: #67C5D9;
+            color: whitesmoke;
+        }
+
+        .content {
+            width: 60%;
+        }
+
+        @media screen and (max-width : 475px) {
+            .content {
+                width: 100%;
+            }
+
+            #myVideo {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: auto !important;
+                height: 100vh !important;
+                z-index: -1;
+            }
+        }
+
+        #particles-js canvas {
+            display: block;
+            vertical-align: bottom;
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+            opacity: 1;
+            -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+            transition: opacity .8s ease, transform 1.4s ease
+        }
+
+        #particles-js {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            z-index: -10;
+            top: 0;
+            left: 0
+        }
+    </style>
+</head>
+
+<body class="pb-5">
+    <a href="./rapport-financier.html"><img src="./images/back.png" width="40px" alt=""
+            style="position: absolute; top:50%; transform: translateY(-50%); left: 10px; transform: rotate(180deg);"></a>
+    <img src="./images/bar.png" alt=""
+        style="position: absolute; left: 35px; top:35px; width: 70px; height: 95vh; z-index: 2;">
+    <!-- <video autoplay muted loop id="myVideo" class="animate__animated animate__zoomIn">
+        <source src="./images/videos/vid2.mp4" type="video/mp4">
+    </video> -->
+    <img src="./images/rapp/4.png" id="myVideo" alt="" class="animate__animated animate__zoomIn">
+    <nav class="navbar sticky-top" style="position: absolute; left: 0; right: 0">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center pt-3"><img src="./images/Asset 3.png" height="40px"
+                    alt="" />
+                <form class="d-flex align-items-center">
+                    <a class="btn text-white" style="font-weight: 700; font-size: small">FR / AR</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-list text-white" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </form>
+        </div>
+    </nav>
+    <div
+        style="clip-path: polygon(100% 37%, 100% 68%, 34% 100%, 0 100%, 0 86%);
+    background: linear-gradient(90deg, rgba(0, 127, 159, 0.308) 0%, rgba(0, 159, 156, 0.192) 35%, rgba(0, 159, 156, 0.014) 100%); position: absolute; top: 100vh; right: 0; left: 0; bottom:0; z-index: 5">
+    </div>
+    <div id="particles-js"></div>
+    <div class="vh-100 d-flex align-items-center" style="background-color: rgba(0, 217, 255, 0.157);">
+        <div class="row w-100">
+            <div class="col-md-2"></div>
+            <div class="col-md-10 text-white">
+                <h1 class="animate__animated animate__bounceInLeft p-3"
+                    style="letter-spacing: 5px; font-size: 50px !important;">Rapport d’audit sur <br>
+                    les états financiers consolidés</h1>
+            </div>
+        </div>
+    </div>
+    <div style="position: relative;">
+        <div
+            style="position: absolute; top: 0; right: 0; bottom: -100px; left: 0;clip-path: polygon(100% 0, 100% 88%, 85% 100%, 0 100%, 0 75%); background: rgb(208,235,252);
+        background: linear-gradient(90deg, rgba(208,235,252,.6) 0%, rgba(253, 231, 228, 0.6) 50%, rgba(255,255,255,.6) 100%);">
+        </div>
+        <div class="container-fluid" style="z-index: -3;">
+            <div class="row w-100" style="position: relative; top: -50px;">
+                <div class="col-md-2"></div>
+                <div class="col-md-10 heading p-3">
+                    <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="100">
+                        <br><br>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="container content" style="z-index: 500;position: relative; top: -20px;">
+            <div class="col-md-12">
+                <iframe src="./images/pdfs/pdf4.pdf" class="vh-100 w-100">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

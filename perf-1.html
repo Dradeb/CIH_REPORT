@@ -25,7 +25,7 @@
             padding: 0;
             box-sizing: border-box;
             font-family: "Cairo";
-            scrollbar-width: thin;
+            scrollbar-width: none !important;
         }
 
         #myVideo {
@@ -85,11 +85,14 @@
 </head>
 
 <body class="pb-5">
-    <a href="./performance.html"><img src="./images/back.png" width="40px" alt="" style="position: absolute; top:50%; transform: translateY(-50%); left: 10px; transform: rotate(180deg);"></a>
-    <img src="./images/bar.png" alt="" style="position: absolute; left: 35px; top:35px; width: 70px; height: 95vh; z-index: 2;">
-    <video autoplay muted loop id="myVideo" class="animate__animated animate__zoomIn">
+    <a href="./performance.html"><img src="./images/back.png" width="40px" alt=""
+            style="position: absolute; top:50%; transform: translateY(-50%); left: 10px; transform: rotate(180deg);"></a>
+    <img src="./images/bar.png" alt=""
+        style="position: absolute; left: 35px; top:35px; width: 70px; height: 95vh; z-index: 2;">
+    <!-- <video autoplay muted loop id="myVideo" class="animate__animated animate__zoomIn">
         <source src="./images/videos/vid2.mp4" type="video/mp4">
-    </video>
+    </video> -->
+    <img src="./images/perf/perf1.png" id="myVideo" alt="" class="animate__animated animate__zoomIn">
     <nav class="navbar sticky-top" style="position: absolute; left: 0; right: 0">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center pt-3"><img src="./images/Asset 3.png" height="40px"
@@ -120,52 +123,75 @@
         </div>
     </div>
     <div style="position: relative;">
-        <div style="position: absolute; top: 0; right: 0; bottom: -100px; left: 0;clip-path: polygon(100% 0, 100% 88%, 85% 100%, 0 100%, 0 75%); background: rgb(208,235,252);
-        background: linear-gradient(90deg, rgba(208,235,252,.6) 0%, rgba(253, 231, 228, 0.6) 50%, rgba(255,255,255,.6) 100%);"></div>
-    <div class="container-fluid" style="z-index: -3;">
-        <div class="row w-100" style="position: relative; top: -50px;">
-            <div class="col-md-2"></div>
-            <div
-                class="col-md-10 heading p-3">
-                <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="100">Un acteur engagé dans le développement socioéconomique <br> et humain au Maroc</h3>
+        <div
+            style="position: absolute; top: 0; right: 0; bottom: -100px; left: 0;clip-path: polygon(100% 0, 100% 88%, 85% 100%, 0 100%, 0 75%); background: rgb(208,235,252);
+        background: linear-gradient(90deg, rgba(208,235,252,.6) 0%, rgba(253, 231, 228, 0.6) 50%, rgba(255,255,255,.6) 100%);">
+        </div>
+        <div class="container-fluid" style="z-index: -3;">
+            <div class="row w-100" style="position: relative; top: -50px;">
+                <div class="col-md-2"></div>
+                <div class="col-md-10 heading p-3">
+                    <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="100">Un
+                        acteur engagé dans le développement socioéconomique <br> et humain au Maroc</h3>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container content" style="z-index: 500;position: relative; top: -20px;">
-        <div class="row">
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200"
-                class="col-md-3" style="color: rgba(0, 0, 0, 0.6);font-weight: 800; font-size: 22px;">
-                Un réseau <br>
-CIH BANK qui <br> compte plus de <br> <span
-                    style="font-size: 30px; color: #F8A599;">300</span><span style="color: #F8A599;"> agences</span>
-                <hr>
-            </div>
-            <div class="col-9">
-                <article style="font-size: 20px; color: rgba(0, 0, 0, 0.6); text-align: justify;" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200">
-                    <p>
-                        Depuis toujours, CIH BANK œuvre activement en faveur de la bancarisation des populations défavorisées en mettant notamment à leur disposition des agences mobiles et des canaux de communication adaptés. Leader dans l’octroi de crédits garantis par le dispositif FOGARIM, la banque est également un acteur historique du financement de l’accès au logement social au Maroc à travers le financement des acquéreurs et des promoteurs immobiliers. 
-                    </p>
-                </article>
-            </div>
-            <div class="col-12">
-                <article style="font-size: 20px; color: rgba(0, 0, 0, 0.6); text-align: justify;" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200">
-                    <p>
-                        Pour plus de proximité avec sa clientèle, notamment dans les régions les plus reculées du Maroc, CIH BANK développe son réseau. L’objectif est de couvrir en priorité les zones éloignées des grands centres urbains, où le besoin est le plus important. Aujourd’hui, les 307 agences de CIH BANK couvrent la quasi-totalité du territoire national. En 2020, 4 nouvelles agences ont été ouvertes en régions et 4 agences mobiles disposant d’un GAB intégré proposent des services variés.
-                    </p>
-                    <p>
-                        Le digital constitue également un levier pour favoriser la bancarisation des populations des régions isolées. Il s’agit aussi d’un fort levier d’inclusion pour les jeunes, particulièrement sensibles à ces nouveaux canaux de communication. Afin de toucher un public le plus large possible en levant notamment les obstacles liés à la lecture, CIH BANK propose depuis 2018 CIH VOICE, une application mobile qui permet, grâce à la lecture vocale en arabe dialectal, de consulter son solde et historique et de réaliser certaines opérations bancaires.
-                    </p>
-                    <p>
-                        Fin 2019, la Banque a structuré sa filière réservée aux professionnels et aux TPE, pour une plus grande proximité régionale. En octobre 2020, la Direction Régionale de l’Oriental a ainsi formé 150 femmes de la ville de Berkane, au programme de soutien aux jeunes entrepreneurs, Intelak, en collaboration avec l’association Ghazal.
+        <div class="container content" style="z-index: 500;position: relative; top: -20px;">
+            <div class="row">
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200"
+                    class="col-md-3" style="color: rgba(0, 0, 0, 0.6);font-weight: 800; font-size: 22px;">
+                    Un réseau <br>
+                    CIH BANK qui <br> compte plus de <br> <span style="font-size: 30px; color: #F8A599;">300</span><span
+                        style="color: #F8A599;"> agences</span>
+                    <hr>
+                </div>
+                <div class="col-9">
+                    <article style="font-size: 20px; color: rgba(0, 0, 0, 0.6); text-align: justify;" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200">
+                        <p>
+                            Depuis toujours, CIH BANK œuvre activement en faveur de la bancarisation des populations
+                            défavorisées en mettant notamment à leur disposition des agences mobiles et des canaux de
+                            communication adaptés. Leader dans l’octroi de crédits garantis par le dispositif FOGARIM,
+                            la banque est également un acteur historique du financement de l’accès au logement social au
+                            Maroc à travers le financement des acquéreurs et des promoteurs immobiliers.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-12">
+                    <article style="font-size: 20px; color: rgba(0, 0, 0, 0.6); text-align: justify;" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200">
+                        <p>
+                            Pour plus de proximité avec sa clientèle, notamment dans les régions les plus reculées du
+                            Maroc, CIH BANK développe son réseau. L’objectif est de couvrir en priorité les zones
+                            éloignées des grands centres urbains, où le besoin est le plus important. Aujourd’hui, les
+                            307 agences de CIH BANK couvrent la quasi-totalité du territoire national. En 2020, 4
+                            nouvelles agences ont été ouvertes en régions et 4 agences mobiles disposant d’un GAB
+                            intégré proposent des services variés.
+                        </p>
+                        <p>
+                            Le digital constitue également un levier pour favoriser la bancarisation des populations des
+                            régions isolées. Il s’agit aussi d’un fort levier d’inclusion pour les jeunes,
+                            particulièrement sensibles à ces nouveaux canaux de communication. Afin de toucher un public
+                            le plus large possible en levant notamment les obstacles liés à la lecture, CIH BANK propose
+                            depuis 2018 CIH VOICE, une application mobile qui permet, grâce à la lecture vocale en arabe
+                            dialectal, de consulter son solde et historique et de réaliser certaines opérations
+                            bancaires.
+                        </p>
+                        <p>
+                            Fin 2019, la Banque a structuré sa filière réservée aux professionnels et aux TPE, pour une
+                            plus grande proximité régionale. En octobre 2020, la Direction Régionale de l’Oriental a
+                            ainsi formé 150 femmes de la ville de Berkane, au programme de soutien aux jeunes
+                            entrepreneurs, Intelak, en collaboration avec l’association Ghazal.
 
-                    </p>
-                </article>
-            </div>
-            <div class="col-12 mt-3" >
-                <img src="./images/table3.png" width="100%" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="100">
+                        </p>
+                    </article>
+                </div>
+                <div class="col-12 mt-3">
+                    <img src="./images/table3.png" width="100%" alt="" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-out" data-aos-offset="100">
+                </div>
             </div>
         </div>
-    </div>
     </div>
     <script src="./app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -16,6 +16,7 @@
 * {
   box-sizing: border-box;
   font-family:'Cairo';
+  scrollbar-width:none !important;
 }
 
 body {
