@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Environnement économique international</title>
+    <link rel="shortcut icon" href="./images/lo.png" type="image/x-icon">
+    <script src="./particles.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: "Cairo";
+            src: url(./fonts/Cairo/Cairo-SemiBold.ttf);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Cairo";
+            scrollbar-width: thin;
+        }
+
+        #myVideo {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100vw !important;
+            height: auto !important;
+            z-index: -1;
+        }
+
+        .heading {
+            position: relative;
+            background-color: #F8A599;
+            color: whitesmoke;
+        }
+
+        .content {
+            width: 60%;
+        }
+
+        @media screen and (max-width : 475px) {
+            .content {
+                width: 100%;
+            }
+
+            #myVideo {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: auto !important;
+                height: 100vh !important;
+                z-index: -1;
+            }
+        }
+
+        #particles-js canvas {
+            display: block;
+            vertical-align: bottom;
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+            opacity: 1;
+            -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+            transition: opacity .8s ease, transform 1.4s ease
+        }
+
+        #particles-js {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            z-index: -10;
+            top: 0;
+            left: 0
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="./performance.html"><img src="./images/back.png" width="40px" alt=""
+            style="position: absolute; top:50%; transform: translateY(-50%); left: 10px; transform: rotate(180deg);"></a>
+    <img src="./images/bar.png" alt=""
+        style="position: absolute; left: 35px; top:35px; width: 70px; height: 95vh; z-index: 2;">
+    <video autoplay muted loop id="myVideo" class="animate__animated animate__zoomIn">
+        <source src="./images/videos/vid2.mp4" type="video/mp4">
+    </video>
+    <nav class="navbar sticky-top" style="position: absolute; left: 0; right: 0">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center pt-3"><img src="./images/Asset 3.png" height="40px"
+                    alt="" />
+                <form class="d-flex align-items-center">
+                    <a class="btn text-white" style="font-weight: 700; font-size: small">FR / AR</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-list text-white" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </form>
+        </div>
+    </nav>
+    <div
+        style="clip-path: polygon(100% 37%, 100% 68%, 34% 100%, 0 100%, 0 86%);
+    background: linear-gradient(90deg, rgba(0, 127, 159, 0.308) 0%, rgba(0, 159, 156, 0.192) 35%, rgba(0, 159, 156, 0.014) 100%); position: absolute; top: 100vh; right: 0; left: 0; bottom:0; z-index: 5">
+    </div>
+    <div id="particles-js"></div>
+    <div class="vh-100 d-flex align-items-center" style="background-color: rgba(0, 217, 255, 0.157);">
+        <div class="row w-100">
+            <div class="col-md-2"></div>
+            <div class="col-md-10 text-white">
+                <h1 class="animate__animated animate__bounceInLeft p-3"
+                    style="letter-spacing: 5px; font-size: 50px !important;">Contribuer à limiter <br>
+                    les effets du changement <br>
+                    climatique</h1>
+            </div>
+        </div>
+    </div>
+    <div style="position: relative;">
+        <div
+            style="position: absolute; top: 0; right: 0; bottom: -100px; left: 0;clip-path: polygon(100% 0, 100% 88%, 85% 100%, 0 100%, 0 75%); background: rgb(208,235,252);
+        background: linear-gradient(90deg, rgba(208,235,252,.6) 0%, rgba(253, 231, 228, 0.6) 50%, rgba(255,255,255,.6) 100%);">
+        </div>
+        <div class="container-fluid" style="z-index: -3;">
+            <div class="row w-100" style="position: relative; top: -50px;">
+                <div class="col-md-2"></div>
+                <div class="col-md-10 heading p-3">
+                    <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="100">
+                        TFinancer les projets au service de l’atténuation et de l’adaptation <br> au changement
+                        climatique
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="container content" style="z-index: 500;position: relative; top: -20px;">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out"
+                    data-aos-offset="200">
+                    <article style="font-size: 20px; color: rgba(0, 0, 0, 0.6); ">
+                        <p>
+                            Le changement climatique est une préoccupation mondiale qui touche également le Maroc, pays
+                            en proie à un stress hydrique croissant. Afin de faire à ces défis, le Royaume s’est
+                            positionné en tant que locomotive régionale dans le domaine des énergies renouvelables et a
+                            mis en place d’ambitieux projets pour faire face à la pénurie d’eau, notamment des stations
+                            de dessalement d’eau de mer.
+                        </p>
+                        <p>
+                            Pour CIH BANK, il est important de participer à cet effort national à travers le financement
+                            de projets et d’investissements permettant l’atténuation et/ou l’adaptation au changement
+                            climatique. Dans un souci d’exemplarité, le groupe a mis en place une politique interne en
+                            vue de limiter son impact environnemental en optimisant ses consommations d’énergie et d’eau
+                            ainsi que la gestion de ses déchets. Les collaborateurs sont également sensibilisés aux
+                            écogestes à mettre en œuvre au quotidien.
+                        </p>
+                        <h3 style="color: #1394AA;">Maîtriser son empreinte environnementale</h3>
+                        <p>
+                            Afin de limiter son impact environnemental, CIH BANK a fait le choix de solutions et
+                            d’équipements durables (corian, bois, verre, climatisation éco-efficiente, LED…) pour la
+                            construction et la rénovation de ses bâtiments. Pour limiter ses consommations de papier,
+                            les imprimantes multifonctions recto verso ont été généralisées et tous les processus
+                            métiers consommant beaucoup de papier ont été digitalisés (politique zéro archive,
+                            dématérialisation des courriers envoyés à la clientèle…). Le papier utilisé au niveau du
+                            siège est intégralement récupéré par une société spécialisée dans le recyclage.
+                        </p>
+                        <p>
+                            En 2020, 52 % des agences ont été équipées de LED, contre 40 % en 2019, avec un objectif de
+                            100 % à l’horizon 2022. Par ailleurs, les anciens serveurs informatiques ont progressivement
+                            été remplacés par de de nouveaux nécessitant moins de réfrigération. En ce qui concerne les
+                            déplacements des collaborateurs, les anciennes voitures du parc automobile ont été changées
+                            par des véhicules plus sobres en carburant.
+                        </p>
+                        <p>
+                            L’autre axe de la politique environnementale de CIH BANK consiste à inciter les prestataires
+                            à adopter des pratiques vertueuses. Depuis 2018, chaque fournisseur doit signer une charte
+                            rappelant le principe de précaution environnementale.
+                        </p>
+                    </article>
+                    <img class="mt-3" src="./images/table4.png" alt="data" width="100%">
+                </div>
+            </div>
+            <div class="row my-5" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200">
+                <div class="col-12 text-center px-2 py-4 rounded" style="color: whitesmoke;background-color: #F8A599;">
+                    <h2>Perspectives 2021</h2>
+                    <p style="font-size: 23px;">Après le centre de vacances et le Club CIH BANK, les différents sites et locaux seront petit à
+                        petit équipés d’installations photovoltaïques qui permettent de réduire la facture énergétique.
+                        Les projets sont à l’étude auprès d’un expert.
+                        Par ailleurs, CIH BANK est en train de mettre en place un reporting environnemental qui sera mis
+                        à jour chaque année, notamment en termes de périmètre couvert et de types de consommations.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200"
+                    class="col-md-3" style="color: rgba(0, 0, 0, 0.6);font-weight: 800;">
+                    <span style="font-size: 25px; color: #F8A599;">51.5 M</span><br>
+                    de dirhams <br>
+                    est le montant <br> d'investissement <br> à bénéfice <br> environnemental.
+                    <hr>
+                </div>
+                <div class="col-md-9">
+                    <article style="font-size: 20px; color: rgba(0, 0, 0, 0.6);" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200">
+                        <h3 style="color: #1394AA;">Financer des projets verts</h3>
+                        <p>
+                            Afin d’encourager le développement de l’ensemble de la filière environnementale au Maroc, CIH BANK finance les projets visant à réduire les émissions de gaz à effet de serre ou encore à faire face à l’impact du changement climatique. 
+                        </p>
+                        <p>
+                            À fin 2020, les engagements en termes de financements de projets ou d’investissements à bénéfice environnemental s’élevaient à 51,5 millions de dirhams, soit une croissance de 443 % par rapport à 2018.
+                        </p>
+                        <p>
+                            CIH BANK bénéficie de la ligne de refinancement accordé par l’Agence Française de Développement (AFD) à hauteur de 1,2 milliard de dirhams. Cette ligne lui permet notamment d’accorder des financements en faveur des TPME dans le cadre de la convention de prêt d’un montant de 550 millions de dirhams signée en 2019 avec Finéa, filiale du Groupe CDG. 40 millions de dirhams sont dédiés au financement de projets d’efficacité énergétique et d’énergies renouvelables.
+                        </p>
+                        <p>
+                            En août 2020, un prêt de 20 millions de dirhams a été octroyé par la Banque Européenne de Développement (BERD) à CIH BANK en faveur du financement de la résilience et de la relance des PME marocaines, dont une partie sera consacrée à l’efficacité énergétique. 
+                        </p>
+                    </article>
+                </div>
+            </div>
+            <div class="row mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out"
+            data-aos-offset="200">
+                <div class="col-12">
+                    <img src="./images/circles.png" width="100%" alt="">
+                </div>
+            </div>
+            <div class="row my-5" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200">
+                <div class="col-12 text-center px-2 py-4 rounded" style="color: whitesmoke;background-color: #F8A599;">
+                    <h2>Perspectives 2021</h2>
+                    <p style="font-size: 23px;">CIH BANK négocie actuellement des lignes de financement de projets d’efficacité énergétique et d’énergies renouvelables, au profit des PME. La banque est par ailleurs en train de structurer le montage financier en cours de deux grands projets éoliens d’une capacité combinée de 162 Mégawatts pour un montant global de 2,7 milliards de dirhams. Un projet hydroélectrique est également à l’étude pour une enveloppe de financement de 260 millions de dirhams
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
