@@ -1,9 +1,8 @@
-var el = "<svg class='animate__animated animate__slower animate__shakeX animate__infinite' height='200px' style='position: absolute; top: -75px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160.79 287.15'><defs><style>.cls-1,.cls-2{fill:none;stroke-miterlimit:10;stroke-width:3px;}.cls-1{stroke:#e43d30;}.cls-2{stroke:#00afef;}</style></defs><g id='Layer_2' data-name='Layer 2'><g id='Layer_1-2' data-name='Layer 1'><path class='cls-1' d='M148.45,92.25C140.24,86.51.38.67.38.67V87.86l156.78,96.86c2.57-5.39,2.91-10.71,3-19.47.1-7.23.13-45.4.13-45.4C160.32,106.18,156.49,97.87,148.45,92.25Z'/><path class='cls-2 bb' d='M157.27,102.49v0a23.94,23.94,0,0,0-5.58-7.65c2.37,7.46,1.16,9.57-2.28,12.34l-14.73,9.11c-.68.49-1.41,1-2.22,1.46L.38,199.29v87.19s139.81-85.91,148.07-91.58,11.87-12.24,11.87-27.6V121.89c.26-8.68.17-14.2-3-19.39'/></g></g></svg>";
-var el2 = "<svg class='animate__animated animate__slower animate__shakeX animate__infinite' height='50px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160.79 287.15'><defs><style>.cls-1,.cls-2{fill:none;stroke-miterlimit:10;stroke-width:5px;}.cls-1{stroke:#e43d30;}.cls-2{stroke:#00afef;}.back{stroke-width: 10px !important}</style></defs><g id='Layer_2' data-name='Layer 2'><g id='Layer_1-2' data-name='Layer 1'><path class='cls-1 back' d='M148.45,92.25C140.24,86.51.38.67.38.67V87.86l156.78,96.86c2.57-5.39,2.91-10.71,3-19.47.1-7.23.13-45.4.13-45.4C160.32,106.18,156.49,97.87,148.45,92.25Z'/><path class='cls-2 bb back' d='M157.27,102.49v0a23.94,23.94,0,0,0-5.58-7.65c2.37,7.46,1.16,9.57-2.28,12.34l-14.73,9.11c-.68.49-1.41,1-2.22,1.46L.38,199.29v87.19s139.81-85.91,148.07-91.58,11.87-12.24,11.87-27.6V121.89c.26-8.68.17-14.2-3-19.39'/></g></g></svg>";
+var el = "<img src='./images/next.png' class='animate__animated animate__slower animate__shakeX animate__infinite' height='200px' style='position: relative; top: -75px' >"
+var el2 = "<img src='./images/next.png' class='animate__animated animate__slower animate__shakeX animate__infinite' height='100px' style='position: relative; top: -55px' >";
 var next = document.getElementsByClassName("next")[0];
 var prev = document.getElementsByClassName("previous")[0];
 next.innerHTML = el;
 prev.innerHTML = el2;
-prev.style.transform = "rotate(180deg)";
-next.style.transform ="rotate(360deg)"
+prev.style.transform = "rotateY(180deg)";
 prev.style.left = "100px";
