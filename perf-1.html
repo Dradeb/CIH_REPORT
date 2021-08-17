@@ -391,13 +391,13 @@
         <source src="./images/videos/vid2.mp4" type="video/mp4">
     </video> -->
     <img src="./images/perf/perf1.png" id="myVideo" alt="" class="animate__animated animate__zoomIn">
-    <nav class="navbar sticky-top" style="position: absolute; left: 0; right: 0">
+    <nav class="navbar sticky-top" style="position: fixed; left: 0; right: 0">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center pt-3"><img src="./images/Asset 3.png" height="40px"
                     alt="" />
                 <form class="d-flex align-items-center">
-                    <a class="btn text-white" style="font-weight: 700; font-size: small">FR / AR</a>
-                    <svg onclick="openNav()" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    <a class="btn" style="font-weight: 700; font-size: small; color: white;">FR / AR</a>
+                    <svg onclick="openNav()" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
                         class="bi bi-list text-white" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
@@ -495,6 +495,21 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+        var btn = document.querySelectorAll("nav form .btn")[0];
+        var icon = document.querySelectorAll("nav form svg")[0];
+        var logo = document.querySelectorAll("nav a img")[0]
+        window.addEventListener("scroll", function () {
+            if (btn.style.color == "white" && window.scrollY >= window.innerHeight-50) {
+                btn.style.color = "black"
+                icon.setAttribute("fill", "black")
+                logo.setAttribute("src", "./images/logo-dark.png")
+            }else if(btn.style.color == "black" && window.scrollY < window.innerHeight-50){
+                btn.style.color = "white"
+                icon.setAttribute("fill", "white")
+                logo.setAttribute("src", "./images/Asset 3.png")
+
+            }
+        })
     </script>
 </body>
 

@@ -20,7 +20,7 @@ ul > li > a {
 * {
   box-sizing: border-box;
   font-family:'Cairo';
-  scrollbar-width:none !important;
+  scrollbar-width:none;
 }
 
 body {
