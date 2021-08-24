@@ -86,7 +86,7 @@
     <script src="./nav/script.js"></script>
 </head>
 
-<body>
+<body style="position: relative;">
     <div id="myNav" class="overlay" style="z-index: 4;">
 
 
@@ -387,9 +387,10 @@
             style="position: fixed; top:50%; transform: translateY(-50%); left: 10px; z-index: 5;"></a>
     <img id="bar" src="./images/bar.png" alt=""
         style="position: fixed; left: 35px; top:35px; width: 70px; height: 95vh; z-index: 34">
-    <video style="position: fixed;" autoplay muted loop id="myVideo" class="animate__animated animate__zoomIn">
+    <!-- <video style="position: fixed;" autoplay muted loop id="myVideo" class="animate__animated animate__zoomIn">
         <source src="./images/videos/vid2.mp4" type="video/mp4">
-    </video>
+    </video> -->
+    <img style="position: fixed;" src="./images/strat/1.png" id="myVideo" alt="" class="animate__animated animate__zoomIn">
     <nav class="navbar sticky-top" style="position: fixed; left: 0; right: 0">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center pt-3"><img id="logo" src="./images/Asset 3.png"
@@ -485,7 +486,8 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid vh-100 p-0 d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200"
+    </div>
+    <div class="container-fluid vh-100 p-0 d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200"
             style="position: absolute; bottom: 0; width: 100%; background: rgb(23,33,87);
             background: linear-gradient(90deg, rgba(23,33,87,1) 0%, rgba(23,33,87,1) 35%, rgba(56,68,133,1) 100%);  z-index: 3;">
             <div class="container"
@@ -502,7 +504,6 @@
                 </div>
             </div>
         </div>
-    </div>
     <script src="./app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
