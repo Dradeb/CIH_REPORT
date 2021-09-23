@@ -1,6 +1,7 @@
+
 .timeline-container {
   min-width: 100vw;
-  background: #1b5a94 !important;
+  background: #8c73ad !important;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0px;
@@ -149,7 +150,7 @@
 
 
 .hover{
-    background: linear-gradient(45deg, #4ba4e3 0%, #1b5a94 50%) !important;
+  background: linear-gradient(120deg, #a3a5c9 0%, #8c73ad 50%) !important;
 }
 
 .hover p {

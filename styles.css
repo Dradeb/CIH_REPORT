@@ -166,9 +166,7 @@ ul > li > a {
     display: none;
   }
 
-  .carousel-cell.is-selected {
-    text-align: left;
-  }
+  
 
   .is-selected video {
     max-width: none !important;
@@ -176,7 +174,7 @@ ul > li > a {
   }
 
   .is-selected h1 {
-    text-align: left !important;
+    text-align: left;
   }
 
   .is-selected a {
@@ -288,7 +286,7 @@ body {
 .carousel.car4,
 .heading4 {
   color: whitesmoke;
-  background: linear-gradient(90deg, #1ab097 0%, #7db7ae 50%) !important;
+  background: linear-gradient(90deg, #1ab097 0%, #7db7ae 50%);
 }
 .carousel.car5,
 .heading5 {
@@ -501,6 +499,7 @@ body {
 .ml6 {
   position: relative;
   font-size: 3.3em;
+  text-align: center !important;
 }
 
 .ml6 .text-wrapper {
