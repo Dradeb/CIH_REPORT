@@ -15,25 +15,55 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="./nav/style.css">
   <script src="./nav/script.js"></script>
+  <script src="./particles.js"></script>
+  <style>
+    #particles-js canvas {
+      display: block;
+      vertical-align: bottom;
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+      -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+      transition: opacity .8s ease, transform 1.4s ease;
+    }
+
+    #particles-js {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 2;
+    }
+  </style>
 </head>
 
 <body>
+  <div id="particles-js"></div>
   <div id="myNav" class="overlay" style="z-index: 1000 !important;">
 
 
     <!-- Overlay content -->
     <div class="overlay-content pb-5">
       <div class="container">
-        <div class="row">
-
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
           <div class="col-md-2 mb-4 nav-img">
             <a href="./mot-du-president.html">
               <img style="width: 50%;" src="./images/numbers/01-animated.svg" alt="">
               <h6 style="color: whitesmoke;">Mot du président</h6>
             </a>
           </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a href="./env-1.html">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/en1.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Environnement</h6>
+            </a>
+          </div>
         </div>
-        <div class="row d-flex">
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
           <div class="col-md-2 mb-4 nav-img">
             <a href="./cih-bank-en-bref.html">
 
@@ -44,16 +74,15 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./chiffres-cles.html">
 
-              <img style="width: 100%;" src="./images/02-CIH BANK en bref-03.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/en1.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Chiffres
                 clés</h6>
             </a>
           </div>
-
-
         </div>
-        <div class="row">
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
           <div class="col-md-2 mb-4 nav-img">
             <a href="./les-100-ans-timeline.html">
 
@@ -61,7 +90,14 @@
               <h6 style="color: whitesmoke;">LES 100 ANS EN TIMELINE</h6>
             </a>
           </div>
-
+          <div class="col-md-2 mb-4 nav-img">
+            <a href="./env-1.html">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/en1.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Environnement</h6>
+            </a>
+          </div>
 
         </div>
         <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
@@ -74,17 +110,18 @@
           </div>
           <div class="col-md-2 mb-4 nav-img">
             <a href="./env-1.html">
-
-              <img style="width: 100%;" src="./images/env1.PNG" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/en1.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Environnement</h6>
             </a>
           </div>
           <div class="col-md-2 mb-4 nav-img">
             <a href="./env-2.html">
 
-              <img style="width: 100%;" src="./images/env2.PNG" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/en2.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Environnement <br>
                 économique international
               </h6>
@@ -93,8 +130,9 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./env-3.html">
 
-              <img style="width: 100%;" src="./images/env3.PNG" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/en3.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Environnement <br>
                 économique national
               </h6>
@@ -103,8 +141,9 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./env-4.html">
 
-              <img style="width: 100%;" src="./images/env4.PNG" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/en4.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Secteur
                 immobilier</h6>
             </a>
@@ -112,8 +151,9 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./env-5.html">
 
-              <img style="width: 100%;" src="./images/env5.PNG" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/en5.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Environnement bancaire et marchés
                 financiers</h6>
             </a>
@@ -121,16 +161,15 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./env-6.html">
 
-              <img style="width: 100%;" src="./images/env6.PNG" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/en6.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Marché
                 des taux</h6>
             </a>
           </div>
-
-
         </div>
-        <div class="row">
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
           <div class="col-md-2 mb-4 nav-img">
             <a href="./strategie-et-gouvernance.html">
 
@@ -141,16 +180,18 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./strat-1.html">
 
-              <img style="width: 100%;" src="./images/strat/1.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/stra1.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Gouvernance RSE</h6>
             </a>
           </div>
           <div class="col-md-2 mb-4 nav-img">
             <a href="./strat-2.html">
 
-              <img style="width: 100%;" src="./images/strat/2.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/stra2.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Éthique
                 des affaires <br>
                 et déontologie </h6>
@@ -159,27 +200,26 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./strat-3.html">
 
-              <img style="width: 100%;" src="./images/strat/3.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/stra3.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Médiation interne</h6>
             </a>
           </div>
           <div class="col-md-2 mb-4 nav-img">
             <a href="./strat-4.html">
 
-              <img style="width: 100%;" src="./images/strat/4.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/stra4.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Système
                 de management de la qualité...</h6>
             </a>
           </div>
-
-
         </div>
         <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
           <div class="col-md-2 mb-4 nav-img">
             <a href="./performance.html">
-
               <img style="width: 50%;" src="./images/numbers/06-animated.svg" alt="">
               <h6 style="color: whitesmoke;">Performance et valeur partagée</h6>
             </a>
@@ -187,8 +227,9 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./perf-1.html">
 
-              <img style="width: 100%;" src="./images/perf/perf1.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/perf1.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Faciliter <br>
                 l’inclusion bancaire</h6>
             </a>
@@ -196,8 +237,9 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./perf-2.html">
 
-              <img style="width: 100%;" src="./images/perf/perf2.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/perf2.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Tarification juste <br>
                 et gratuité services de base</h6>
             </a>
@@ -205,8 +247,9 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./perf-3.html">
 
-              <img style="width: 100%;" src="./images/perf/perf3.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/perf3.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Service
                 client <br>
                 & digitalisation</h6>
@@ -215,16 +258,18 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./perf-4.html">
 
-              <img style="width: 100%;" src="./images/perf/perf4.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/perf4.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Innovation</h6>
             </a>
           </div>
           <div class="col-md-2 mb-4 nav-img">
             <a href="./perf-5.html">
 
-              <img style="width: 100%;" src="./images/perf/perf5.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/perf5.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Capital
                 humain</h6>
             </a>
@@ -232,8 +277,9 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./perf-6.html">
 
-              <img style="width: 100%;" src="./images/perf/perf6.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/perf1.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Actions
                 en faveur <br>
                 de la communauté</h6>
@@ -242,17 +288,16 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./perf-7.html">
 
-              <img style="width: 100%;" src="./images/perf/perf7.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/perf2.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Contribuer à limiter <br>
                 les effets du changement <br>
                 climatique </h6>
             </a>
           </div>
-
-
         </div>
-        <div class="row">
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
           <div class="col-md-2 mb-4 nav-img">
             <a href="./rapport-financier.html">
 
@@ -263,8 +308,9 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./rapp-1.html">
 
-              <img style="width: 100%;" src="./images/rapp/1.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/rap1.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Rapport
                 général <br>
                 des commissaires aux comptes</h6>
@@ -273,8 +319,9 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./rapp-2.html">
 
-              <img style="width: 100%;" src="./images/rapp/2.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/rap2.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Comptes
                 sociaux</h6>
             </a>
@@ -282,16 +329,18 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./rapp-3.html">
 
-              <img style="width: 100%;" src="./images/rapp/3.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/rap3.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Résolutions</h6>
             </a>
           </div>
           <div class="col-md-2 mb-4 nav-img">
             <a href="./rapp-4.html">
 
-              <img style="width: 100%;" src="./images/rapp/4.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/rap4.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Rapport
                 d’audit <br>
                 sur les états financiers <br>
@@ -301,8 +350,9 @@
           <div class="col-md-2 mb-4 nav-img">
             <a href="./rapp-5.html">
 
-              <img style="width: 100%;" src="./images/rapp/5.png" alt="">
-              <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+              <video style="width: 100%; border-radius: 10px" src="./images/videos/rap5.mp4"></video>
+              <h6
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Comptes
                 consolidés</h6>
             </a>
@@ -314,32 +364,29 @@
     </div>
 
   </div>
-  <img src="./images/bar.png" alt=""
-    style="position: absolute; left: 35px; top:35px; width: 70px; height: 95vh; z-index: 2;">
+  <img src="./images/bar.png" id="bar" alt=""
+    style="position: fixed; left: 35px; top:35px; width: 70px; height: 95vh; z-index: 24;">
   <div id="particles-js"></div>
   <nav class="navbar sticky-top" style="position: fixed; left: 0; right: 0">
     <div class="container-fluid">
-      <a class="navbar-brand d-flex align-items-center pt-3"><img src="./images/Asset 3.png" height="40px" alt="" />
+      <a class="navbar-brand d-flex align-items-center pt-3"><img id="logo" src="./images/Asset 3.png" height="40px"
+          alt="" />
         <form class="d-flex align-items-center">
-          <a class="btn text-white" style="font-weight: 700; font-size: small">FR / AR</a>
-          <svg onclick="openNav()" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-            class="bi bi-list text-white" viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-          </svg>
+          <a id="btn" class="btn" style="font-weight: 700; font-size: small; color: white;">FR / AR</a>
+          <img id="icon" onclick="openNav()" width="40" height="20px" src="./images/white.png" alt=""
+            style="cursor:pointer;">
         </form>
     </div>
   </nav>
-  <div class="d-flex align-items-center" style="
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        width: 70px;
-        z-index: 4;
-      ">
-    <ul class="navigate d-flex flex-column justify-content-center"
-      style="position: absolute; height: 100vh; padding-top: 50px;">
+  <div id="navii" class="d-flex align-items-center" style="
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+width: 70px;
+z-index: 50;
+">
+    <ul class="navigate d-flex flex-column justify-content-center" style="position: absolute; height: 100vh;">
       <li class="nav-item">
         <a href="./mot-du-president.html" class="active">
           <span>01</span><span class="span"><img src="./images/lo.png" style="width: 10px; margin-right: 10px;"
@@ -363,13 +410,13 @@
       <li class="nav-item">
         <a href="./performance.html"><span>06</span><span class="span">performance et valeur partagée</span></a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a href="./rapport-financier.html"><span>07</span><span class="span">rapport financier</span></a>
-      </li>
+      </li> -->
     </ul>
   </div>
   <!-- Flickity HTML init -->
-  <div class="carousel js-flickity">
+  <div class="carousel car1 js-flickity">
     <!-- images from unsplash.com -->
     <div class="carousel-cell d-flex flex-column">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580.52 426.21" style="width:60%">
@@ -430,17 +477,21 @@
         Mot du Président
       </h1>
     </div>
-    <div class="carousel-cell p-5 row" style="width: 80%;">
-      <div class="col-md-6 d-flex">
-        <img src="./images/Asset 4@288x.png" width="100%" alt="">
+    <div class="pre carousel-cell p-md-5 row">
+      <div class="col-md-6 mt-5 d-flex">
+        <picture>
+          <source srcset="./images/president.png" width="100%" media="(min-width: 476px)">
+          <source srcset="./images/president-mob.png" width="50%" media="(max-width: 475px)">
+          <img src="./images/president.png" width="100%" alt="Flowers">
+        </picture>
       </div>
       <div class="col-md-6 h-100" style="color: whitesmoke; position: relative;">
         <h6 style="font-style: italic;">Président Directeur Général</h6>
         <h2 style="font-weight: 900 !important;">M. Lotfi SEKKAT</h2>
         <img src="./images/scroll.png" class="animate__animated animate__slower animate__shakeY animate__infinite"
           style="position: absolute; top:40%;right: 0;" alt="">
-        <div class="p-3  rounded"
-          style="overflow-y: scroll;height: 60%;scroll-behavior: smooth;width:85%;scroll-snap-type: y mandatory; font-size: 15px;cursor: url(./images/scroll.png), auto;position: relative;background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 50%)">
+        <div class="p-md-3  rounded"
+          style="overflow-y: scroll;height: 70%;scroll-behavior: smooth;scroll-snap-type: y mandatory; font-size: 20px;cursor: url(./images/scroll.png), auto;position: relative;background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 50%)">
           <p>
             CIH Bank a toujours su se remettre en question et s’imaginer différent pour dépasser les difficultés et
             anticiper les changements profonds liés aux mutations nationales et mondiales. Tout au long de ces années,
@@ -454,7 +505,6 @@
             Bank
             une banque reconnue.
           </p>
-
           <p>
             Tout au long de ces années, CIH Bank a contribué activement au développement économique du Maroc. De 1969 à
             1986, le CIH a été la locomotive du financement du logement et de l’hôtellerie. Dans les années 70, la
@@ -465,7 +515,6 @@
             période
             1973-1977.
           </p>
-
           <p>
             CIH Bank a également participé activement aux programmes immobiliers collectifs qui s’inscrivent dans le
             cadre
@@ -475,7 +524,6 @@
             construction (Érac, ainsi qu’Anhi, Attacharouk, CGI, Sonadac…) qui sont en charge de la promotion
             immobilière.
           </p>
-
           <p>
             À l’aube des années 1980, le CIH a su devenir une des plus importantes institutions financières dans le
             cadre
@@ -487,7 +535,6 @@
             qu’elle
             a rendue obligatoire en 1979.
           </p>
-
           <p>
             CIH Bank a également joué un rôle important dans le développement du secteur touristique au Maroc. Dans le
             cadre du plan 1965-1967, qui a déclaré le secteur du tourisme comme priorité nationale, juste après
@@ -495,7 +542,6 @@
             reculées et très isolées, venant ainsi participer à leur développement social et humain. Comme pour le
             logement, la CPIM va avoir un rôle essentiel durant cette période cruciale de développement de notre pays.
           </p>
-
           <p>
             Après l’immobilier et le tourisme, la banque a ciblé de nouveaux marchés. Dès son arrivée en 2009, le
             Président Ahmed Rahhou a initié le plan stratégique 2010-2014 visant à transformer CIH Bank en une banque
@@ -503,7 +549,6 @@
             la
             bancassurance.
           </p>
-
           <p>
             Aujourd’hui, CIH BANK est une banque avant-gardiste qui a fait le pari du digital banking en offrant aux
             clients des services digitalisés et accessibles. La Banque s’est souvent positionnée comme précurseur dans
@@ -516,6 +561,10 @@
     </div>
   </div>
 
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script>
     LoadScripts();

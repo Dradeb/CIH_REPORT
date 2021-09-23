@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Environnement économique international</title>
+    <link rel="shortcut icon" href="./images/lo.png" type="image/x-icon">
+    <script src="./particles.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: "Cairo";
+            src: url(./fonts/Cairo/Cairo-SemiBold.ttf);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Cairo";
+            scrollbar-width: none !important;
+        }
+
+        #myVideo {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100vw !important;
+            height: auto !important;
+            z-index: -1;
+        }
+
+        .heading {
+            position: relative;
+            background-color: #F8A599;
+            color: whitesmoke;
+        }
+
+        .content {
+            width: 60%;
+        }
+
+        @media screen and (max-width : 475px) {
+            .content {
+                width: 100%;
+            }
+
+            #myVideo {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: auto !important;
+                height: 100vh !important;
+                z-index: -1;
+            }
+        }
+
+        #particles-js canvas {
+            display: block;
+            vertical-align: bottom;
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+            opacity: 1;
+            -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+            transition: opacity .8s ease, transform 1.4s ease
+        }
+
+        #particles-js {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            z-index: -10;
+            top: 0;
+            left: 0
+        }
+    </style>
+    <link rel="stylesheet" href="./nav/style.css">
+    <script src="./nav/script.js"></script>
+</head>
+
+<body>
+    <div id="myNav" class="overlay" style="z-index: 1000 !important;">
+
+
+        <!-- Overlay content -->
+        <div class="overlay-content pb-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./mot-du-president.html">
+                            <img style="width: 50%;" src="./images/numbers/01-animated.svg" alt="">
+                            <h6 style="color: whitesmoke;">Mot du président</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="row d-flex">
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./cih-bank-en-bref.html">
+
+                            <img style="width: 50%;" src="./images/numbers/02-animated.svg" alt="">
+                            <h6 style="color: whitesmoke;">CIH BANK EN BREF</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./chiffres-cles.html">
+
+                            <img style="width: 100%;" src="./images/02-CIH BANK en bref-03.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Chiffres
+                                clés</h6>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./les-100-ans-timeline.html">
+
+                            <img style="width: 50%;" src="./images/numbers/03-animated.svg" alt="">
+                            <h6 style="color: whitesmoke;">LES 100 ANS EN TIMELINE</h6>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./environnement.html">
+
+                            <img style="width: 50%;" src="./images/numbers/04-animated.svg" alt="">
+                            <h6 style="color: whitesmoke;">Environnement</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./env-1.html">
+
+                            <img style="width: 100%;" src="./images/env1.PNG" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Environnement</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./env-2.html">
+
+                            <img style="width: 100%;" src="./images/env2.PNG" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Environnement <br>
+                                économique international
+                            </h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./env-3.html">
+
+                            <img style="width: 100%;" src="./images/env3.PNG" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Environnement <br>
+                                économique national
+                            </h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./env-4.html">
+
+                            <img style="width: 100%;" src="./images/env4.PNG" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Secteur
+                                immobilier</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./env-5.html">
+
+                            <img style="width: 100%;" src="./images/env5.PNG" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Environnement bancaire et marchés
+                                financiers</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./env-6.html">
+
+                            <img style="width: 100%;" src="./images/env6.PNG" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Marché
+                                des taux</h6>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./strategie-et-gouvernance.html">
+
+                            <img style="width: 50%;" src="./images/numbers/05-animated.svg" alt="">
+                            <h6 style="color: whitesmoke;">Stratégie et gouvernance</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./strat-1.html">
+
+                            <img style="width: 100%;" src="./images/strat/1.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Gouvernance RSE</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./strat-2.html">
+
+                            <img style="width: 100%;" src="./images/strat/2.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Éthique
+                                des affaires <br>
+                                et déontologie </h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./strat-3.html">
+
+                            <img style="width: 100%;" src="./images/strat/3.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Médiation interne</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./strat-4.html">
+
+                            <img style="width: 100%;" src="./images/strat/4.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Système
+                                de management de la qualité...</h6>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./performance.html">
+
+                            <img style="width: 50%;" src="./images/numbers/06-animated.svg" alt="">
+                            <h6 style="color: whitesmoke;">Performance et valeur partagée</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./perf-1.html">
+
+                            <img style="width: 100%;" src="./images/perf/perf1.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Faciliter <br>
+                                l’inclusion bancaire</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./perf-2.html">
+
+                            <img style="width: 100%;" src="./images/perf/perf2.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Tarification juste <br>
+                                et gratuité services de base</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./perf-3.html">
+
+                            <img style="width: 100%;" src="./images/perf/perf3.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Service
+                                client <br>
+                                & digitalisation</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./perf-4.html">
+
+                            <img style="width: 100%;" src="./images/perf/perf4.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Innovation</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./perf-5.html">
+
+                            <img style="width: 100%;" src="./images/perf/perf5.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Capital
+                                humain</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./perf-6.html">
+
+                            <img style="width: 100%;" src="./images/perf/perf6.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Actions
+                                en faveur <br>
+                                de la communauté</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./perf-7.html">
+
+                            <img style="width: 100%;" src="./images/perf/perf7.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Contribuer à limiter <br>
+                                les effets du changement <br>
+                                climatique </h6>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./rapport-financier.html">
+
+                            <img style="width: 50%;" src="./images/numbers/07-animated.svg" alt="">
+                            <h6 style="color: whitesmoke;">Rapport financier</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./rapp-1.html">
+
+                            <img style="width: 100%;" src="./images/rapp/1.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Rapport
+                                général <br>
+                                des commissaires aux comptes</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./rapp-2.html">
+
+                            <img style="width: 100%;" src="./images/rapp/2.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Comptes
+                                sociaux</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./rapp-3.html">
+
+                            <img style="width: 100%;" src="./images/rapp/3.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Résolutions</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./rapp-4.html">
+
+                            <img style="width: 100%;" src="./images/rapp/4.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Rapport
+                                d’audit <br>
+                                sur les états financiers <br>
+                                consolidés</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-4 nav-img">
+                        <a href="./rapp-5.html">
+
+                            <img style="width: 100%;" src="./images/rapp/5.png" alt="">
+                            <h6 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0;">
+                                Comptes
+                                consolidés</h6>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <a href="./performance.html"><img src="./images/back.png" width="40px" alt=""
+            style="position: absolute; top:50%; transform: translateY(-50%); left: 10px; transform: rotate(180deg);"></a>
+    <img src="./images/bar.png" alt=""
+        style="position: absolute; left: 35px; top:35px; width: 70px; height: 95vh; z-index: 2;">
+    <!-- <video autoplay muted loop id="myVideo" class="animate__animated animate__zoomIn">
+        <source src="./images/videos/vid2.mp4" type="video/mp4">
+    </video> -->
+    <img src="./images/perf/perf3.png" id="myVideo" alt="" class="animate__animated animate__zoomIn">
+    <nav class="navbar sticky-top" style="position: absolute; left: 0; right: 0">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center pt-3"><img src="./images/Asset 3.png" height="40px"
+                    alt="" />
+                <form class="d-flex align-items-center">
+                    <a class="btn text-white" style="font-weight: 700; font-size: small">FR / AR</a>
+                    <svg onclick="openNav()" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-list text-white" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </form>
+        </div>
+    </nav>
+    <div
+        style="clip-path: polygon(100% 37%, 100% 68%, 34% 100%, 0 100%, 0 86%);
+    background: linear-gradient(90deg, rgba(0, 127, 159, 0.308) 0%, rgba(0, 159, 156, 0.192) 35%, rgba(0, 159, 156, 0.014) 100%); position: absolute; top: 100vh; right: 0; left: 0; bottom:0; z-index: 5">
+    </div>
+    <div id="particles-js"></div>
+    <div class="vh-100 d-flex align-items-center" style="background-color: rgba(0, 217, 255, 0.157);">
+        <div class="row w-100">
+            <div class="col-md-2"></div>
+            <div class="col-md-10 text-white">
+                <h1 class="animate__animated animate__bounceInLeft p-3"
+                    style="letter-spacing: 5px; font-size: 50px !important;">Service client <br>
+                    & digitalisation</h1>
+            </div>
+        </div>
+    </div>
+    <div style="position: relative;">
+        <div
+            style="position: absolute; top: 0; right: 0; bottom: -100px; left: 0;clip-path: polygon(100% 0, 100% 88%, 85% 100%, 0 100%, 0 75%); background: rgb(208,235,252);
+        background: linear-gradient(90deg, rgba(208,235,252,.6) 0%, rgba(253, 231, 228, 0.6) 50%, rgba(255,255,255,.6) 100%);">
+        </div>
+        <div class="container-fluid" style="z-index: -3;">
+            <div class="row w-100" style="position: relative; top: -50px;">
+                <div class="col-md-2"></div>
+                <div class="col-md-10 heading p-3">
+                    <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="100">
+                        Le digital, au cœur de l’expérience client
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="container content" style="z-index: 500;position: relative; top: -20px;">
+            <div class="row">
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200"
+                    class="col-md-3" style="color: rgba(0, 0, 0, 0.6);font-weight: 800;">
+                    A fin 2020, <br>
+                    le taux de <br> satisfaction <br> global s'élevait <br> à<span
+                        style="font-size: 25px; color: #F8A599;"> 92%</span>
+                    <hr>
+                </div>
+                <div class="col-9">
+                    <article style="font-size: 20px; color: rgba(0, 0, 0, 0.6); text-align: justify;" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="200">
+                        <p>
+                            Pour CIH BANK, la qualité des relations client est un enjeu essentiel qui concerne de
+                            manière transversale l’ensemble des entités de la banque. De plus en plus, elle s’appuie sur
+                            le digital autour duquel s’articule aujourd’hui une grande part du parcours client. Cette
+                            relation se veut avant tout bienveillante et se traduit par exemple par la recherche de
+                            solutions justes et équitables en cas de surendettement.
+                        </p>
+                        <p>
+                            Pour élaborer sa politique qualité, CIH BANK s’appuie sur des enquêtes de satisfaction
+                            régulières ainsi que sur les enseignements tirés de la gestion des réclamations, et ce, tout
+                            en ayant une approche innovante du parcours client. À fin 2020, le taux de satisfaction
+                            globale de CIH BANK s’élevait à 92 %.
+                        </p>
+                        <p>
+                            Ainsi, dans le cadre de sa démarche d’amélioration continue et en réponse aux évolutions
+                            rapides de son environnement, CIH BANK a présenté une nouvelle politique qualité en octobre
+                            2020. En conformité avec les meilleurs standards internationaux, celle-ci vise à satisfaire
+                            les besoins et attentes des clients tout en tenant compte des exigences des différentes
+                            parties prenantes.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-12 mt-2" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out"
+                    data-aos-offset="200">
+                    <h3 style="color: #1394AA;">Politique client : les 4 engagements de CIH BANK</h3>
+                    <img src="./images/table4.svg" width="100%" alt="">
+                </div>
+                <div class="col-12 mt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out"
+                    data-aos-offset="300">
+                    <h3 style="color: #1394AA;">Une accélération marquée de la digitalisation en 2020</h3>
+                    <article style="font-size: 20px; color: rgba(0, 0, 0, 0.6); text-align: justify;">
+                        <p>
+                            L’année 2020 a connu une accélération de l’ouverture de comptes à distance : 1 compte sur 5
+                            - et jusqu’à 1 compte sur 3 durant le confinement - a été ouvert à distance. Cette tendance
+                            se constate également dans l’augmentation régulière (+32,1 % en 2020) du nombre de comptes
+                            CIH ONLINE et CIH MOBILE qui sont enrichis chaque année de nouvelles fonctionnalités. Le
+                            nombre de connexions a d’ailleurs enregistré une hausse de 34 % en 2020. Les guichets
+                            automatiques bancaires (GAB) font également partie de ce dispositif complet de banque à
+                            distance et permettent par exemple d’effectuer des versements.
+                        </p>
+                        <p>
+                            Afin d’améliorer le parcours client et la prise en charge en agence, CIH BANK a déployé une
+                            cinquantaine de « digital corners ». Ces espaces de self-service bancaire permettent aux
+                            clients, assistés par des agents, de réaliser de nombreuses opérations de base. Au cours de
+                            l’année, la banque a également lancé le département « Customer experience », une entité
+                            dédiée à l’expérience client et qui a notamment pour mission de mieux comprendre les
+                            attentes des clients et de sensibiliser l’ensemble du réseau à ses enjeux.
+                        </p>
+                    </article>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-offset="300">
+                <div class="col-md-6 mt-5">
+                    <img src="./images/evo1.png" width="100%" alt="">
+                </div>
+                <div class="col-md-6 mt-5">
+                    <img src="./images/evo2.png" width="100%" alt="">
+                </div>
+                <div class="col-md-6 mt-5">
+                    <img src="./images/evo3.png" width="100%" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out"
+                    data-aos-offset="300">
+                    <h3 style="color: #1394AA;">Une gestion proactive des réclamations</h3>
+                    <article style="font-size: 20px; color: rgba(0, 0, 0, 0.6); text-align: justify;">
+                        <p>
+                            En 2020, le délai de prise en compte des réclamations est en net progrès : il est passé de 2,9 jours en 2019 à 1,6 jour en 2020. Le pourcentage de résolution des réclamations clients s’est quant à lui stabilisé à 94 %. Après avoir enregistré une baisse significative en 2019, le taux de clôture des réclamations dans les délais (fixé de manière réglementaire par Bank Al-Maghrib) a connu une hausse en 2020.
+                        </p>
+                    </article>
+                </div>
+            </div>
+            <div class="row my-5" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out"
+                data-aos-offset="300">
+                <div class="col-md-4">
+                    <img src="./images/abdeljawad.png" class="w-100" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h4 class="mb-4" style="color: #F8A599;">M. Khalid BENALLA<br>
+                        <strong>Directeur Général Adjoint en charge de la <br> Banque des Particuliers et Professionnels</strong>
+                    </h4>
+                    <div class="p-3 pb-4 rounded" style=" background: rgb(208,235,252);
+                    background: linear-gradient(90deg, rgba(208,235,252,.5) 0%, rgba(253, 231, 228, 0.5) 50%, rgba(255,255,255,.5) 100%);    position: relative;"><img
+                            src="./images/wing3.svg" alt="" width="80px"
+                            style="align-self: flex-start; float: left; padding: 5px 5px; position: relative; left:-21px; top: -35px;">
+                        <article style="font-size: 20px; color: rgba(0, 0, 0, 0.6); text-align: justify;">
+                            <p>
+                                Depuis le début de la crise sanitaire, l’un des principaux enjeux du secteur bancaire était d’assurer la continuité d’activité. La priorité était de permettre à nos clients d’accéder à leurs comptes et de gérer le maximum d’opérations à distance pour éviter un déplacement massif en agence. Soulignons que notre CRC a géré plus de 300 000 appels durant les trois premiers mois de confinement. Il a aussi contribué activement à l’action nationale « TADAMOUNE » en assistant 50 000 bénéficiaires pour le retrait de leurs aides depuis nos GAB. Le CRC joue également un rôle important dans la gestion à distance de la relation client. D’autres canaux digitaux, le chat et la messagerie mail, ont également été mis à disposition de nos clients.
+                            </p>
+                        </article><img src="./images/wing4.svg" alt="" width="80px"
+                            style="align-self: flex-start; float: left; padding: 5px 5px; position: absolute; bottom: -20px; right: -5px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
