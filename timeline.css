@@ -102,6 +102,40 @@
   color: whitesmoke;
   padding: 0px 25px;
   text-align: center;
+  z-index: 3;
+}
+.over-text img ,.over-text p{
+  z-index: 10;
+}
+.over-text .overlay{
+  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(7, 2, 34, 0.13);
+  opacity: 0.4;
+  z-index: 2;
+}
+
+
+.hover .over-text .overlay{
+  
+  opacity: 0.7;
+  z-index: 2;
+}
+
+.over-text .bg{
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
 }
 
 @keyframes para {
