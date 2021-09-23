@@ -619,7 +619,10 @@
     <script>
         $(document).ready(function () {
             
+<<<<<<< HEAD
+=======
 
+>>>>>>> 59d26186442abe21328ef32a6a6a13bc05a76736
 
             if($(window).width() > 600)
             {
@@ -633,6 +636,21 @@
                     bounce: true,
                 });
 
+<<<<<<< HEAD
+            if($(window).width() > 600)
+            {
+                const direc = $(window).width() >= 600 ? 'horizontal' : 'vertical';
+                const sb = new ScrollBooster({
+                    viewport: document.querySelector('.timeline-viewport'),
+                    content: document.querySelector('.timeline-content'),
+                    scrollMode: 'native', // use CSS 'transform' property
+                    direction: direc,  // allow only horizontal scrolling
+                    emulateScroll: true, // scroll on wheel events
+                    bounce: true,
+                });
+
+=======
+>>>>>>> 59d26186442abe21328ef32a6a6a13bc05a76736
                 $(".box").on("click", function () {
                   if(!$(this).hasClass("hover"))
                     {
@@ -640,9 +658,15 @@
                             setTimeout(() => {
                             sb.updateMetrics();
                             if ($(window).width() <= 600) {
+<<<<<<< HEAD
                                 sb.scrollTo({ x: $(this).offset.x, y: $(this)[0].offsetTop + 190 });
                             }
                             $(this).addClass("hover");
+=======
+                                sb.scrollTo({ x: $(this).offset.x, y: $(this)[0].offsetTop - 90 });
+                            }
+                            $(this).toggleClass("hover");
+>>>>>>> 59d26186442abe21328ef32a6a6a13bc05a76736
                         }, 100);
                     }
                         
@@ -652,7 +676,11 @@
 
             }else{
 
+<<<<<<< HEAD
                 $(this).addClass("hover");
+=======
+
+>>>>>>> 59d26186442abe21328ef32a6a6a13bc05a76736
                var viewport = $('.timeline-viewport');
                var content = $('.timeline-content');
 
@@ -668,6 +696,7 @@
                     
                 });
                 $(".box").on("touchend",function () {
+<<<<<<< HEAD
 
                     if(longtouch==false)
                     {
@@ -690,10 +719,37 @@
             
 
 
+=======
+>>>>>>> 59d26186442abe21328ef32a6a6a13bc05a76736
+
+                    if(longtouch==false)
+                    {
+                        $(".box.hover").removeClass("hover");
+
+                                 $(this).toggleClass("hover");
+                                setTimeout(() => {
+                                $('html, body').animate({
+                                    scrollTop: $(this).offset().top
+                                }, 400);
+
+                            }, 200);
+
+                    }
+
+                });
+
+
+            }
+            
+
+
+<<<<<<< HEAD
+=======
 
             
 
 
+>>>>>>> 59d26186442abe21328ef32a6a6a13bc05a76736
             // var open = false;
             // // FOR MOBILE DEVICES
             // $('.box').on('touchend', function (e) {
