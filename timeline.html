@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!-- to add later  -->
+
+    
     <style>
         *{font-family: 'Cairo' !important;}
     </style>
@@ -616,35 +618,81 @@
     <script src="./nav/script.js"></script>
     <script>
         $(document).ready(function () {
-            const direc = $(window).width() >= 600 ? 'horizontal' : 'vertical';
-            const sb = new ScrollBooster({
-                viewport: document.querySelector('.timeline-viewport'),
-                content: document.querySelector('.timeline-content'),
-                scrollMode: 'native', // use CSS 'transform' property
-                direction: direc,  // allow only horizontal scrolling
-                emulateScroll: true, // scroll on wheel events
-                bounce: true,
-            });
+            
+
+
+            if($(window).width() > 600)
+            {
+                const direc = $(window).width() >= 600 ? 'horizontal' : 'vertical';
+                const sb = new ScrollBooster({
+                    viewport: document.querySelector('.timeline-viewport'),
+                    content: document.querySelector('.timeline-content'),
+                    scrollMode: 'native', // use CSS 'transform' property
+                    direction: direc,  // allow only horizontal scrolling
+                    emulateScroll: true, // scroll on wheel events
+                    bounce: true,
+                });
+
+                $(".box").on("click", function () {
+                  if(!$(this).hasClass("hover"))
+                    {
+                            $(".box.hover").removeClass("hover");
+                            setTimeout(() => {
+                            sb.updateMetrics();
+                            if ($(window).width() <= 600) {
+                                sb.scrollTo({ x: $(this).offset.x, y: $(this)[0].offsetTop - 90 });
+                            }
+                            $(this).toggleClass("hover");
+                        }, 100);
+                    }
+                        
+                });
 
 
 
-            $(".box").on("click touchstart", function () {
-                console.log("touch start")
-                $(".box").on("touchend", function () {
-                    
-                    // $(".box.hover").removeClass("hover");
-                    $(".box.hover").removeClass("hover");
-                    setTimeout(() => {
-                        sb.updateMetrics();
-                        if ($(window).width() <= 600) {
-                            sb.scrollTo({ x: $(this).offset.x, y: $(this)[0].offsetTop - 90 });
-                        }
-                        $(this).toggleClass("hover");
+            }else{
+
+
+               var viewport = $('.timeline-viewport');
+               var content = $('.timeline-content');
+
+               viewport.css("height","fit-content");
+
+                var long , timeout;
+                $(".box").on("touchstart",function () {
+                    longtouch = false ;
+
+                    timeout = setTimeout(function() {
+                        longtouch = true;
                     }, 100);
-                })
-            });
+                    
+                });
+                $(".box").on("touchend",function () {
+
+                    if(longtouch==false)
+                    {
+                        $(".box.hover").removeClass("hover");
+
+                                 $(this).toggleClass("hover");
+                                setTimeout(() => {
+                                $('html, body').animate({
+                                    scrollTop: $(this).offset().top
+                                }, 400);
+
+                            }, 200);
+
+                    }
+
+                });
+
+
+            }
+            
+
+
 
             
+
 
             // var open = false;
             // // FOR MOBILE DEVICES
