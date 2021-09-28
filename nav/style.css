@@ -18,11 +18,11 @@ form svg {
     cursor: pointer;
 }
 .nav-img h6 {
-    font-weight: 900 !important;
+    font-weight: 200 !important;
     text-transform: capitalize;
     color: white !important;
     font-size: 15px !important;
-    font-family: Cairoo;
+    font-family: Cairo;
 }
 .nav-img{
     text-align: center;

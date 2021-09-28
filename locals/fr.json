@@ -1,0 +1,30 @@
+{
+    "head": {
+      "title": "Les 100 ans en timeline"
+    },
+    ".timeline-content" : {
+        "1920" : "Création de la Caisse de Prêts Immobiliers du Maroc (CPIM).",
+        "1927" : "L’État autorise la CPIM à effectuer des opérations de crédit à long terme en vue de la construction, de la réfection et de l’aménagement d’hôtels de voyageurs.",
+        "1967" : "La CPIM devient le Crédit Immobilier et Hôtelier (CIH)",
+        "1968" : "L’État confie au CIH la mission de financer les secteurs immobilier et hôtelier et lui accorde dans ce cadre des moyens supplémentaires ainsi que le monopole dans ce domaine.",
+        "1980" : "Passage du manuel au système informatique au niveau central.",
+        "1988" : "Mise en place d’un système informatique au niveau des agences avec le démarrage de l’activité bancaire.",
+        "1993" : "Décloisonnement des marchés sur le plan bancaire, désencadrement du crédit et libéralisation des taux : le CIH est mis ainsi au même niveau que les autres banques commerciales et perd sa situation de monopole concernant le logement et l’hôtellerie.",
+        "2000" : "Lancement du plan de redressement du CIH. La banque est recapitalisée à hauteur de 2 milliards de dirhams et bénéficie d’un prêt d’un milliard de dirhams du Trésor public. Une partie des pertes de change est prise en charge et les promoteurs publics sont refinancés afin qu’ils puissent eux-mêmes rembourser leurs dettes auprès du CIH. Avec l’appui du ministère des Finances, la CDG, va participer activement au redressement de la Banque en prenant part à l’augmentation de capital et en se substituant aux actionnaires qui se sont retirés.",
+        "2002" : "Lancement de la première opération de titrisation au Maroc.",
+        "2004" : "CIH enregistre son premier exercice positif en sept ans.",
+        "2005" : "La CDG détient 65 % du capital du CIH.",
+        "2006" : "Fin du plan de redressement.",
+        "2007" : "Le CIH se transforme en société anonyme à directoire et conseil de surveillance.",
+        "2009" : "Le CIH devient une société anonyme à conseil d’administration. Nommé à la présidence, Ahmed Rahhou lance le plan stratégique 2010-2014.",
+        "2010" : "Transformation du CIH en une banque universelle. Naissance de la banque de l’entreprise, la banque des particuliers et des professionnels, et la banque de l’immobilier. <br> Les activités de la banque sont ainsi réorganisées pour permettre une gestion efficace et adaptée de chaque activité. <br> CIH élargit en parallèle son activité en s’adressant aux professions libérales, aux entreprises individuelles, aux commerçants, aux artisans…",
+        "2012" : "Lancement de nouvelles offres concernant la bancassurance, l’assistance, la monétique, les produits à l’international ou encore les services à distance. Ces offres dédiées aux particuliers et aux professionnels illustrent la nouvelle approche de la banque qui place désormais le client au cœur de sa stratégie.",
+        "2013" : "Lancement de la première carte multiservices sur le marché marocain. Lancement de l’application mobile et du site de banque à distance, CIH Online.",
+        "2014" : "CIH devient « CIH Bank ». Lancement du nouveau logo et de la nouvelle identité visuelle, incarnant le nouveau positionnement de la banque vers la transformation digitale et les nouvelles technologies. CIH BANK est la première banque marocaine à décrocher simultanément une double certification ISO 9001 version 2008, à la fois pour les activités monétique et crédits amortissables au logement.",
+        "2016" : "Lancement de l’offre [CODE 30] dédiée aux jeunes de moins de 30 ans et regroupant un ensemble de services bancaires gratuits.",
+        "2017" : "Lancement de l’offre [CODE 18] dédiée aux jeunes de moins de 18 ans.",
+        "2018" : "Lancement du pack Sayidati, dédié aux femmes.",
+        "2019" : "Lancement de l’offre réservée aux fonctionnaires. CIH BANK décroche une quadruple certification ISO 9001 version 2015 couvrant les activités, monétique, crédits immobiliers, bancassurance et financement des entreprises.",
+        "2020" : "Lancement de la banque gratuite pour tous les particuliers ouvrant leur compte en ligne. Maintient de la quadruple certification ISO 9001 version 2015 couvrant les activités monétiques, crédits immobiliers, bancassurance et financement des entreprises."
+    }
+  }
