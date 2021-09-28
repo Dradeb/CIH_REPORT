@@ -2,365 +2,366 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="./nav/style.css">
-    <!-- to add later  -->
-    <link rel="stylesheet" href="timeline.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <!-- to add later  -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./nav/style.css">
+  <!-- to add later  -->
+  <link rel="stylesheet" href="timeline.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- to add later  -->
 
-    
-    <style>
-        *{font-family: 'Cairo' !important;}
-    </style>
+
+  <style>
+    * {
+      font-family: 'Cairo' !important;
+    }
+  </style>
 </head>
 
 <body>
-        <img class="animate__animated animate__shakeX animate__infinite animate__slower"
-            style="position: absolute; width: 40px; z-index: 10; top: 50%; transform: translateY(-50%); right: 25px; "
-            src="./images/next.png" alt="">
-    <img src="./images/bar.png" id="bar" alt=""
-            style="position: fixed; left: 35px; top:35px; width: 70px; height: 95vh; z-index: 24;">
-    <nav class="navbar sticky-top" style="position: fixed; left: 0; right: 0">
-        <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center pt-3"><img id="logo" src="./images/Asset 3.png"
-                    height="40px" alt="" />
-                    <form class="d-flex align-items-center">
-                        <a id="btn" class="btn" style="font-weight: 700; font-size: small; color: white;">FR / AR / EN</a>
-                        <img id="icon" onclick="openNav()" width="40" height="20px" src="./images/white.png" alt=""
-                          style="cursor:pointer;">
-                      </form>
-        </div>
-    </nav>
-    <div id="myNav" class="overlay" style="z-index: 1000 !important;">
-
-
-        <!-- Overlay content -->
-        <div class="overlay-content pb-5">
-          <div class="container">
-            <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./mot-du-president.html">
-                  <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/01-animated.svg" alt="">
-                  <h6 style="color: whitesmoke;">Mot du président</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./environnement.html">
-                  <img style="width: 70%;" src="./images/president-mob.png">
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Mot du président</h6>
-                </a>
-              </div>
-            </div>
-            <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./cih-bank-en-bref.html">
-    
-                  <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/02-animated.svg" alt="">
-                  <h6 style="color: whitesmoke;">CIH BANK EN BREF</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./chiffres-cles.html">
-    
-                  <video style="width: 100%;" src="./images/videos/bank.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Chiffres
-                    clés</h6>
-                </a>
-              </div>
-            </div>
-            <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./les-100-ans-timeline.html">
-    
-                  <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/03-animated.svg" alt="">
-                  <h6 style="color: whitesmoke;">LES 100 ANS EN TIMELINE</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./environnement.html">
-                  <img style="width: 100%;" src="./images/Capture.PNG">
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Timeline</h6>
-                </a>
-              </div>
-    
-            </div>
-            <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./environnement.html">
-    
-                  <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/04-animated.svg" alt="">
-                  <h6 style="color: whitesmoke;">Environnement</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./environnement.html">
-                  <video style="width: 100%;" src="./images/videos/en1.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Environnement</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./environnement.html">
-    
-                  <video style="width: 100%;" src="./images/videos/en2.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Environnement <br>
-                    économique international
-                  </h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./environnement.html">
-    
-                  <video style="width: 100%;" src="./images/videos/en3.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Environnement <br>
-                    économique national
-                  </h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./environnement.html">
-    
-                  <video style="width: 100%;" src="./images/videos/en4.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Secteur
-                    immobilier</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./environnement.html">
-    
-                  <video style="width: 100%;" src="./images/videos/en5.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Environnement bancaire et marchés
-                    financiers</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./environnement.html">
-    
-                  <video style="width: 100%;" src="./images/videos/en6.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Marché
-                    des taux</h6>
-                </a>
-              </div>
-            </div>
-            <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./strategie-et-gouvernance.html">
-    
-                  <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/05-animated.svg" alt="">
-                  <h6 style="color: whitesmoke;">Stratégie et gouvernance</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./strategie-et-gouvernance.html">
-    
-                  <video style="width: 100%;" src="./images/videos/stra1.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Gouvernance RSE</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./strategie-et-gouvernance.html">
-    
-                  <video style="width: 100%;" src="./images/videos/stra2.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Éthique
-                    des affaires <br>
-                    et déontologie </h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./strategie-et-gouvernance.html">
-    
-                  <video style="width: 100%;" src="./images/videos/stra3.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Médiation interne</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./strategie-et-gouvernance.html">
-    
-                  <video style="width: 100%;" src="./images/videos/stra4.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Système
-                    de management de la qualité...</h6>
-                </a>
-              </div>
-            </div>
-            <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./performance.html">
-                  <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/06-animated.svg" alt="">
-                  <h6 style="color: whitesmoke;">Performance et valeur partagée</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./performance.html">
-    
-                  <video style="width: 100%;" src="./images/videos/perf1.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Faciliter <br>
-                    l’inclusion bancaire</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./performance.html">
-    
-                  <video style="width: 100%;" src="./images/videos/perf2.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Tarification juste <br>
-                    et gratuité services de base</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./performance.html">
-    
-                  <video style="width: 100%;" src="./images/videos/perf3.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Service
-                    client <br>
-                    & digitalisation</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./performance.html">
-    
-                  <video style="width: 100%;" src="./images/videos/perf4.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Innovation</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./performance.html">
-    
-                  <video style="width: 100%;" src="./images/videos/perf5.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Capital
-                    humain</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./performance.html">
-    
-                  <video style="width: 100%;" src="./images/videos/perf1.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Actions
-                    en faveur <br>
-                    de la communauté</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./performance.html">
-    
-                  <video style="width: 100%;" src="./images/videos/perf2.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Contribuer à limiter <br>
-                    les effets du changement <br>
-                    climatique </h6>
-                </a>
-              </div>
-            </div>
-            <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./rapport-financier.html">
-    
-                  <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/07-animated.svg" alt="">
-                  <h6 style="color: whitesmoke;">Rapport financier</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./rapport-financier.html">
-    
-                  <video style="width: 100%;" src="./images/videos/rap1.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Rapport
-                    général <br>
-                    des commissaires aux comptes</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./rapport-financier.html">
-    
-                  <video style="width: 100%;" src="./images/videos/rap2.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Comptes
-                    sociaux</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./rapport-financier.html">
-    
-                  <video style="width: 100%;" src="./images/videos/rap3.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Résolutions</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./rapport-financier.html">
-    
-                  <video style="width: 100%;" src="./images/videos/rap4.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Rapport
-                    d’audit <br>
-                    sur les états financiers <br>
-                    consolidés</h6>
-                </a>
-              </div>
-              <div class="col-md-2 mb-4 nav-img">
-                <a href="./rapport-financier.html">
-    
-                  <video style="width: 100%;" src="./images/videos/rap5.mp4"></video>
-                  <h6
-                    style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
-                    Comptes
-                    consolidés</h6>
-                </a>
-              </div>
-    
-    
-            </div>
+  <img class="animate__animated animate__shakeX animate__infinite animate__slower"
+    style="position: absolute; width: 40px; z-index: 10; top: 50%; transform: translateY(-50%); right: 25px; "
+    src="./images/next.png" alt="">
+  <img src="./images/bar.png" id="bar" alt=""
+    style="position: fixed; left: 35px; top:35px; width: 70px; height: 95vh; z-index: 24;">
+  <nav class="navbar sticky-top" style="position: fixed; left: 0; right: 0">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center pt-3"><img id="logo" src="./images/Asset 3.png" height="40px"
+          alt="" />
+        <form class="d-flex align-items-center">
+          <a id="btn" class="btn" style="font-weight: 700; font-size: small; color: white;"><span
+              onclick="setLanguage('fr')" title="Français">FR</span> / <span onclick="setLanguage('ar')"
+              title="العربية">AR</span> / <span onclick="setLanguage('en')" title="English">EN</span></a>
+          <img id="icon" onclick="openNav()" width="40" height="20px" src="./images/white.png" alt=""
+            style="cursor:pointer;">
+        </form>
+    </div>
+  </nav>
+  <div id="myNav" class="overlay" style="z-index: 1000 !important;">
+    <!-- Overlay content -->
+    <div class="overlay-content pb-5">
+      <div class="container">
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./mot-du-president.html">
+              <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/01-animated.svg" alt="">
+              <h6 key="011" style="color: whitesmoke;">Mot du président</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./environnement.html">
+              <img style="width: 70%;" src="./images/president-mob.png">
+              <h6 key="012"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Mot du président</h6>
+            </a>
           </div>
         </div>
-    
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./cih-bank-en-bref.html">
+
+              <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/02-animated.svg" alt="">
+              <h6 key="021" style="color: whitesmoke;">CIH BANK EN BREF</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./chiffres-cles.html">
+
+              <video style="width: 100%;" src="./images/videos/bank.mp4"></video>
+              <h6 key="022"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Chiffres
+                clés</h6>
+            </a>
+          </div>
+        </div>
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./les-100-ans-timeline.html">
+
+              <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/03-animated.svg" alt="">
+              <h6 key="031" style="color: whitesmoke;">LES 100 ANS EN TIMELINE</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./les-100-ans-timeline.html">
+              <img style="width: 100%;" src="./images/Capture.PNG">
+              <h6 key="032"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Timeline</h6>
+            </a>
+          </div>
+
+        </div>
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./environnement.html">
+
+              <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/04-animated.svg" alt="">
+              <h6 key="041" style="color: whitesmoke;">Environnement</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./environnement.html">
+              <video style="width: 100%;" src="./images/videos/en1.mp4"></video>
+              <h6 key="042"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Environnement</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./environnement.html">
+
+              <video style="width: 100%;" src="./images/videos/en2.mp4"></video>
+              <h6 key="043"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Environnement <br>
+                économique international
+              </h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./environnement.html">
+
+              <video style="width: 100%;" src="./images/videos/en3.mp4"></video>
+              <h6 key="044"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Environnement <br>
+                économique national
+              </h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./environnement.html">
+
+              <video style="width: 100%;" src="./images/videos/en4.mp4"></video>
+              <h6 key="045"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Secteur
+                immobilier</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./environnement.html">
+
+              <video style="width: 100%;" src="./images/videos/en5.mp4"></video>
+              <h6 key="046"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Environnement bancaire et marchés
+                financiers</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./environnement.html">
+
+              <video style="width: 100%;" src="./images/videos/en6.mp4"></video>
+              <h6 key="047"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Marché
+                des taux</h6>
+            </a>
+          </div>
+        </div>
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./strategie-et-gouvernance.html">
+
+              <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/05-animated.svg" alt="">
+              <h6 key="051" style="color: whitesmoke;">Stratégie et gouvernance</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./strategie-et-gouvernance.html">
+
+              <video style="width: 100%;" src="./images/videos/stra1.mp4"></video>
+              <h6 key="052"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Gouvernance RSE</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./strategie-et-gouvernance.html">
+
+              <video style="width: 100%;" src="./images/videos/stra2.mp4"></video>
+              <h6 key="053"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Éthique
+                des affaires <br>
+                et déontologie </h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./strategie-et-gouvernance.html">
+
+              <video style="width: 100%;" src="./images/videos/stra3.mp4"></video>
+              <h6 key="054"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Médiation interne</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./strategie-et-gouvernance.html">
+
+              <video style="width: 100%;" src="./images/videos/stra4.mp4"></video>
+              <h6 key="055"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Système
+                de management de la qualité...</h6>
+            </a>
+          </div>
+        </div>
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./performance.html">
+              <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/06-animated.svg" alt="">
+              <h6 key="061" style="color: whitesmoke;">Performance et valeur partagée</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./performance.html">
+
+              <video style="width: 100%;" src="./images/videos/perf1.mp4"></video>
+              <h6 key="062"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Faciliter <br>
+                l’inclusion bancaire</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./performance.html">
+
+              <video style="width: 100%;" src="./images/videos/perf2.mp4"></video>
+              <h6 key="063"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Tarification juste <br>
+                et gratuité services de base</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./performance.html">
+
+              <video style="width: 100%;" src="./images/videos/perf3.mp4"></video>
+              <h6 key="064"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Service
+                client <br>
+                & digitalisation</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./performance.html">
+
+              <video style="width: 100%;" src="./images/videos/perf4.mp4"></video>
+              <h6 key="065"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Innovation</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./performance.html">
+
+              <video style="width: 100%;" src="./images/videos/perf5.mp4"></video>
+              <h6 key="066"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Capital
+                humain</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./performance.html">
+
+              <video style="width: 100%;" src="./images/videos/perf1.mp4"></video>
+              <h6 key="067"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Actions
+                en faveur <br>
+                de la communauté</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./performance.html">
+
+              <video style="width: 100%;" src="./images/videos/perf2.mp4"></video>
+              <h6 key="068"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Contribuer à limiter <br>
+                les effets du changement <br>
+                climatique </h6>
+            </a>
+          </div>
+        </div>
+        <div class="row d-flex" style="flex-wrap: nowrap; overflow-x: scroll;">
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./rapport-financier.html">
+
+              <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/07-animated.svg" alt="">
+              <h6 key="071" style="color: whitesmoke;">Rapport financier</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./rapport-financier.html">
+
+              <video style="width: 100%;" src="./images/videos/rap1.mp4"></video>
+              <h6 key="072"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Rapport
+                général <br>
+                des commissaires aux comptes</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./rapport-financier.html">
+
+              <video style="width: 100%;" src="./images/videos/rap2.mp4"></video>
+              <h6 key="073"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Comptes
+                sociaux</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./rapport-financier.html">
+
+              <video style="width: 100%;" src="./images/videos/rap3.mp4"></video>
+              <h6 key="074"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Résolutions</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./rapport-financier.html">
+
+              <video style="width: 100%;" src="./images/videos/rap4.mp4"></video>
+              <h6 key="075"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Rapport
+                d’audit <br>
+                sur les états financiers <br>
+                consolidés</h6>
+            </a>
+          </div>
+          <div class="col-md-2 mb-4 nav-img">
+            <a class="overlay-item" href="./rapport-financier.html">
+
+              <video style="width: 100%;" src="./images/videos/rap5.mp4"></video>
+              <h6 key="076"
+                style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
+                Comptes
+                consolidés</h6>
+            </a>
+          </div>
+
+
+        </div>
       </div>
-    <div id="navii" class="d-flex align-items-center" style="
+    </div>
+  </div>
+  <div id="navii" class="d-flex align-items-center" style="
         position: absolute;
         top: 0;
         bottom: 0;
@@ -369,409 +370,408 @@
         z-index: 50;
         
       ">
-            <ul class="navigate d-flex flex-column justify-content-center" style="position: absolute; height: 100vh;">
-                <li class="nav-item">
-                    <a href="./mot-du-president.html">
-                        <span>01</span><span class="span">mot du président</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="./cih-bank-en-bref.html"><span>02</span><span class="span">CIH BANK EN BREF</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="./les-100-ans-timeline.html" class="active"><span>03</span><span class="span"><img
-                        src="./images/lo.png" style="width: 10px; margin-right: 10px;"
-                        alt="">LES 100 ANS EN
-                            TIMELINE</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="./environnement.html"><span>04</span><span class="span">Environnement</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="./strategie-et-gouvernance.html"><span>05</span><span class="span">stratégie et
-                            gouvernance</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="./performance.html"><span>06</span><span class="span">performance et valeur
-                            partagée</span></a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a href="./rapport-financier.html"><span>07</span><span class="span">rapport financier</span></a>
+    <ul class="navigate d-flex flex-column justify-content-center" style="position: absolute; height: 100vh;">
+      <li class="nav-item">
+        <a class="link" href="./mot-du-president.html">
+          <span>01</span><span class="span" key="01">mot du président</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="link" href="./cih-bank-en-bref.html"><span>02</span><span class="span" key="02">CIH BANK EN
+            BREF</span></a>
+      </li>
+      <li class="nav-item"><img src="./images/lo.png" style="width: 10px; margin-right: 10px;margin-left: -20px;"
+          alt="">
+        <a class="link active" href="./les-100-ans-timeline.html"><span>03</span><span class="span" key="03">LES 100 ANS
+            EN
+            TIMELINE</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="link" href="./environnement.html"><span>04</span><span class="span" key="04">Environnement</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="link" href="./strategie-et-gouvernance.html"><span>05</span><span class="span" key="05">stratégie et
+            gouvernance</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="link" href="./performance.html"><span>06</span><span class="span" key="06">performance et valeur
+            partagée</span></a>
+      </li>
+      <!-- <li class="nav-item">
+                    <a class="link" href="./rapport-financier.html"><span>07</span><span class="span">rapport financier</span></a>
                 </li> -->
-            </ul>
+    </ul>
+  </div>
+  <div class=" timeline-container">
+    <div class="timeline-viewport">
+      <div class="timeline-content">
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/1.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/1.svg" width="100px" alt="">
+            <p key="1920">
+              Création de la Caisse de Prêts Immobiliers du Maroc (CPIM).
+            </p>
+          </div>
         </div>
-    <div class=" timeline-container">
-        <div class="timeline-viewport">
-            <div class="timeline-content">
-                <div class="box">
-                    <div class="over-text" >
-                        <div class="bg" style="background-image: url('timlineImages/1.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/1.svg" width="100px" alt="">
-                        <p>
-                            Création de la Caisse de Prêts Immobiliers du Maroc (CPIM).
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/2.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/2.svg" width="100px" alt="">
-                        <p>
-                            L’État autorise la CPIM à effectuer des opérations de crédit à long terme en vue de la
-                            construction, de la réfection et de l’aménagement d’hôtels de voyageurs.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/3.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/3.svg" width="100px" alt="">
-                        <p>
-                            La CPIM devient le Crédit Immobilier et Hôtelier (CIH)
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/4.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/4.svg" width="100px" alt="">
-                        <p>
-                            L’État confie au CIH la mission de financer les secteurs immobilier et hôtelier et lui
-                            accorde dans ce cadre des moyens supplémentaires ainsi que le monopole dans ce domaine.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/5.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/5.svg" width="100px" alt="">
-                        <p>
-                            Passage du manuel au système informatique au niveau central.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/6.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/6.svg" width="100px" alt="">
-                        <p>
-                            Mise en place d’un système informatique au niveau des agences avec le démarrage de
-                            l’activité bancaire.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/7.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/7.svg" width="100px" alt="">
-                        <p>
-                            Décloisonnement des marchés sur le plan bancaire, désencadrement du crédit et libéralisation
-                            des
-                            taux : le CIH est mis ainsi au même niveau que les autres banques commerciales et perd sa
-                            situation de monopole concernant le logement et l’hôtellerie.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/8.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/8.svg" width="100px" alt="">
-                        <p>
-                            Lancement du plan de redressement du CIH. La banque est recapitalisée à hauteur de 2
-                            milliards
-                            de dirhams et bénéficie d’un prêt d’un milliard de dirhams du Trésor public. Une partie des
-                            pertes de change est prise en charge et les promoteurs publics sont refinancés afin qu’ils
-                            puissent eux-mêmes rembourser leurs dettes auprès du CIH. Avec l’appui du ministère des
-                            Finances, la CDG, va participer activement au redressement de la Banque en prenant part à
-                            l’augmentation de capital et en se substituant aux actionnaires qui se sont retirés.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/9.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/9.svg" width="100px" alt="">
-                        <p>Lancement de la première opération de titrisation au Maroc.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/10.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/10.svg" width="100px" alt="">
-                        <p>CIH enregistre son premier exercice positif en sept ans.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/11.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/11.svg" width="100px" alt="">
-                        <p>La CDG détient 65 % du capital du CIH.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/12.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/12.svg" width="100px" alt="">
-                        <p>Fin du plan de redressement.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/13.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/13.svg" width="100px" alt="">
-                        <p>Le CIH se transforme en société anonyme à directoire et conseil de surveillance.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/14.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/14.svg" width="100px" alt="">
-                        <p>
-                            Le CIH devient une société anonyme à conseil d’administration. Nommé à la présidence, Ahmed
-                            Rahhou lance le plan stratégique 2010-2014.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/15.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/15.svg" width="100px" alt="">
-                        <p>
-                            Transformation du CIH en une banque universelle. Naissance de la banque de l’entreprise, la
-                            banque des particuliers et des professionnels, et la banque de l’immobilier. <br>
-                            Les activités de la banque sont ainsi réorganisées pour permettre une gestion efficace et
-                            adaptée de chaque activité. <br>
-                            CIH élargit en parallèle son activité en s’adressant aux professions libérales, aux
-                            entreprises
-                            individuelles, aux commerçants, aux artisans…
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/16.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/16.svg" width="100px" alt="">
-                        <p>
-                            Lancement de nouvelles offres concernant la bancassurance, l’assistance, la monétique, les
-                            produits à l’international ou encore les services à distance. Ces offres dédiées aux
-                            particuliers et aux professionnels illustrent la nouvelle approche de la banque qui place
-                            désormais le client au cœur de sa stratégie.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/17.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/17.svg" width="100px" alt="">
-                        <p>
-                            Lancement de la première carte multiservices sur le marché marocain. Lancement de
-                            l’application
-                            mobile et du site de banque à distance, CIH Online.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/18.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/18.svg" width="100px" alt="">
-                        <p>
-                            CIH devient « CIH Bank ». Lancement du nouveau logo et de la nouvelle identité visuelle,
-                            incarnant le nouveau positionnement de la banque vers la transformation digitale et les
-                            nouvelles technologies. CIH BANK est la première banque marocaine à décrocher simultanément
-                            une
-                            double certification ISO 9001 version 2008, à la fois pour les activités monétique et
-                            crédits
-                            amortissables au logement.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/19.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/19.svg" width="100px" alt="">
-                        <p>
-                            Lancement de l’offre [CODE 30] dédiée aux jeunes de moins de 30 ans et regroupant un
-                            ensemble de
-                            services bancaires gratuits.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/20.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/20.svg" width="100px" alt="">
-                        <p>Lancement de l’offre [CODE 18] dédiée aux jeunes de moins de 18 ans.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/21.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/21.svg" width="100px" alt="">
-                        <p>Lancement du pack Sayidati, dédié aux femmes.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/22.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/22.svg" width="100px" alt="">
-                        <p>
-                            Lancement de l’offre réservée aux fonctionnaires. CIH BANK décroche une quadruple
-                            certification
-                            ISO 9001 version 2015 couvrant les activités, monétique, crédits immobiliers, bancassurance
-                            et
-                            financement des entreprises.
-                        </p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="over-text">
-                        <div class="bg" style="background-image: url('timlineImages/23.png');"></div>
-                        <div class="overlay"></div>
-                        <img src="./images/SVG/23.svg" width="100px" alt="">
-                        <p>
-                            Lancement de la banque gratuite pour tous les particuliers ouvrant leur compte en ligne.
-                            Maintient de la quadruple certification ISO 9001 version 2015 couvrant les activités
-                            monétiques,
-                            crédits immobiliers, bancassurance et financement des entreprises.
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/2.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/2.svg" width="100px" alt="">
+            <p key="1927">
+              L’État autorise la CPIM à effectuer des opérations de crédit à long terme en vue de la
+              construction, de la réfection et de l’aménagement d’hôtels de voyageurs.
+            </p>
+          </div>
         </div>
-
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/3.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/3.svg" width="100px" alt="">
+            <p key="1967">
+              La CPIM devient le Crédit Immobilier et Hôtelier (CIH)
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/4.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/4.svg" width="100px" alt="">
+            <p key="1968">
+              L’État confie au CIH la mission de financer les secteurs immobilier et hôtelier et lui
+              accorde dans ce cadre des moyens supplémentaires ainsi que le monopole dans ce domaine.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/5.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/5.svg" width="100px" alt="">
+            <p key="1980">
+              Passage du manuel au système informatique au niveau central.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/6.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/6.svg" width="100px" alt="">
+            <p key="1988">
+              Mise en place d’un système informatique au niveau des agences avec le démarrage de
+              l’activité bancaire.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/7.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/7.svg" width="100px" alt="">
+            <p key="1993">
+              Décloisonnement des marchés sur le plan bancaire, désencadrement du crédit et libéralisation
+              des
+              taux : le CIH est mis ainsi au même niveau que les autres banques commerciales et perd sa
+              situation de monopole concernant le logement et l’hôtellerie.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/8.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/8.svg" width="100px" alt="">
+            <p key="2000">
+              Lancement du plan de redressement du CIH. La banque est recapitalisée à hauteur de 2
+              milliards
+              de dirhams et bénéficie d’un prêt d’un milliard de dirhams du Trésor public. Une partie des
+              pertes de change est prise en charge et les promoteurs publics sont refinancés afin qu’ils
+              puissent eux-mêmes rembourser leurs dettes auprès du CIH. Avec l’appui du ministère des
+              Finances, la CDG, va participer activement au redressement de la Banque en prenant part à
+              l’augmentation de capital et en se substituant aux actionnaires qui se sont retirés.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/9.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/9.svg" width="100px" alt="">
+            <p key="2002">Lancement de la première opération de titrisation au Maroc.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/10.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/10.svg" width="100px" alt="">
+            <p key="2004">CIH enregistre son premier exercice positif en sept ans.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/11.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/11.svg" width="100px" alt="">
+            <p key="2005">La CDG détient 65 % du capital du CIH.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/12.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/12.svg" width="100px" alt="">
+            <p key="2006">Fin du plan de redressement.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/13.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/13.svg" width="100px" alt="">
+            <p key="2007">Le CIH se transforme en société anonyme à directoire et conseil de surveillance.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/14.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/14.svg" width="100px" alt="">
+            <p key="2009">
+              Le CIH devient une société anonyme à conseil d’administration. Nommé à la présidence, Ahmed
+              Rahhou lance le plan stratégique 2010-2014.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/15.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/15.svg" width="100px" alt="">
+            <p key="2010">
+              Transformation du CIH en une banque universelle. Naissance de la banque de l’entreprise, la
+              banque des particuliers et des professionnels, et la banque de l’immobilier. <br>
+              Les activités de la banque sont ainsi réorganisées pour permettre une gestion efficace et
+              adaptée de chaque activité. <br>
+              CIH élargit en parallèle son activité en s’adressant aux professions libérales, aux
+              entreprises
+              individuelles, aux commerçants, aux artisans…
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/16.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/16.svg" width="100px" alt="">
+            <p key="2012">
+              Lancement de nouvelles offres concernant la bancassurance, l’assistance, la monétique, les
+              produits à l’international ou encore les services à distance. Ces offres dédiées aux
+              particuliers et aux professionnels illustrent la nouvelle approche de la banque qui place
+              désormais le client au cœur de sa stratégie.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/17.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/17.svg" width="100px" alt="">
+            <p key="2013">
+              Lancement de la première carte multiservices sur le marché marocain. Lancement de
+              l’application
+              mobile et du site de banque à distance, CIH Online.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/18.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/18.svg" width="100px" alt="">
+            <p key="2014">
+              CIH devient « CIH Bank ». Lancement du nouveau logo et de la nouvelle identité visuelle,
+              incarnant le nouveau positionnement de la banque vers la transformation digitale et les
+              nouvelles technologies. CIH BANK est la première banque marocaine à décrocher simultanément
+              une
+              double certification ISO 9001 version 2008, à la fois pour les activités monétique et
+              crédits
+              amortissables au logement.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/19.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/19.svg" width="100px" alt="">
+            <p key="2016">
+              Lancement de l’offre [CODE 30] dédiée aux jeunes de moins de 30 ans et regroupant un
+              ensemble de
+              services bancaires gratuits.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/20.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/20.svg" width="100px" alt="">
+            <p key="2017">Lancement de l’offre [CODE 18] dédiée aux jeunes de moins de 18 ans.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/21.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/21.svg" width="100px" alt="">
+            <p key="2018">Lancement du pack Sayidati, dédié aux femmes.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/22.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/22.svg" width="100px" alt="">
+            <p key="2019">
+              Lancement de l’offre réservée aux fonctionnaires. CIH BANK décroche une quadruple
+              certification
+              ISO 9001 version 2015 couvrant les activités, monétique, crédits immobiliers, bancassurance
+              et
+              financement des entreprises.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="over-text">
+            <div class="bg" style="background-image: url('timlineImages/23.png');"></div>
+            <div class="overlay"></div>
+            <img src="./images/SVG/23.svg" width="100px" alt="">
+            <p key="2020">
+              Lancement de la banque gratuite pour tous les particuliers ouvrant leur compte en ligne.
+              Maintient de la quadruple certification ISO 9001 version 2015 couvrant les activités
+              monétiques,
+              crédits immobiliers, bancassurance et financement des entreprises.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- to add later  -->
-    <script src="scrollbooster.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
-        crossorigin="anonymous"></script>
-    <script src="./nav/script.js"></script>
-    <script>
-        $(document).ready(function () {
-            
 
-            if($(window).width() > 600)
-            {
-                const direc = $(window).width() >= 600 ? 'horizontal' : 'vertical';
-                const sb = new ScrollBooster({
-                    viewport: document.querySelector('.timeline-viewport'),
-                    content: document.querySelector('.timeline-content'),
-                    scrollMode: 'native', // use CSS 'transform' property
-                    direction: direc,  // allow only horizontal scrolling
-                    emulateScroll: true, // scroll on wheel events
-                    bounce: true,
-                });
-
-                $(".box").on("click", function () {
-                  if(!$(this).hasClass("hover"))
-                    {
-                            $(".box.hover").removeClass("hover");
-                            setTimeout(() => {
-                            sb.updateMetrics();
-                            if ($(window).width() <= 600) {
-                                sb.scrollTo({ x: $(this).offset.x, y: $(this)[0].offsetTop - 90 });
-                            }
-                            $(this).toggleClass("hover");
-                        }, 100);
-                    }
-                        
-                });
+  </div>
+  <!-- to add later  -->
+  <script src="scrollbooster.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"></script>
+  <script src="./nav/script.js"></script>
+  <script>
+    $(document).ready(function () {
 
 
+      if ($(window).width() > 600) {
+        const direc = $(window).width() >= 600 ? 'horizontal' : 'vertical';
+        const sb = new ScrollBooster({
+          viewport: document.querySelector('.timeline-viewport'),
+          content: document.querySelector('.timeline-content'),
+          scrollMode: 'native', // use CSS 'transform' property
+          direction: direc,  // allow only horizontal scrolling
+          emulateScroll: true, // scroll on wheel events
+          bounce: true,
+        });
 
-            }else{
+        $(".box").on("click", function () {
+          if (!$(this).hasClass("hover")) {
+            $(".box.hover").removeClass("hover");
+            setTimeout(() => {
+              sb.updateMetrics();
+              if ($(window).width() <= 600) {
+                sb.scrollTo({ x: $(this).offset.x, y: $(this)[0].offsetTop - 90 });
+              }
+              $(this).toggleClass("hover");
+            }, 100);
+          }
 
-               var viewport = $('.timeline-viewport');
-               var content = $('.timeline-content');
-
-               viewport.css("height","fit-content");
-
-                var long , timeout;
-                $(".box").on("touchstart",function () {
-                    longtouch = false ;
-
-                    timeout = setTimeout(function() {
-                        longtouch = true;
-                    }, 100);
-                    
-                });
-                $(".box").on("touchend",function () {
-
-                    if(longtouch==false)
-                    {
-                        $(".box.hover").removeClass("hover");
-
-                                 $(this).toggleClass("hover");
-                                setTimeout(() => {
-                                $('html, body').animate({
-                                    scrollTop: $(this).offset().top
-                                }, 400);
-
-                            }, 200);
-
-                    }
-
-                });
-
-
-            }
-            
+        });
 
 
 
-            
+      } else {
+
+        var viewport = $('.timeline-viewport');
+        var content = $('.timeline-content');
+
+        viewport.css("height", "fit-content");
+
+        var long, timeout;
+        $(".box").on("touchstart", function () {
+          longtouch = false;
+
+          timeout = setTimeout(function () {
+            longtouch = true;
+          }, 100);
+
+        });
+        $(".box").on("touchend", function () {
+
+          if (longtouch == false) {
+            $(".box.hover").removeClass("hover");
+
+            $(this).toggleClass("hover");
+            setTimeout(() => {
+              $('html, body').animate({
+                scrollTop: $(this).offset().top
+              }, 400);
+
+            }, 200);
+
+          }
+
+        });
 
 
-            // var open = false;
-            // // FOR MOBILE DEVICES
-            // $('.box').on('touchend', function (e) {
-            //     console.log($(this)[0].offsetTop)
-            //     e.preventDefault();
+      }
 
 
 
 
 
-            //     setTimeout(() => {
-            //         sb.updateMetrics();
-            //         sb.scrollTo({ x: $(this).offset.x, y:$(this)[0].offsetTop - 90 });
-            //     }, 500);
-            // });
+
+
+      // var open = false;
+      // // FOR MOBILE DEVICES
+      // $('.box').on('touchend', function (e) {
+      //     console.log($(this)[0].offsetTop)
+      //     e.preventDefault();
 
 
 
 
-        })
+
+      //     setTimeout(() => {
+      //         sb.updateMetrics();
+      //         sb.scrollTo({ x: $(this).offset.x, y:$(this)[0].offsetTop - 90 });
+      //     }, 500);
+      // });
 
 
 
 
-    </script>
-    <!-- to add later  -->
+    })
+
+
+
+
+  </script>
+  <!-- to add later  -->
+  <script src="jquery.MultiLanguage.min.js"></script>
 </body>
 
 </html>
