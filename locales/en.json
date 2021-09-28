@@ -1,0 +1,30 @@
+{
+  "head": {
+    "title": "100 year timeline"
+  },
+  ".over-text" : {
+      "1920" : "Creation of the Caisse de Prêts Immobiliers du Maroc (CPIM). ",
+      "1927" : "The national Government authorized CPIM to engage in long-term credit transactions for the construction, renovation and layout of travelers’ hotels",
+      "1967" : "CPIM becomes Crédit Immobilier et Hôtelier (CIH)",
+      "1968" : "The national Government entrusted CIH with the mission of financing the real estate and hotel sectors and grants it additional resources as well as a monopoly in this field. ",
+      "1980" : "Transition from manual to computer system at the central level",
+      "1988" : "Implementation of a computer system at the level of the branches with the start of the banking activity",
+      "1993" : "Opening up of the banking markets, opening up of credit and liberalization of rates: CIH is thus put on the same level as the other commercial banks and loses its monopoly situation concerning housing and the hotel industry.",
+      "2000" : "Launch of the CIH recovery plan. The bank is recapitalized to the extent of 2 billion dirhams and benefits from a loan of one billion dirhams from the Treasury Department. Part of the foreign exchange losses were covered, and the public developers were refinanced so that they could repay themselves their debts to CIH. With the support of the Ministry of Finance, CDG will actively participate in the Bank's recovery by taking part in the capital increase and by replacing the shareholders who have withdrawn from the shareholding structure.",
+      "2002" : "Launch of the first securitization operation in Morocco.",
+      "2004" : "CIH had its first positive fiscal year in seven years.",
+      "2005" : "CDG holds 65% of the capital of CIH",
+      "2006" : "End of the recovery plan",
+      "2007" : "CIH is transformed into a public limited company with Management and Supervisory Boards.",
+      "2009" : "CIH becomes a public limited company with a board of directors. Ahmed Rahhou is appointed Chairman and launches the 2010-2014 strategic plan.",
+      "2010" : "Transformation of CIH into a universal bank. Creation of corporate banking, banking for individuals and professionals and real estate banking. The bank's activities are thus reorganized to allow an efficient and adapted management of each activity. At the same time, CIH expands its activities to include to the members of the professions, to individual companies, to merchants and to craftsmen",
+      "2012" : "Launch of new offers in bancassurance, assistance, electronic banking, international products and remote services. These offers dedicated to individuals and professionals illustrate the bank's new approach, which now places the customer at the heart of its strategy. ",
+      "2013" : "Launch of the first multi-service card on the Moroccan market. Launch of the mobile app and the remote banking website, CIH Online",
+      "2014" : "CIH becomes \"CIH BANK\". Launch of the new logo and visual identity, embodying the bank's new positioning towards digital transformation and new technologies. CIH BANK is the first Moroccan bank to simultaneously obtain a double ISO 9001 version 2008 certification, for both its electronic banking and housing loans activities. ",
+      "2016" : "Launch of the [CODE 30] offering dedicated to young people under the age of 30 and including a range of free banking services.",
+      "2017" : "Launch of the [CODE 18] offering dedicated to young people under 18.",
+      "2018" : "Launch of the Sayidati pack, dedicated to women.",
+      "2019" : "Launch of the offering dedicated to civil servants. CIH BANK obtains a quadruple certification ISO 9001 version 2015 for the electronic banking, real estate lending, bancassurance and corporate financing activities.",
+      "2020" : "Launch of free banking services for all individuals opening their account online. <br> Renewal of the quadruple certification ISO 9001 version 2015 for the electronic banking, real estate lending, bancassurance and corporate financing activities."
+  }
+}
