@@ -2,6 +2,14 @@
   "head": {
     "title": "100 year timeline"
   },
+  ".link" : {
+    "01" : "word of president",
+    "02" : "CIH BANK briefly",
+    "03" : "100 year timeline",
+    "04" : "environment",
+    "05" : "Strategy and governance",
+    "06" : "PERFORMANCE AND CREATING SHARED VALUE"
+  },
   ".over-text" : {
       "1920" : "Creation of the Caisse de Prêts Immobiliers du Maroc (CPIM). ",
       "1927" : "The national Government authorized CPIM to engage in long-term credit transactions for the construction, renovation and layout of travelers’ hotels",

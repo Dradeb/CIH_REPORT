@@ -60,6 +60,7 @@ function hello(i, filePath) {
                 caro.style.height = "100vh";
                 caro.style.width = "100vw";
                 caro.style.zIndex = "1";
+
             }
         };
         xhttp.open("GET", filePath, true);
