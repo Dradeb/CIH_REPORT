@@ -23,7 +23,7 @@
     "044": "National economic environment",
     "045": "Real estate sector",
     "046": "Banking environment and financial markets",
-    "047": "Stock Market",
+    "047": "Interest rate market ",
     "051": "Strategy and governance",
     "052": "CSR governance",
     "053": "Business Ethics and Professional Conduct",
@@ -57,7 +57,7 @@
     "044": "National economic environment",
     "045": "Real estate sector",
     "046": "Banking environment and financial markets",
-    "047": "Stock Market",
+    "047": "Interest rate market ",
     "051": "Strategy and governance",
     "052": "CSR governance",
     "053": "Business Ethics and Professional Conduct",
@@ -163,5 +163,16 @@
     "615": "It is also worth noting that market capitalization fell by 6.7% year-on-year to MAD 585 billion, in particular due to the decline in the MASI and MADEX indices in 2020.",
     "616": "Of the 75 listed companies, at the end of 2020, the 10 largest capitalizations represent more than 75% of the overall market capitalization.",
     "617": "The overall volume traded depreciated by 26.02% in 2020 to MAD 55.78 billion, versus MAD 75.4 billion the previous year. This variation is the result of the combined effect of a MAD 10.8 billion decrease in transactions carried out on the block-trading market and a 5.78% increase in the volume traded on the central market to MAD 33 billion."
+  },
+  ".env-chiffre" : {
+    "11":"<span style=\"font-size: 35px; color:#1ab097; font-weight: 700 !important; font-family: 'Cairoo' !important;\">2020</span> <br> une année <br> marquée <br> par <span style=\"color: #1ab097;\">Covid-19</span> <hr>",
+    "21":" Le PIB mondial <br> a enregistré un <br> recul de <span style=\"font-size: 35px; color: #1ab097;font-weight: 900; \">3,7% </span> <br> en 2020<hr>",
+    "31":"Une récession <br> économique <br> nationale de <span style=\"font-size: 30px; color: #1ab097\">7% </span> <br> en 2020 <hr> Un déficit <br> budgétaire de <br> <span style=\"font-size: 30px; color: #1ab097\">7.4% </span>du PIB",
+    "32":"<span style=\"font-size: 30px; color: #1ab097\">2021</span> <br> Une année de croissance.<hr>",
+    "41":"Le nombre <br> de transactions <br> immobilières <br> a connu une <br> diminution de <span style=\"font-size: 30px; color: #1ab097 ;\">15.2% </span> <br> <hr>",
+    "51":" Une baisse <br> de <span style=\"font-size: 30px; color: #1ab097 ;\">4.7% </span> <br>des crédits de consommation en 2020 <hr>",
+    "61":"Le déficit du marché monétaire s'est établi en moyenne à <span style=\"font-size: 30px; color: #1ab097 ;\">90Mds MAD</span> <br> <hr>",
+    "62":"Progression des dépenses ordinaire de <span style=\"font-size: 30px; color: #1ab097 ;\">7.6 Mds MAD</span> <br>et d'investissement de <span style=\"font-size: 30px; color: #1ab097 ;\">13.6 Mds MAD</span> <hr>",
+    "63":"Baisse de la capitalisation <br> boursière de <span style=\"font-size: 20px; color: #1ab097 ;\">6.7%</span> <br>par rapport à 2019. <hr>"
   }
 }

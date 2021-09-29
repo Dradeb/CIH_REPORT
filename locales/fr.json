@@ -114,8 +114,8 @@
 
     "t2": "La crise sanitaire induite par la pandémie de Covid-19 qui a provoqué une récessi économique historique. Cette contraction profonde de l’économie mondiale a ainsi bouleversé l chaînes internationales d’approvisionnement et de production.",
     "21": "Les mesures de confinement ont aggravé le chômage dans de nombreux pays. Contrairement à la crise de 2008, la baisse du PIB en 2020 n’a pas uniquement concerné les économies avancées, mais aussi la plupart des pays émergents, à l’exception de la Chine.",
-    "22": "Globalement, le PIB mondial a enregistré un recul de <span style=\"color: #1ab097;\">3,7</span> % en 2020 après avoir connu une\n croissance\n de <span style=\"color: #1ab097;\">2,8 %</span> en 2019. Une récession a ainsi été légèrement moins sévère que prévu.",
-    "23": "En 2021, les perspectives s’éclaircissent le PIB mondial devrait atteindre <span style=\"color: #1ab097;\">4,3 %</span> en 2021.\n Cependant,\n ces perspectives sont sujettes à une incertitude extrême, directement liée à l’évolution de la\n situation sanitaire.",
+    "22": "Globalement, le PIB mondial a enregistré un recul de <span style=\"color: #1ab097;\">3,7</span> % en 2020 après avoir connu une croissance de <span style=\"color: #1ab097;\">2,8 %</span> en 2019. Une récession a ainsi été légèrement moins sévère que prévu.",
+    "23": "En 2021, les perspectives s’éclaircissent le PIB mondial devrait atteindre <span style=\"color: #1ab097;\">4,3 %</span> en 2021. Cependant, ces perspectives sont sujettes à une incertitude extrême, directement liée à l’évolution de la situation sanitaire.",
     "24": "À ces facteurs d’incertitude s’ajoutent la gestion de la période « post-Brexit » ainsi que l’importante accumulation de la dette mondiale. Les niveaux d’endettement, qui ont atteint des sommets historiques, rendent l’économie mondiale particulièrement vulnérable aux tensions sur les marchés financiers.",
 
     "t3": "Au niveau national, la crise sanitaire du Covid-19 a entrainé un choc sévère sur l’activité économique en 2020. Conjuguée à une deuxième année consécutive de sécheresse, cette crise a conduit à une lourde récession, la première depuis plus de deux décennies.",
@@ -163,5 +163,16 @@
     "615": "Il est à noter également que la capitalisation boursière a baissé de 6,7 % par rapport à l’année dernière pour s’établir à 585 milliards de dirhams, en particulier sous l’effet du repli du MASI et du MADEX en 2020.",
     "616": "Sur les 75 sociétés cotées en bourse, à fin 2020, les 10 plus fortes capitalisations représentent plus de 75 % de la capitalisation globale du marché.",
     "617": "Le volume global traité s’est, quant à lui, déprécié de 26,02 % en 2020 pour s’établir à 55,78 milliards de dirhams, contre 75,4 milliards l’année précédente. Cette variation résulte de l’effet combiné d’une baisse de 10,8 milliards de dirhams des transactions effectuées sur le marché des blocs et d’une hausse de 5,78 % du volume échangé sur le marché central à 33 milliards de dirhams."
+  },
+  ".env-chiffre" : {
+    "11":"<span style=\"font-size: 35px; color:#1ab097; font-weight: 700 !important; font-family: 'Cairoo' !important;\">2020</span> <br> une année <br> marquée <br> par <span style=\"color: #1ab097;\">Covid-19</span> <hr>",
+    "21":" Le PIB mondial <br> a enregistré un <br> recul de <span style=\"font-size: 35px; color: #1ab097;font-weight: 900; \">3,7% </span> <br> en 2020<hr>",
+    "31":"Une récession <br> économique <br> nationale de <span style=\"font-size: 30px; color: #1ab097\">7% </span> <br> en 2020 <hr> Un déficit <br> budgétaire de <br> <span style=\"font-size: 30px; color: #1ab097\">7.4% </span>du PIB",
+    "32":"<span style=\"font-size: 30px; color: #1ab097\">2021</span> <br> Une année de croissance.<hr>",
+    "41":"Le nombre <br> de transactions <br> immobilières <br> a connu une <br> diminution de <span style=\"font-size: 30px; color: #1ab097 ;\">15.2% </span> <br> <hr>",
+    "51":" Une baisse <br> de <span style=\"font-size: 30px; color: #1ab097 ;\">4.7% </span> <br>des crédits de consommation en 2020 <hr>",
+    "61":"Le déficit du marché monétaire s'est établi en moyenne à <span style=\"font-size: 30px; color: #1ab097 ;\">90Mds MAD</span> <br> <hr>",
+    "62":"Progression des dépenses ordinaire de <span style=\"font-size: 30px; color: #1ab097 ;\">7.6 Mds MAD</span> <br>et d'investissement de <span style=\"font-size: 30px; color: #1ab097 ;\">13.6 Mds MAD</span> <hr>",
+    "63":"Baisse de la capitalisation <br> boursière de <span style=\"font-size: 20px; color: #1ab097 ;\">6.7%</span> <br>par rapport à 2019. <hr>"
   }
 }
