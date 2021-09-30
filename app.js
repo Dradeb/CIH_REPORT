@@ -29,6 +29,7 @@ $(document).ready(function(){
 
 
 
+
 });
 
 
@@ -166,3 +167,27 @@ function hello(i, filePath) {
         loadDoc();
     }, 1000);
 }
+
+$.fn.isInViewport = function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = elementTop + $(this).outerHeight();
+
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
+$(window).on('resize scroll', function() {
+    if ($('.nextarticlewrapper').isInViewport()) {
+        if($(".nextarticle").is(":hidden"))
+        {
+            $(".nextarticle").show();
+        }
+    } else {
+        if($(".nextarticle").is(":visible"))
+        {
+            $(".nextarticle").hide();
+        }
+    }
+});
