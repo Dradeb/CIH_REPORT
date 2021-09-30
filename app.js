@@ -56,10 +56,16 @@ document.addEventListener("scroll", function () {
 particlesJS.load('particles-js', './particles.json', function () {
     console.log('callback - particles.js config loaded');
 });
+
+
 function hello(i, filePath) {
+  
     document.getElementById("carro").style.pointerEvents = "none";
+
     document.getElementsByClassName("carousel")[0].classList.remove("is-draggable")
-    var titre = document.querySelectorAll(".is-selected h1")[0];
+
+    document.querySelectorAll(".is-selected h1")[0];
+
     var cel = document.querySelectorAll(".carousel-cell.is-selected")[0];
     cel.style.animationName = "scal" + i;
     cel.style.top = "0px";
@@ -68,32 +74,44 @@ function hello(i, filePath) {
     cel.style.animationTimingFunction = "ease-in-out"
     cel.style.animationDelay = ".5s"
     cel.style.zIndex = "500"
+    cel.previousSibling.style.animationName = "run" + (i + 2)
+    cel.previousSibling.style.animationDuration = ".5s";
+    cel.previousSibling.style.animationFillMode = "forwards";
+    cel.previousSibling.style.animationTimingFunction = "ease-in-out";
+
     if (cel.nextSibling != null) {
+
         cel.nextSibling.style.animationName = "run" + i;
         cel.nextSibling.style.animationDuration = ".5s";
         cel.nextSibling.style.animationFillMode = "forwards";
         cel.nextSibling.style.animationTimingFunction = "ease-in-out"
     }
-    cel.previousSibling.style.animationName = "run" + (i + 2)
-    cel.previousSibling.style.animationDuration = ".5s";
-    cel.previousSibling.style.animationFillMode = "forwards";
-    cel.previousSibling.style.animationTimingFunction = "ease-in-out";
+
+
     var read = document.querySelectorAll(".is-selected .read")[0];
     read.style.display = "none";
+
+
     var vid = document.getElementById("myVideo" + i);
     vid.classList.add("bgvid");
+
+
     vid.play();
     function loadDoc() {
         //console.log(vid.play());
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
+
                 document.querySelectorAll(".body")[0].innerHTML = this.responseText;
+
                 var caro = document.getElementsByClassName("carousel")[0];
                 caro.style.position = "fixed";
                 caro.style.height = "100vh";
                 caro.style.width = "100vw";
                 caro.style.zIndex = "1";
+
+
                 AOS.init({
                     // Global settings:
                     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -126,17 +144,25 @@ function hello(i, filePath) {
         document.getElementsByClassName("previous")[0].style.display = "none";
         document.getElementsByClassName("next")[0].style.display = "none";
         document.getElementsByClassName("flickity-page-dots")[0].style.display = "none";
+
         document.getElementsByClassName("carousel")[0].style.top = 0;
         document.getElementsByClassName("carousel")[0].style.left = 0;
         document.getElementsByClassName("carousel")[0].style.right = 0;
         document.getElementsByClassName("carousel")[0].style.zIndex = 1;
+
         document.querySelectorAll(".is-selected .container")[0].style.position = "relative"
-        document.querySelectorAll(".carousel-cell")[0].style.cursor = "unset"
         document.querySelectorAll(".is-selected .container")[0].style.zIndex = "500"
+
+        document.querySelectorAll(".carousel-cell")[0].style.cursor = "unset"
+        
         vid.style.position = "absolute";
+
+
         document.getElementById("navii").classList.remove("d-flex");
         document.getElementById("navii").style.display = "none";
+
         document.getElementById("back").style.display = "block"
+
         loadDoc();
     }, 1000);
 }
