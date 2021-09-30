@@ -1,5 +1,33 @@
-window.addEventListener('DOMContentLoaded', (event) => {
-   
+
+$(document).ready(function(){
+    // Must change script position in main files 
+    let searchParams = new URLSearchParams(window.location.search);
+    if(searchParams.has('article'))
+    {
+      var art = searchParams.get('article');
+      var progress = 0;
+
+            var st = setInterval(() => {
+            $(".flickity-prev-next-button.next").trigger("click");
+            progress++;
+            if(progress >= art)
+            {
+                
+                
+                setTimeout(() => {
+                   $(".carousel-cell.is-selected  .read").trigger("click");
+                }, 500);
+
+                clearInterval(st);
+
+            }     
+          }, 400);
+      
+
+    }
+    
+
+
 
 });
 
