@@ -166,15 +166,15 @@
     "617": "وانخفض الحجم الإجمالي المتداول بنسبة 26.02% في 2020 ليصل إلى 55.78 مليار درهم، مقارنة بـ 75.4 مليار درهم في السنة السابقة. هذا التباين ناتج عن التأثير المشترك لانخفاض قدره 10.8 مليار درهم في المعاملات المتداولة في سوق الكتل وزيادة بنسبة 5.78٪ في حجم التداول في السوق المركزية إلى 33 مليار درهم. "
   },
   ".env-chiffre" : {
-    "11":"اتسمت سنة<span style=\"font-size: 35px; color:#1ab097; font-weight: 700 !important; font-family: 'Cairoo' !important;\"><br>2020</span> <br> بجائحة <br><span style=\"color: #1ab097;\">كوفيد19</span> <hr>",
-    "21":" Le PIB mondial <br> a enregistré un <br> recul de <span style=\"font-size: 35px; color: #1ab097;font-weight: 900; \">3,7% </span> <br> en 2020<hr>",
-    "31":"Une récession <br> économique <br> nationale de <span style=\"font-size: 30px; color: #1ab097\">7% </span> <br> en 2020 <hr> Un déficit <br> budgétaire de <br> <span style=\"font-size: 30px; color: #1ab097\">7.4% </span>du PIB",
-    "32":"<span style=\"font-size: 30px; color: #1ab097\">2021</span> <br> Une année de croissance.<hr>",
-    "41":"Le nombre <br> de transactions <br> immobilières <br> a connu une <br> diminution de <span style=\"font-size: 30px; color: #1ab097 ;\">15.2% </span> <br> <hr>",
-    "51":" Une baisse <br> de <span style=\"font-size: 30px; color: #1ab097 ;\">4.7% </span> <br>des crédits de consommation en 2020 <hr>",
-    "61":"Le déficit du marché monétaire s'est établi en moyenne à <span style=\"font-size: 30px; color: #1ab097 ;\">90Mds MAD</span> <br> <hr>",
-    "62":"Progression des dépenses ordinaire de <span style=\"font-size: 30px; color: #1ab097 ;\">7.6 Mds MAD</span> <br>et d'investissement de <span style=\"font-size: 30px; color: #1ab097 ;\">13.6 Mds MAD</span> <hr>",
-    "63":"Baisse de la capitalisation <br> boursière de <span style=\"font-size: 20px; color: #1ab097 ;\">6.7%</span> <br>par rapport à 2019. <hr>"
+    "11":"اتسمت سنة<span style=\"font-size: 35px; color:#1ab097; font-weight: 700 !important; font-family: 'Cairoo' !important;\"><br>2020</span> <br> بجائحة <br><span style=\"color: #1ab097;\">كوفيد19<span> <hr>",
+    "21":"انخفض الناتج المحلي الإجمالي العالمي بنسبة <span style=\"font-size: 35px; color: #1ab097;font-weight: 900; \">3,7% </span> <br>في سنة 2020 <hr>",
+    "31":"ركود النمو الاقتصادي الوطني بنسبة <span style=\"font-size: 30px; color: #1ab097\">7% </span> سنة 2020<hr>عجز الموازنـة بنسبة <span style=\"font-size: 30px; color: #1ab097\">7.4% </span>مـن الـناتـج المحلي الإجمالي<hr>",
+    "32":"<hr><span style=\"font-size: 30px; color: #1ab097\">2021</span> <br>.سنة النمو الإقتصادي<hr>",
+    "41":"انخفاض عدد الصفقات العقارية بنسبة <span style=\"font-size: 30px; color: #1ab097\">%15.2</span> ",
+    "51":"انخفاض قروض المستهلك الممنوحة بنسبة بلغت <span style=\"font-size: 30px; color: #1ab097\">6.7% </span> سنة 2020<hr>",
+    "61":"بلغ متوسط\nالـعجـز <span style=\"font-size: 30px; color: #1ab097\">90 </span> مليار درهم <hr>",
+    "62":"ارتفعت النفقات العادية بمقدار <span style=\"font-size: 30px; color: #1ab097\">7.6 </span>  مليار درهم<hr>و النفقات الاستثمارية بمقدار <span style=\"font-size: 30px; color: #1ab097\">13.6 </span>مليار درهم<hr>",
+    "63":"انخفاض في القيمة السوقية بنسبة بلغت<span style=\"font-size: 35px; color: #1ab097;font-weight: 900; \">6.7% </span> <br> مقارنة بسنة 2019<hr>"
   }
   
 }
