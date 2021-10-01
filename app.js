@@ -117,7 +117,7 @@ function hello(i, filePath) {
                 caro.style.width = "100vw";
                 caro.style.zIndex = "1";
 
-
+                getLanguage()
                 AOS.init({
                     // Global settings:
                     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
