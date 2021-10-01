@@ -29,7 +29,6 @@ $(document).ready(function(){
 
 
 
-
 });
 
 
@@ -38,15 +37,17 @@ var icon = document.querySelectorAll("nav form img")[0];
 var logo = document.querySelectorAll("nav a img")[0];
 var bar = document.getElementById("bar");
 var body = document.getElementsByTagName('body')[0];
+
+
 document.addEventListener("scroll", function () {
     //console.log( window.innerHeight + " " + window.scrollY)
-    if (btn.style.color == "white" && window.scrollY >= window.innerHeight) {
+    if (window.scrollY >= window.innerHeight && btn.style.color == "white") {
         //console.log("offset out if")
         btn.style.color = "black";
         logo.setAttribute("src", "./images/logo-dark.png");
         icon.setAttribute("src", "./images/black.png");
         bar.setAttribute("src", "./images/bar2.png");
-    } else if (btn.style.color == "black" && window.scrollY < window.innerHeight) {
+    } else if (window.scrollY < window.innerHeight && btn.style.color == "black") {
         //console.log("offset out else if")
         btn.style.color = "white";
         icon.setAttribute("src", "./images/white.png");
@@ -54,9 +55,13 @@ document.addEventListener("scroll", function () {
         bar.setAttribute("src", "./images/bar.png");
     }
 });
-particlesJS.load('particles-js', './particles.json', function () {
-    console.log('callback - particles.js config loaded');
-});
+if($("#particles-js") != null)
+{
+    particlesJS.load('particles-js', './particles.json', function () {
+        // console.log('callback - particles.js config loaded');
+    });
+
+}
 
 
 function hello(i, filePath) {
@@ -178,16 +183,23 @@ $.fn.isInViewport = function() {
     return elementBottom > viewportTop && elementTop < viewportBottom;
 };
 
-$(window).on('resize scroll', function() {
-    if ($('.nextarticlewrapper').isInViewport()) {
-        if($(".nextarticle").is(":hidden"))
-        {
-            $(".nextarticle").show();
-        }
+
+var winH = $(window).height();
+$(window).on('scroll', function() {
+
+    
+    if ($(this).scrollTop() > winH ) {
+           
+        $(".nextarticle").show();
+        $("#myVideo1").css("display","none");
+        
     } else {
-        if($(".nextarticle").is(":visible"))
-        {
-            $(".nextarticle").hide();
-        }
+        // console.log("byyee")
+        $(".nextarticle").hide();
+        $("#myVideo1").show();
     }
+
+
 });
+
+

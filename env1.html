@@ -1,5 +1,5 @@
 <div style="background-color:white; padding-bottom: 250px;">
-  <div class="container-fluid" style="z-index: -3;">
+  <div class="container-fluid" style="z-index: 3;">
     <div class="row w-100" style="position: relative; top: -100px;">
       <div class="col-md-2"></div>
       <div class="col-md-10 heading4 p-5 env">
@@ -39,19 +39,38 @@
       </div>
     </div>
   </div>
-  <script src="./app.js"></script>
 
 </div>
 
 
 <!-- to add later  -->
-<div class="nextarticlewrapper" style="  position :relative; z-index: -2; height: 100vh; background-color: #1ab09700; width: 100vw; background: linear-gradient(90deg, #1ab097 0%, #7db7ae 50%);">
+<div class="nextarticlewrapper" style=" ">
+  <div class="nextarticle" style="display: none; position: fixed; left: 50%; bottom: 50%; transform: translate(-50%,50%); z-index: -1; height: 100%; width: 100vw;" >        
+    
+      <div class="video-wrapper">
+        <div class="inner-wrapper">
+          <video muted="" loop="" id="myVideo2" class="w-md-100">
+            <source src="./images/videos/en2.mp4" type="video/mp4">
+          </video>
+          <h1>
+            Environnement
+            économique international
+          </h1>
+          <a style="text-decoration: none;" href="">
+            <div class="slider-wrapper">
+              <span>en savoir plus</span>
+              <img src="images/circ.svg" alt="" srcset="">
+              <p>en savoir plus</p> 
+          </div>
+          </a>
+        </div>
+      </div>
+      
+    
+  </div>
+
 </div>
-<div class="nextarticle" style="display: none; position: fixed; left: 50%; bottom: 50%; transform: translate(-50%,50%); z-index: -1; height: 100%; width: 100vw;" >        
-  <a href="environnement.html?article=2">
-    <video muted="" loop="" id="myVideo2" class="w-md-100">
-      <source src="./images/videos/en2.mp4" type="video/mp4">
-    </video>
-  </a>
-</div>
+
+<script src="./app.js"></script>
+
 <!-- to add later  -->
