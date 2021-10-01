@@ -545,14 +545,103 @@ body {
 .carousel-cell.is-selected.off{
   
 }
-.nextarticle video{
+.nextarticle .video-wrapper{
+
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-wrapper{
   width: 60%;
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+  position: relative;
+}
+.slider-wrapper{
+  position: relative;
+  left: 100%;
+  transform: translate(-130%,-200%);
+  margin: 20px;
+  width: 200px;
+  height: 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.308);
+  border-radius: 40px;
+  padding: 5px;
+  padding-right: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.slider-wrapper:hover > img {
+  
+  margin-left: 100%;
+  transform: translateX(-60%);
 }
 
-.nextarticle video:hover{
-  width: 65%;
+.slider-wrapper:hover > p{
+  opacity: 0;
+  width: 0;
 }
+
+.slider-wrapper:hover > span{
+  opacity: 1;
+  min-width: 150px;
+}
+
+
+
+.slider-wrapper img{
+  height: 40px;
+  transition: all 0.4s ease;
+}
+.slider-wrapper span{
+  position: absolute;
+  min-width: 150px;
+  opacity: 0;
+  margin-left: 20px;
+  margin-bottom: 0 !important;
+  transition: all 0.3s ease;
+  color: #073968;
+  font-weight: bold;
+  font-weight: bold;
+  font-family: 'Cairoo';
+  
+}
+
+ .slider-wrapper p{
+     margin-bottom: 0 !important;
+     margin-left: 20px;
+     transition: all 0.05s ease;
+     min-width: 150px;
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+     font-family: 'Cairoo';
+ }
+ .inner-wrapper video{
+   opacity: 0.6;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+ }
+ .inner-wrapper h1{
+   position: absolute;
+   left: -10%;
+   top: 50%;
+   transform: translateY(-100%);
+   max-width: 70%;
+   color: white;
+    font-size: 3rem;
+   font-weight: 900;
+   font-family: 'Cairoo';
+ }
+
+ .nextarticlewrapper{
+    position :relative; 
+    z-index: -3; 
+    min-height: 100vh; 
+    background-color: #1ab09700; 
+    width: 100vw; 
+    background: linear-gradient(90deg, #1ab097 0%, #7db7ae 50%);
+ }
