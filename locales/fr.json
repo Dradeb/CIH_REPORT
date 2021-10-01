@@ -175,6 +175,28 @@
     "62":"Progression des dépenses ordinaire de <span style=\"font-size: 20px; color: #1ab097 ;\">7.6 Mds MAD</span> <br>et d'investissement de <span style=\"font-size: 20px; color: #1ab097 ;\">13.6 Mds MAD</span> <hr>",
     "63":"Baisse de la capitalisation <br> boursière de <span style=\"font-size: 20px; color: #1ab097 ;\">6.7%</span> <br>par rapport à 2019. <hr>"
   },
+  ".strat-chiffre" : {
+    "11":"",
+    "21":"",
+    "31":"",
+    "32":"",
+    "41":"",
+    "51":"",
+    "61":"",
+    "62":"",
+    "63":""
+  },
+  ".perf-chiffre" : {
+    "11":"",
+    "21":"",
+    "31":"",
+    "32":"",
+    "41":"",
+    "51":"",
+    "61":"",
+    "62":"",
+    "63":""
+  },
 
   ".strat" : {
     "t1" : "M. Abdeljawad BEN MANSOUR <br><strong>Secrétaire Général du Groupe CIH BANK</strong>",
