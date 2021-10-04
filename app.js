@@ -68,9 +68,12 @@ function hello(i, filePath) {
   
     document.getElementById("carro").style.pointerEvents = "none";
 
-    document.getElementsByClassName("carousel")[0].classList.remove("is-draggable")
+    document.getElementsByClassName("carousel")[0].classList.remove("is-draggable");
 
-    document.querySelectorAll(".is-selected h1")[0];
+    setTimeout(function () {
+        
+        document.querySelectorAll(".is-selected h1")[0].classList.add("padd");
+    }, 1000);
 
     var cel = document.querySelectorAll(".carousel-cell.is-selected")[0];
     cel.style.animationName = "scal" + i;
@@ -117,7 +120,7 @@ function hello(i, filePath) {
                 caro.style.width = "100vw";
                 caro.style.zIndex = "1";
 
-                getLanguage()
+                getLanguage();
                 AOS.init({
                     // Global settings:
                     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
