@@ -350,6 +350,9 @@ body {
 .carousel.car7 .titre {
   background: linear-gradient(90deg, #0f538f81 0%, #58b3a47a 50%) !important;
 } */
+.heading1 > h1, .heading2 > h1, .heading3 > h1, .heading4 > h1, .heading5 > h1, .heading6 > h1, .heading7 > h1 {
+  font-size: 1.5rem !important;
+}
 
 .carousel-cell {
   width: 70%;
@@ -672,5 +675,5 @@ body {
     min-height: 100vh; 
     background-color: #1ab09700; 
     width: 100vw; 
-    background: linear-gradient(90deg, #1ab097 0%, #7db7ae 50%);
  }
+
