@@ -15,7 +15,7 @@
 
 .timeline-content {
   height: 100%;
-  width: fit-content;
+  width: min-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,6 +23,7 @@
   flex-wrap: nowrap;
   overflow: hidden;
 }
+
 .box {
   position: relative;
   width: 150px;
