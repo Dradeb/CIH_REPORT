@@ -8,7 +8,8 @@
     "03": "LES 100 ANS EN TIMELINE",
     "04": "Environnement",
     "05": "stratégie et gouvernance",
-    "06": "performance et valeur partagée"
+    "06": "performance et valeur partagée",
+    "07" : "rapport financier"
   },
   ".overlay-item": {
     "011": "Mot Du Président",
@@ -262,6 +263,9 @@
   },
 
   ".slider-wrapper2" : {
+    "read" : "en savoir plus"
+  },
+  ".slider-wrapper" : {
     "read" : "en savoir plus"
   }
   

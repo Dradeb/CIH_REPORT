@@ -20,14 +20,27 @@
 *::-webkit-scrollbar {
   display: none !important;
 }
-
+.nextarticlewrapper{
+  overflow: hidden;
+}
 ul > li > a {
   font-family: "Cairoo" !important;
   font-weight: 900 !important;
 }
+@keyframes padl{
+  0% {
+    padding-left: 0px !important;
+  }
+  100% {
+    padding-left: 150px !important;
+  }
+}
 @media (min-width: 476px) {
+  
   .padd {
     padding-left: 150px !important;
+    transition: all 1s;
+    transition-delay: 1s;
   }
 
   .content {
@@ -49,7 +62,9 @@ ul > li > a {
   .bgvid {
     width: 100vw !important;
   }
-
+  .cell-cont {
+    height: 60% !important;
+  }
   @keyframes title {
     0% {
     }
@@ -161,8 +176,12 @@ ul > li > a {
 
   .cell-cont {
     width: 100vw;
-    height: 60% !important;
+    height: 100% !important;
+  } 
+  .cell-cont>div{
+    justify-content: space-evenly !important;
   }
+
 
   #back {
     display: none !important;
@@ -299,21 +318,25 @@ body {
   color: whitesmoke;
   background: linear-gradient(90deg, #4ba4e3 0%, #1b5a94 50%) !important;
 }
+
 .carousel.car2,
 .heading2 {
   color: whitesmoke;
   background: linear-gradient(90deg, #f3a399 0%, #f6b16f 50%) !important;
 }
+
 .carousel.car3,
 .heading3 {
   color: whitesmoke;
   background: linear-gradient(90deg, #a3a5c9 0%, #8c73ad 50%) !important;
 }
+
 .carousel.car4,
 .heading4 {
   color: whitesmoke;
   background: linear-gradient(90deg, #1ab097 0%, #7db7ae 50%);
 }
+
 .carousel.car5,
 .heading5 {
   color: whitesmoke;
@@ -566,6 +589,7 @@ body {
 .inner-wrapper a {
   align-self: flex-end;
 }
+
 
 @media (max-width: 475px) {
   .inner-wrapper{

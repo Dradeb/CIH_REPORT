@@ -253,5 +253,8 @@
   },
   ".slider-wrapper2" : {
     "read" : "مزيد من التفاصيل"
+  },
+  ".slider-wrapper" : {
+    "read" : "مزيد من التفاصيل"
   }
 }

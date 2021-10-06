@@ -25,8 +25,6 @@ $(document).ready(function(){
       
 
     }
-    
-
 
 
 });
@@ -65,25 +63,31 @@ if($("#particles-js") != null)
 
 
 function hello(i, filePath) {
-  
+
+    $('script').each(function() {
+
+        if (this.src === 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js') {
+            console.log("hi");
+          this.parentNode.removeChild( this );
+        }
+    });
+
+
     document.getElementById("carro").style.pointerEvents = "none";
 
     document.getElementsByClassName("carousel")[0].classList.remove("is-draggable");
 
-    setTimeout(function () {
-        
-        document.querySelectorAll(".is-selected h1")[0].classList.add("padd");
-    }, 1000);
+    document.querySelectorAll(".is-selected h1")[0].classList.add("padd");
 
     var cel = document.querySelectorAll(".carousel-cell.is-selected")[0];
     cel.style.animationName = "scal" + i;
     cel.style.top = "0px";
     cel.style.animationDuration = ".5s";
     cel.style.animationFillMode = "forwards";
-    cel.style.animationTimingFunction = "ease-in-out"
-    cel.style.animationDelay = ".5s"
-    cel.style.zIndex = "500"
-    cel.previousSibling.style.animationName = "run" + (i + 2)
+    cel.style.animationTimingFunction = "ease-in-out";
+    cel.style.animationDelay = ".5s";
+    cel.style.zIndex = "500";
+    cel.previousSibling.style.animationName = "run" + (i + 2);
     cel.previousSibling.style.animationDuration = ".5s";
     cel.previousSibling.style.animationFillMode = "forwards";
     cel.previousSibling.style.animationTimingFunction = "ease-in-out";
@@ -93,7 +97,7 @@ function hello(i, filePath) {
         cel.nextSibling.style.animationName = "run" + i;
         cel.nextSibling.style.animationDuration = ".5s";
         cel.nextSibling.style.animationFillMode = "forwards";
-        cel.nextSibling.style.animationTimingFunction = "ease-in-out"
+        cel.nextSibling.style.animationTimingFunction = "ease-in-out";
     }
 
 
@@ -102,6 +106,7 @@ function hello(i, filePath) {
 
 
     var vid = document.getElementById("myVideo" + i);
+    var caro = document.getElementsByClassName("carousel")[0];
     vid.classList.add("bgvid");
 
 
@@ -114,11 +119,12 @@ function hello(i, filePath) {
 
                 document.querySelectorAll(".body")[0].innerHTML = this.responseText;
 
-                var caro = document.getElementsByClassName("carousel")[0];
-                caro.style.position = "fixed";
-                caro.style.height = "100vh";
-                caro.style.width = "100vw";
-                caro.style.zIndex = "1";
+                $('.carousel').css({
+                    "position" : "fixed",
+                    "height" : "100vh",
+                    "width" : "100vw",
+                    "zIndex" : "1"
+                });
 
                 getLanguage();
                 AOS.init({
@@ -128,7 +134,7 @@ function hello(i, filePath) {
                     disableMutationObserver: false, // disables automatic mutations' detections (advanced)
                     debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
                     throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-                    delay: 00, // values from 0 to 3000, with step 50ms
+                    delay: 0, // values from 0 to 3000, with step 50ms
                     duration: 400, // values from 0 to 3000, with step 50ms
                     easing: 'ease', // default easing for AOS animations
                     once: false, // whether animation should happen only once - while scrolling down
@@ -137,6 +143,17 @@ function hello(i, filePath) {
                   
                   });
             
+                  var k = 0;
+                  while (k <= 5) {
+                  
+                      if(filePath == "./rapp" + k + ".html"){
+                           $("body").append("<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj\" crossorigin=\"anonymous\"></script>");
+                          break;
+                      }
+                      
+                      k++;
+                  }
+                
             }
         };
         xhttp.open("GET", filePath, true);
@@ -146,6 +163,7 @@ function hello(i, filePath) {
         // document.querySelectorAll(".carousel-cell img")[i].style.height = "100%";
         // document.querySelectorAll(".carousel-cell img")[i].style.width = "100%";
         var flick = document.getElementsByClassName("flickity-slider")[0];
+        var carousel = 
         flick.style.width = "unset";
         document.querySelectorAll(".carousel-cell")[i].style.cursor = "auto";
         document.querySelectorAll(".body")[0].style.display = "block";
@@ -154,15 +172,22 @@ function hello(i, filePath) {
         document.getElementsByClassName("next")[0].style.display = "none";
         document.getElementsByClassName("flickity-page-dots")[0].style.display = "none";
 
-        document.getElementsByClassName("carousel")[0].style.top = 0;
-        document.getElementsByClassName("carousel")[0].style.left = 0;
-        document.getElementsByClassName("carousel")[0].style.right = 0;
-        document.getElementsByClassName("carousel")[0].style.zIndex = 1;
+        
+        $('.carousel').css({
+            'top' : '0',
+            'left' : '0',
+            'right' : '0',
+            'zIndex' : '1' 
+        });
+        $(".is-selected .container").css({
+            "position" : "relative",
+            "zIndex" : "500"
+        }); 
+        
+        document.querySelectorAll(".is-selected .container")[0].style.position = "relative";
+        document.querySelectorAll(".is-selected .container")[0].style.zIndex = "500";
 
-        document.querySelectorAll(".is-selected .container")[0].style.position = "relative"
-        document.querySelectorAll(".is-selected .container")[0].style.zIndex = "500"
-
-        document.querySelectorAll(".carousel-cell")[0].style.cursor = "unset"
+        document.querySelectorAll(".carousel-cell")[0].style.cursor = "unset";
         
         vid.style.position = "absolute";
 
@@ -170,7 +195,7 @@ function hello(i, filePath) {
         document.getElementById("navii").classList.remove("d-flex");
         document.getElementById("navii").style.display = "none";
 
-        document.getElementById("back").style.display = "block"
+        document.getElementById("back").style.display = "block";
 
         loadDoc();
     }, 1000);
@@ -194,12 +219,12 @@ $(window).on('scroll', function() {
     if ($(this).scrollTop() > winH ) {
            
         $(".nextarticle").show();
-        $("#myVideo1").css("display","none");
+        $(".is-selected video").css("display","none");
         
     } else {
         // console.log("byyee")
         $(".nextarticle").hide();
-        $("#myVideo1").show();
+        $(".is-selected video").show();
     }
 
 
