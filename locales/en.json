@@ -257,5 +257,16 @@
   },
   ".slider-wrapper" : {
     "read" : "read more"
+  },
+  ".graphs" : {
+    "1" : "<img src='./images/graphs/1.gif' class='w-100' alt=''>",
+    "2" : "<img src='./images/graphs/2.gif' class='w-100' alt=''>",
+    "3" : "<img src='./images/graphs/3.gif' class='w-100' alt=''>",
+    "4" : "<img src='./images/graphs/4.gif' class='w-100' alt=''>",
+    "5" : "<img src='./images/graphs/5.gif' class='w-100' alt=''>",
+    "6" : "<img src='./images/graphs/6.gif' class='w-100' alt=''>",
+    "7" : "<img src='./images/graphs/7.gif' class='w-100' alt=''>",
+    "8" : "<img src='./images/graphs/8.gif' class='w-100' alt=''>",
+    "9" : "<img src='./images/graphs/9.gif' class='w-100' alt=''>"
   }
 }
