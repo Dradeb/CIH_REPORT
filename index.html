@@ -27,6 +27,16 @@
       height: 100vh;
       width: 100vw;
     }
+
+    #img {
+      width: 550px
+    }
+
+    @media (max-width:475px) {
+      #img {
+      width: 100%;
+      }
+    }
   </style>
   <link rel="stylesheet" href="./nav/style.css">
   <script src="./nav/script.js"></script>
@@ -35,7 +45,7 @@
 <body>
   <nav class="navbar sticky-top" style="position: fixed; left: 0; right: 0">
     <div class="container-fluid">
-      <a class="navbar-brand d-flex align-items-center pt-3"><img id="logo" src="./images/Asset 3.png" height="40px"
+      <a href="#" class="navbar-brand d-flex align-items-center pt-3"><img id="logo" src="./images/Asset 3.png" height="40px"
           alt="" />
         <form class="d-flex align-items-center">
           <a id="btn" class="btn" style="font-weight: 700; font-size: small; color: white;"><span
@@ -335,12 +345,12 @@
               <h6 dir="auto" key="074"
                 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Résolutions</h6>
-            </a>
+            </a>  
           </div>
           <div class="col-md-2 mb-4 nav-img">
             <a class="overlay-item" href="./rapport-financier.html">
               <video style="width: 100%;" src="./images/videos/rap4.mp4"></video>
-              <h6 dir="auto" key="075"
+              <h6 dir="auto" key="075" 
                 style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                 Rapport
                 d’audit <br>
@@ -364,7 +374,7 @@
   <div class="container text-center h-100">
     <div class="row d-flex flex-column justify-content-around h-100">
       <div class="col-12">
-        <img src="./images/Asset 6@288x.png" width="550px" alt="">
+        <img src="./images/Asset 6@288x.png"  id="img">
       </div>
       <div class="col-12">
         <a class="animate__animated animate__slower animate__heartBeat animate__infinite" href="./mot-du-president.html" style="color: white; display: flex; flex-direction: column; text-decoration: none; align-items: center; font-weight: 900; font-size: large;"><img
@@ -373,10 +383,9 @@
       </div>
     </div>
   </div>
-  <script src="./app.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="jquery.MultiLanguage.min.js"></script>
+  <script src="./app.js"></script>
 </body>
-
 </html>

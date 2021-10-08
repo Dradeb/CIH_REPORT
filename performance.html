@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <script src="./particles.js"></script>
   <title>Annual Report 2021</title>
+  <script src="js/aos.js"></script>
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="./nav/style.css">
   <script src="./nav/script.js"></script>
@@ -103,8 +105,7 @@
       style="position: fixed; left: 35px; top:35px; width: 70px; height: 95vh; z-index: 24;">
     <nav class="navbar sticky-top" style="position: fixed; left: 0; right: 0">
       <div class="container-fluid">
-        <a class="navbar-brand d-flex align-items-center pt-3"><img id="logo" src="./images/Asset 3.png" height="40px"
-            alt="" />
+        <a href="./index.html" class="navbar-brand d-flex align-items-center pt-3"><div key="logo"><img id="logo" src="./images/Asset 3.png" height="40px" alt="" /></div></a>
           <form class="d-flex align-items-center">
             <a id="btn" class="btn" style="font-weight: 700; font-size: small; color: white;"><span
                 onclick="setLanguage('fr')" title="Français">FR</span> / <span onclick="setLanguage('ar')"
@@ -759,13 +760,14 @@
 
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script>
-      AOS.init();
-    </script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="jquery.MultiLanguage.min.js"></script>
+    
+    <script>
+      AOS.init();
+    </script>
     <script src="./app.js"></script>
   </div>
 </body>

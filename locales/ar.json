@@ -267,5 +267,8 @@
     "7" : "<img src='./images/graphs/CIH-GRAF-VA-7.gif' class='w-100' alt=''>",
     "8" : "<img src='./images/graphs/CIH-GRAF-VA-8.gif' class='w-100' alt=''>",
     "9" : "<img src='./images/graphs/CIH-GRAF-VA-9.gif' class='w-100' alt=''>"
+  },
+  ".navbar-brand" :  {
+    "logo" : "<img id=\"logo\" src=\"./images/ar/Asset 3.png\" height=\"40px\" alt=\"\" />"
   }
 }

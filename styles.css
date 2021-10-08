@@ -178,8 +178,9 @@ ul > li > a {
     width: 100vw;
     height: 100% !important;
   } 
-  .cell-cont>div{
-    justify-content: space-evenly !important;
+  
+  .read {
+    margin-bottom: 90px;
   }
 
 

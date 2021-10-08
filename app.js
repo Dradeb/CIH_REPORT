@@ -35,24 +35,31 @@ var icon = document.querySelectorAll("nav form img")[0];
 var logo = document.querySelectorAll("nav a img")[0];
 var bar = document.getElementById("bar");
 var body = document.getElementsByTagName('body')[0];
-
-
 document.addEventListener("scroll", function () {
+
+    var lang = localStorage.getItem("language") == "ar" ? "ar" : "fr";
+    
     //console.log( window.innerHeight + " " + window.scrollY)
     if (window.scrollY >= window.innerHeight && btn.style.color == "white") {
         //console.log("offset out if")
         btn.style.color = "black";
-        logo.setAttribute("src", "./images/logo-dark.png");
+        var path = "./images/"+lang+"/logo-dark.png";
+        
+        $("#logo").attr("src", path);
+        // logo.setAttribute("src", path);
+
         icon.setAttribute("src", "./images/black.png");
         bar.setAttribute("src", "./images/bar2.png");
     } else if (window.scrollY < window.innerHeight && btn.style.color == "black") {
         //console.log("offset out else if")
+        var path2 = "./images/"+lang+"/Asset 3.png";
         btn.style.color = "white";
         icon.setAttribute("src", "./images/white.png");
-        logo.setAttribute("src", "./images/Asset 3.png");
+        $("#logo").attr("src", path2);
         bar.setAttribute("src", "./images/bar.png");
     }
 });
+
 if($("#particles-js") != null)
 {
     particlesJS.load('particles-js', './particles.json', function () {
@@ -63,6 +70,11 @@ if($("#particles-js") != null)
 
 
 function hello(i, filePath) {
+
+    if(window.innerWidth <= 476) {
+        $(".is-selected .slider-item").removeClass("justify-content-between").addClass("justify-content-center").css("margin-top", "-100px");
+        console.log($(".is-selected .slider-item"));
+    }
 
     $('script').each(function() {
 
@@ -127,6 +139,7 @@ function hello(i, filePath) {
                 });
 
                 getLanguage();
+               
                 AOS.init({
                     // Global settings:
                     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

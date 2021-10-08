@@ -63,7 +63,7 @@
     "052": "Gouvernance RSE",
     "053": "Éthique Des Affaires Et Déontologie",
     "054": "Médiation Interne",
-    "055": "Système De Management De La Qualité...",
+    "055": "Système de management de la qualité & Systèmes d’information",
     "061": "Performance Et Valeur Partagée",
     "062": "Faciliter L’inclusion Bancaire",
     "063": "Tarification Juste <br> Et Gratuité Services De Base",
@@ -278,6 +278,9 @@
     "7" : "<img src='./images/graphs/CIH-GRAF-VF-7.gif' class='w-100' alt=''>",
     "8" : "<img src='./images/graphs/CIH-GRAF-VF-8.gif' class='w-100' alt=''>",
     "9" : "<img src='./images/graphs/CIH-GRAF-VF-9.gif' class='w-100' alt=''>"
+  },
+  ".navbar-brand" :  {
+    "logo" : "<img id=\"logo\" src=\"./images/fr/Asset 3.png\" height=\"40px\" alt=\"\" />"
   }
   
 
