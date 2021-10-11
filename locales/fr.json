@@ -1,6 +1,12 @@
 {
   "head": {
-    "title": "Les 100 ans en timeline"
+    "01": "Mot du président",
+    "02": "CIH BANK en bref",
+    "03": "Les 100 ans en timeline",
+    "04": "Environnement",
+    "05": "Stratégie et gouvernance",
+    "06": "Performance et valeur partagée",
+    "07" : "Rapport financier"
   },
   ".link": {
     "01": "mot du président",

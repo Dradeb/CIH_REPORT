@@ -1,6 +1,12 @@
 {
   "head": {
-    "title": "100 year timeline"
+    "01": "Word Of The President",
+    "02": "CIH BANK Briefly",
+    "03": "100 Year Timeline",
+    "04": "Environment",
+    "05": "Strategy And Governance",
+    "06": "Performance And Creating Shared Value",
+    "07": "Financial Report"
   },
   ".link": {
     "01": "word of president",
@@ -175,6 +181,15 @@
     "61":"The money market deficit averaged <span style=\"font-size: 20px; color: #1ab097 ;\">90Mds MAD</span> <br> <hr>",
     "62":"The ordinary <br> expenses increased <br> by<span style=\"font-size: 20px; color: #1ab097 ;\">7.6 Mds MAD</span> <br>and investment <br>expenses <br> by <span style=\"font-size: 20px; color: #1ab097 ;\">13.6 Mds MAD</span> <hr>",
     "63":"Market <br> capitalization <br> decease to <span style=\"font-size: 20px; color: #1ab097 ;\">6.7%</span> <br>compared to 2019. <hr>"
+  },
+  ".strat-chiffre" : {
+    "41":"<span style=\"font-size: 35px; color: #1293a9; font-weight: 700;\">N@chtary </span> <br> <strong>is a portal launched in 2020 dedicated to suppliers</strong> <hr>"
+  },
+  ".perf-chiffre" : {
+    "11":"Un réseau <br> CIH BANK qui <br> compte plus de <br> <span style=\"font-size: 30px; color: #68c4d7;\">300</span><span style=\"color: #68c4d7;\"> agences</span> <hr>",
+    "31":"At the end of 2020, the global satisfaction rate was <span style=\"font-size: 25px; color: #68c4d7;\"> 92%</span>. <hr>",
+    "51":"Une baisse <br> de <span style=\"font-size: 30px; color: #1ab097 ;\">4.7% </span> <br>des crédits de consommation en 2020 <hr>",
+    "61":"Creation of the <br> CIH BANK foundation <br> in <span style=\"font-size: 25px; color: #68c4d7;\">2021</span>.<hr>"
   },
   ".strat" : {
     "t1" : "Mr. Abdeljawad BEN MANSOUR, <br><strong>CIH BANK Group General Secretary</strong>",

@@ -1,6 +1,12 @@
 {
   "head": {
-    "title": "خط زمني - 100 سنة "
+    "01": "كلمة سيد الرئيس",
+    "02": "بإيجاز CIH بنك",
+    "03": "خط زمني - 100 سنة",
+    "04": "الـبيئـة",
+    "05": "الإستراتيجية و الحكامة",
+    "06": "الأداء وخلق القیمة المشتركة",
+    "07": "الـتقريـر الـمـالـي"
   },
   ".link": {
     "01": "كلمة سيد الرئيس",
@@ -175,6 +181,15 @@
     "61":"بلغ متوسط\nالـعجـز <span style=\"font-size: 30px; color: #1ab097\">90 </span> مليار درهم <hr>",
     "62":"ارتفعت النفقات العادية بمقدار <span style=\"font-size: 30px; color: #1ab097\">7.6 </span>  مليار درهم<hr>و النفقات الاستثمارية بمقدار <span style=\"font-size: 30px; color: #1ab097\">13.6 </span>مليار درهم<hr>",
     "63":"انخفاض في القيمة السوقية بنسبة بلغت<span style=\"font-size: 35px; color: #1ab097;font-weight: 900; \">6.7% </span> <br> مقارنة بسنة 2019<hr>"
+  },
+  ".strat-chiffre" : {
+    "41":"<span style=\"font-size: 35px; color: #1293a9; font-weight: 700;\">N@chtary </span> <br> <strong>un portail lancé <br> en 2020 dédié <br> aux fournisseurs</strong> <hr>"
+  },
+  ".perf-chiffre" : {
+    "11":"Un réseau <br> CIH BANK qui <br> compte plus de <br> <span style=\"font-size: 30px; color: #68c4d7;\">300</span><span style=\"color: #68c4d7;\"> agences</span> <hr>",
+    "31":"A fin 2020, <br> le taux de <br> satisfaction <br> global s'élevait <br> à<span style=\"font-size: 25px; color: #68c4d7;\"> 92%</span> <hr>",
+    "51":"Une baisse <br> de <span style=\"font-size: 30px; color: #1ab097 ;\">4.7% </span> <br>des crédits de consommation en 2020 <hr>",
+    "61":"Création <br> de la Fondation <br> CIH BANK en <br> <span style=\"font-size: 25px; color: #68c4d7;\">2021</span>. <hr>"
   },
   ".strat" : {
     "t1" : "السيد عبد الجواد بن منصور،  <strong/>الأمين العام لمجموعة بنك القرض العقاري والسياحي<strong>",
