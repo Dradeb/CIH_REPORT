@@ -76,13 +76,11 @@ function hello(i, filePath) {
 
     if(window.innerWidth <= 476) {
         $(".is-selected .slider-item").removeClass("justify-content-between").addClass("justify-content-center").css("margin-top", "-100px");
-        console.log($(".is-selected .slider-item"));
     }
 
     $('script').each(function() {
 
         if (this.src === 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js') {
-            console.log("hi");
           this.parentNode.removeChild( this );
         }
     });
@@ -121,7 +119,7 @@ function hello(i, filePath) {
 
 
     var vid = document.getElementById("myVideo" + i);
-    var caro = document.getElementsByClassName("carousel")[0];
+    //var caro = document.getElementsByClassName("carousel")[0];
     vid.classList.add("bgvid");
 
 
@@ -183,7 +181,6 @@ function hello(i, filePath) {
         // document.querySelectorAll(".carousel-cell img")[i].style.height = "100%";
         // document.querySelectorAll(".carousel-cell img")[i].style.width = "100%";
         var flick = document.getElementsByClassName("flickity-slider")[0];
-        var carousel = 
         flick.style.width = "unset";
         document.querySelectorAll(".carousel-cell")[i].style.cursor = "auto";
         document.querySelectorAll(".body")[0].style.display = "block";

@@ -77,6 +77,11 @@ ul > li > a {
   }
 
   @keyframes scal1 {
+    0% {
+      left: 40%;
+      right: 0;
+      opacity: 1;
+    }
     100% {
       height: 100vh;
       width: 100vw;
@@ -146,10 +151,7 @@ ul > li > a {
     }
   }
 }
-.perf-chiffre span, .strat-chiffre span, .env-chiffre span {
-    font-weight: 900 !important;
-    font-family: 'Cairoo';
-}
+
 @media (max-width: 475px) {
   .overlay-scroll{
     display: none;
@@ -207,7 +209,9 @@ ul > li > a {
   }
 
   
-
+.is-selected {
+  transform-origin: center !important;
+}
   .is-selected video {
     max-width: none !important;
     height: 100vh;
@@ -222,10 +226,11 @@ ul > li > a {
   }
 
   @keyframes scal1 {
+    
     100% {
       height: 100vh;
       width: 100vw;
-      left: 30%;
+      left: 40%;
       right: 0;
       opacity: 1;
     }
