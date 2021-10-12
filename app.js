@@ -1,4 +1,7 @@
 
+    function scro(name){
+        document.getElementsByClassName(name)[0].scrollTo(2500, 0);
+      }
 $(document).ready(function(){
     // Must change script position in main files 
     let searchParams = new URLSearchParams(window.location.search);

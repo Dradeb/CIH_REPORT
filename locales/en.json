@@ -186,10 +186,12 @@
     "41":"<span style=\"font-size: 35px; color: #1293a9; font-weight: 700;\">N@chtary </span> <br> <strong>is a portal launched in 2020 dedicated to suppliers</strong> <hr>"
   },
   ".perf-chiffre" : {
-    "11":"Un réseau <br> CIH BANK qui <br> compte plus de <br> <span style=\"font-size: 30px; color: #68c4d7;\">300</span><span style=\"color: #68c4d7;\"> agences</span> <hr>",
+    "11":"A CIH BANK network <br> with over 30 <br><span style=\"font-size: 30px; color: #68c4d7;\">300</span><span style=\"color: #68c4d7;\"> agency</span> <hr>",
     "31":"At the end of 2020, the global satisfaction rate was <span style=\"font-size: 25px; color: #68c4d7;\"> 92%</span>. <hr>",
     "51":"Une baisse <br> de <span style=\"font-size: 30px; color: #1ab097 ;\">4.7% </span> <br>des crédits de consommation en 2020 <hr>",
-    "61":"Creation of the <br> CIH BANK foundation <br> in <span style=\"font-size: 25px; color: #68c4d7;\">2021</span>.<hr>"
+    "52":"CIH BANK has contributed up to <span style=\"font-size: 25px; color: #68c4d7;\"> 150 MDH</span> to the Covid-19 Solidarity Fund. <hr>",
+    "61":"Creation of the <br> CIH BANK foundation <br> in <span style=\"font-size: 25px; color: #68c4d7;\">2021</span>.<hr>",
+    "71": "<span style=\"font-size: 25px; color: #68c4d7;\">51.5 MDH</span><br> is the amount of investment for environmental benefit. <hr>"
   },
   ".strat" : {
     "t1" : "Mr. Abdeljawad BEN MANSOUR, <br><strong>CIH BANK Group General Secretary</strong>",
@@ -230,7 +232,7 @@
     "34": "The year 2020 saw an acceleration in remote account opening: 1 in 5 accounts - and as many as 1 in 3 accounts during lockdown - were opened remotely. <br> This trend can also be seen in the steady increase (+32.1% in 2020) in the number of CIH ONLINE and CIH MOBILE accounts, which are enriched each year with new features. The number of connections has moreover recorded an increase of 34% in 2020. Automated teller machines (ATMs) are also part of this comprehensive remote banking system and allow customers to make payments, for example. <br> In order to improve the customer experience and branch handling, CIH Bank has deployed some 50 \"digital corners\". These self-service banking areas enable customers, assisted by agents, to carry out a number of basic operations. During the year, the bank also launched the \"Customer experience\" department, an entity dedicated to the customer experience, whose mission is to better understand customer expectations and to raise awareness of these issues throughout the network.",
     "35": "Proactive management of claims",
     "36": "In 2020, the time taken to deal with complaints has improved significantly: from 2.9 days in 2019 to 1.6 days in 2020. The percentage of customer complaints resolved has stabilized at 94%. After a significant drop in 2019, the rate of closing claims within the deadlines (set in a regulatory manner by Bank Al- Maghrib) has increased in 2020. <br> The frequency of certain complaints is analyzed and gives rise to specific actions. The number of complaints is one of the evaluation criteria for sales representatives, who are therefore encouraged to act proactively when faced with the problems encountered by certain customers. If complaints are not resolved through the main channel, they can be referred to internal mediation. In 2020, 911 complaints were referred to internal mediation. ",
-    "37": "M. Khalid BENALLA<br> <strong>Deputy General Manager <br> in charge of <br> the Individuals and Professionals Banking Division </strong>",
+    "37": "M. Khalid BENALLA<br> <strong>Deputy General Manager in charge of the Individuals and Professionals Banking Division </strong>",
     "38": "Since the beginning of the health crisis, one of the main challenges for the banking sector was to ensure business continuity. The priority was to allow our customers to access their accounts and manage as many transactions as possible remotely to avoid a massive trip to the branch. It is important to note that our CRC handled more than 300,000 calls during the first three months of the lockdown. It also actively contributed to the national \"TADAMOUNE\" action by assisting 50,000 beneficiaries to withdraw their aid from our ATMs. The CRC also plays an important role in remote customer relationship management. Other digital channels, such as chat and email, have also been made available to our clients.",
 
     "t4": "Accelerating and unleashing innovation ",
@@ -268,10 +270,10 @@
   },
 
   ".slider-wrapper2" : {
-    "read" : "read more"
+    "read" : "Read more"
   },
   ".slider-wrapper" : {
-    "read" : "read more"
+    "read" : "Read more"
   },
   ".graphs" : {
     "1" : "<img src='./images/graphs/1.gif' class='w-100' alt=''>",
@@ -286,5 +288,9 @@
   },
   ".navbar-brand" :  {
     "logo" : "<img id=\"logo\" src=\"./images/fr/Asset 3.png\" height=\"40px\" alt=\"\" />"
+  },
+  ".row" : {
+    "pics" : "<img src=\"./images/fr/env5.png\" width=\"100%\" alt=\"\">",
+    "table" : "<img src=\"./images/fr/table.png\" width=\"100%\" alt=\"\">"
   }
 }

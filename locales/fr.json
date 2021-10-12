@@ -52,38 +52,38 @@
     "076": "Comptes Consolidés"
   },
   ".slider-item": {
-    "011": "Mot Du Président",
-    "012": "Mot Du Président",
+    "011": "Mot du président",
+    "012": "Mot du président",
     "021": "CIH BANK en bref",
-    "022": "Chiffres Clés",
-    "031": "LES 100 ANS EN TIMELINE",
+    "022": "Chiffres clés",
+    "031": "Les 100  ans en tiñeline",
     "032": "Timeline",
     "041": "Environnement",
     "042": "Environnement",
-    "043": "Environnement Économique International",
-    "044": "Environnement Économique National",
-    "045": "Secteur Immobilier",
-    "046": "Environnement Bancaire <br> Et Marchés Financiers",
-    "047": "Marché Des Taux",
-    "051": "Stratégie Et Gouvernance",
+    "043": "Environnement économique international",
+    "044": "Environnement économique national",
+    "045": "Secteur immobilier",
+    "046": "Environnement bancaire <br> et marchés financiers",
+    "047": "Marché des taux",
+    "051": "Stratégie et gouvernance",
     "052": "Gouvernance RSE",
-    "053": "Éthique Des Affaires Et Déontologie",
-    "054": "Médiation Interne",
-    "055": "Système de management de la qualité & Systèmes d’information",
-    "061": "Performance Et Valeur Partagée",
-    "062": "Faciliter L’inclusion Bancaire",
-    "063": "Tarification Juste <br> Et Gratuité Services De Base",
-    "064": "Service Client & Digitalisation",
+    "053": "Éthique des affaires et déontologie",
+    "054": "Médiation interne",
+    "055": "Système de management de la qualité & systèmes d’information",
+    "061": "Performance et valeur partagée",
+    "062": "Faciliter l’inclusion bancaire",
+    "063": "Tarification juste <br> et gratuitéd des services de base",
+    "064": "Service client & digitalisation",
     "065": "Innovation",
-    "066": "Capital Humain",
-    "067": "Actions En Faveur De La Communauté",
-    "068": "Contribuer À Limiter <br> Les Effets Du Changement Climatique",
-    "071": "Rapport Financier",
-    "072": "Rapport Général <br> Des Commissaires Aux Comptes",
-    "073": "Comptes Sociaux",
+    "066": "Capital humain",
+    "067": "Actions en faveur de la communauté",
+    "068": "Contribuer à limiter <br> les effets du changement climatique",
+    "071": "Rapport financier",
+    "072": "Rapport général <br> des commissaires aux comptes",
+    "073": "Comptes sociaux",
     "074": "Résolutions",
-    "075": "Rapport D’audit Sur <br> Les États Financiers Consolidés",
-    "076": "Comptes Consolidés"
+    "075": "Rapport d’audit sur <br> les états financiers consolidés",
+    "076": "Comptes consolidés"
   },
   ".over-text": {
     "1920": "Création de la Caisse de Prêts Immobiliers du Maroc (CPIM).",
@@ -186,10 +186,12 @@
     "41":"<span style=\"font-size: 35px; color: #1293a9; font-weight: 700;\">N@chtary </span> <br> <strong>un portail lancé <br> en 2020 dédié <br> aux fournisseurs</strong> <hr>"
   },
   ".perf-chiffre" : {
-    "11":"Un réseau <br> CIH BANK qui <br> compte plus de <br> <span style=\"font-size: 30px; color: #68c4d7;\">300</span><span style=\"color: #68c4d7;\"> agences</span> <hr>",
-    "31":"A fin 2020, <br> le taux de <br> satisfaction <br> global s'élevait <br> à<span style=\"font-size: 25px; color: #68c4d7;\"> 92%</span> <hr>",
-    "51":"Une baisse <br> de <span style=\"font-size: 30px; color: #1ab097 ;\">4.7% </span> <br>des crédits de consommation en 2020 <hr>",
-    "61":"Création <br> de la Fondation <br> CIH BANK en <br> <span style=\"font-size: 25px; color: #68c4d7;\">2021</span>. <hr>"
+    "11":"Un réseau CIH BANK qui compte plus de <span style=\"font-size: 30px; color: #68c4d7;\">300</span><span style=\"color: #68c4d7;\"> agences</span> <hr>",
+    "31":"A fin 2020, le taux de satisfaction global s'élevait à<span style=\"font-size: 25px; color: #68c4d7;\"> 92%</span> <hr>",
+    "51":"Une baisse de <span style=\"font-size: 30px; color: #1ab097 ;\">4.7% </span>des crédits de consommation en 2020 <hr>",
+    "52":"CIH BANK <br> à contribuer <br> financièrement <br> au Fond de <br> Solidarité <br> COVID-19 <br> à hauteur de <br> <span style=\"font-size: 25px; color: #68c4d7;\"> 150 MDH</span>. <hr>",
+    "61":"Création de la Fondation CIH BANK en <span style=\"font-size: 25px; color: #68c4d7;\">2021</span>. <hr>",
+    "71": "<span style=\"font-size: 25px; color: #68c4d7;\">51.5 MDH</span><br> est le montant <br> d'investissement <br> à bénéfice <br> environnemental. <hr>"
   },
 
   ".strat" : {
@@ -269,10 +271,10 @@
   },
 
   ".slider-wrapper2" : {
-    "read" : "en savoir plus"
+    "read" : "En savoir plus"
   },
   ".slider-wrapper" : {
-    "read" : "en savoir plus"
+    "read" : "En savoir plus"
   },
   ".graphs" : {
     "1" : "<img src='./images/graphs/CIH-GRAF-VF-1.gif' class='w-100' alt=''>",
@@ -287,6 +289,10 @@
   },
   ".navbar-brand" :  {
     "logo" : "<img id=\"logo\" src=\"./images/fr/Asset 3.png\" height=\"40px\" alt=\"\" />"
+  },
+  ".row" : {
+    "pics" : "<img src=\"./images/fr/env5.png\" width=\"100%\" alt=\"\">",
+    "table" : "<img src=\"./images/fr/table.png\" width=\"100%\" alt=\"\">"
   }
   
 

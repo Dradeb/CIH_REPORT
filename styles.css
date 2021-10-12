@@ -146,8 +146,14 @@ ul > li > a {
     }
   }
 }
-
+.perf-chiffre span, .strat-chiffre span, .env-chiffre span {
+    font-weight: 900 !important;
+    font-family: 'Cairoo';
+}
 @media (max-width: 475px) {
+  .overlay-scroll{
+    display: none;
+  }
   .pre {
     width: 100% !important;
   }
