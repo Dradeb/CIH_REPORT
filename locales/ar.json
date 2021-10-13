@@ -172,26 +172,26 @@
     "617": "وانخفض الحجم الإجمالي المتداول بنسبة 26.02% في 2020 ليصل إلى 55.78 مليار درهم، مقارنة بـ 75.4 مليار درهم في السنة السابقة. هذا التباين ناتج عن التأثير المشترك لانخفاض قدره 10.8 مليار درهم في المعاملات المتداولة في سوق الكتل وزيادة بنسبة 5.78٪ في حجم التداول في السوق المركزية إلى 33 مليار درهم. "
   },
   ".env-chiffre" : {
-    "11":"اتسمت سنة<span style=\"font-size: 35px; color:#1ab097; font-weight: 700 !important; font-family: 'Cairoo' !important;\"><br>2020</span> <br> بجائحة <br><span style=\"color: #1ab097;\">كوفيد19<span> <hr>",
-    "21":"انخفض الناتج المحلي الإجمالي العالمي بنسبة <span style=\"font-size: 35px; color: #1ab097;font-weight: 900; \">3,7% </span> <br>في سنة 2020 <hr>",
-    "31":"ركود النمو الاقتصادي الوطني بنسبة <span style=\"font-size: 30px; color: #1ab097\">7% </span> سنة 2020<hr>عجز الموازنـة بنسبة <span style=\"font-size: 30px; color: #1ab097\">7.4% </span>مـن الـناتـج المحلي الإجمالي<hr>",
-    "32":"<hr><span style=\"font-size: 30px; color: #1ab097\">2021</span> <br>.سنة النمو الإقتصادي<hr>",
-    "41":"انخفاض عدد الصفقات العقارية بنسبة <span style=\"font-size: 30px; color: #1ab097\">%15.2</span> ",
-    "51":"انخفاض قروض المستهلك الممنوحة بنسبة بلغت <span style=\"font-size: 30px; color: #1ab097\">6.7% </span> سنة 2020<hr>",
-    "61":"بلغ متوسط\nالـعجـز <span style=\"font-size: 30px; color: #1ab097\">90 </span> مليار درهم <hr>",
-    "62":"ارتفعت النفقات العادية بمقدار <span style=\"font-size: 30px; color: #1ab097\">7.6 </span>  مليار درهم<hr>و النفقات الاستثمارية بمقدار <span style=\"font-size: 30px; color: #1ab097\">13.6 </span>مليار درهم<hr>",
-    "63":"انخفاض في القيمة السوقية بنسبة بلغت<span style=\"font-size: 35px; color: #1ab097;font-weight: 900; \">6.7% </span> <br> مقارنة بسنة 2019<hr>"
+    "11":"اتسمت سنة<span style=\"font-size: 20px; color:#1ab097; font-weight: 700 !important; font-family: 'Cairoo' !important;\">2020</span>  بجائحة <span style=\"color: #1ab097;font-size: 20px\">كوفيد-19<span> <hr>",
+    "21":"انخفض الناتج المحلي الإجمالي العالمي بنسبة <span style=\"font-size: 20px; color: #1ab097;font-weight: 900; \">3,7% </span> في سنة 2020 <hr>",
+    "31":"ركود النمو الاقتصادي الوطني بنسبة <span style=\"font-size: 20px; color: #1ab097\">7% </span> سنة 2020<hr>عجز الموازنـة بنسبة <span style=\"font-size: 20px; color: #1ab097\">7.4% </span>مـن الـناتـج المحلي الإجمالي<hr>",
+    "32":"<hr><span style=\"font-size: 20px; color: #1ab097\">2021</span> .سنة النمو الإقتصادي<hr>",
+    "41":"انخفاض عدد الصفقات العقارية بنسبة <span style=\"font-size: 20px; color: #1ab097\">%15.2</span> ",
+    "51":"انخفاض قروض المستهلك الممنوحة بنسبة بلغت <span style=\"font-size: 20px; color: #1ab097\">4.7% </span> سنة 2020<hr>",
+    "61":"بلغ متوسط\nالـعجـز <span style=\"font-size: 20px; color: #1ab097\">90 مليار درهم</span>  <hr>",
+    "62":"ارتفعت النفقات العادية بمقدار <span style=\"font-size: 20px; color: #1ab097\">7.6 مليار درهم</span>  <hr>و النفقات الاستثمارية بمقدار <span style=\"font-size: 20px; color: #1ab097\">13.6 مليار درهم</span><hr>",
+    "63":"انخفاض في القيمة السوقية بنسبة بلغت<span style=\"font-size: 20px; color: #1ab097;font-weight: 900; \">6.7% </span>  مقارنة بسنة 2019<hr>"
   },
   ".strat-chiffre" : {
-    "41" : "<span style=\"font-size: 30px; color: #1293a9; font-weight: 700;\">N@chtary</span> <br>هي بوابة تم إطلاقها في عام 2020 مخصصة للموردين<hr>"
+    "41" : "<span style=\"font-size: 20px !important; color: #1293a9; font-weight: 700;\">N@chtary</span> هي بوابة تم إطلاقها في عام 2020 مخصصة للموردين<hr>"
   },
   ".perf-chiffre" : {
-    "11":"شبكة بنك CIH تضم أكثر من <span style=\"font-size: 30px; color: #68c4d7;\">300</span> فرع\n <hr>",
-    "31":"في نهاية عام 2020 ، بلغ معدل الرضا الإجمالي<span style=\"font-size: 30px; color: #68c4d7;\"><br>92٪</span>\n",
-    "51":"Une baisse <br> de <span style=\"font-size: 30px; color: #1ab097 ;\">4.7% </span> <br>des crédits de consommation en 2020 <hr>",
-    "52":"ساهم بنك CIH بما يصل إلى<span style=\"font-size: 30px; color: #68c4d7;\">150</span>مليون درهم في صندوق تضامن كوفيد 19 <hr>",
-    "61":"إنشاء مؤسسة بنك CIH في عام <span style=\"font-size: 25px; color: #68c4d7;\">2021</span>. <hr>",
-    "71": "<span style=\"font-size: 25px; color: #68c4d7;\">51.5</span><br> مليون درهم هو مبلغ الاستثمار لصالح البيئة.<hr>"
+    "11":"شبكة بنك CIH تضم أكثر من <span style=\"font-size: 20px; color: #68c4d7;\">300</span> فرع\n <hr>",
+    "31":"في نهاية عام 2020 ، بلغ معدل الرضا الإجمالي<span style=\"font-size: 20px; color: #68c4d7;\">92٪</span>\n",
+    "51":"Une baisse  de <span style=\"font-size: 20px; color: #1ab097 ;\">4.7% </span> des crédits de consommation en 2020 <hr>",
+    "52":"ساهم بنك CIH بما يصل إلى<span style=\"font-size: 20px; color: #68c4d7;\">150</span>مليون درهم في صندوق تضامن كوفيد 19 <hr>",
+    "61":"إنشاء مؤسسة بنك CIH في عام <span style=\"font-size: 20px; color: #68c4d7;\">2021</span>. <hr>",
+    "71": "<span style=\"font-size: 20px; color: #68c4d7;\">51.5</span> مليون درهم هو مبلغ الاستثمار لصالح البيئة.<hr>"
   },
   ".strat" : {
     "t1" : "السيد عبد الجواد بن منصور،  <strong/>الأمين العام لمجموعة بنك القرض العقاري والسياحي<strong>",
