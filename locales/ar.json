@@ -287,7 +287,7 @@
     "read" : "مزيد من التفاصيل"
   },
   ".graphs" : {
-    "1" : "<img class='my-5' src='./images/chiff1-ar.png' width='100%' alt=''><img class='my-5' src='./images/graphs/CIH-GRAF-VA-1.gif' width='100%' alt=''><img class='my-5' src='./images/chiff2-ar.png' width='100%' alt=''>,",
+    "1" : "<img class='my-5' src='./images/chiff/02-CIH-BANK-en-bref-VA-01.svg' width='100%' alt=''><img class='my-5' src='./images/graphs/CIH-GRAF-VA-1.gif' width='100%' alt=''><img class='my-5' src='./images/chiff/02-CIH-BANK-en-bref-VA-02.svg' width='100%' alt=''>",
     "2" : "<img src='./images/graphs/CIH-GRAF-VA-2.gif' class='w-100' alt=''>",
     "3" : "<img src='./images/graphs/CIH-GRAF-VA-3.gif' class='w-100' alt=''>",
     "4" : "<img src='./images/graphs/CIH-GRAF-VA-4.gif' class='w-100' alt=''>",

@@ -290,7 +290,7 @@
     "read" : "En savoir plus"
   },
   ".graphs" : {
-    "1" : "<img class='my-5' src='./images/chiffres.svg' width='100%' alt=''><img class='my-5' src='./images/graphs/CIH-GRAF-VF-1.gif' width='100%' alt=''><img class='my-5' src='./images/chiffres3.svg' width='100%' alt=''>",
+    "1" : "<img class='my-5' src='./images/chiff/02-CIH-BANK-en-bref-01-VF.svg' width='100%' alt=''><img class='my-5' src='./images/graphs/CIH-GRAF-VF-1.gif' width='100%' alt=''><img class='my-5' src='./images/chiff/02-CIH-BANK-en-bref-02-VF.svg' width='100%' alt=''>",
     "2" : "<img src='./images/graphs/CIH-GRAF-VF-2.gif' class='w-100' alt=''>",
     "3" : "<img src='./images/graphs/CIH-GRAF-VF-3.gif' class='w-100' alt=''>",
     "4" : "<img src='./images/graphs/CIH-GRAF-VF-4.gif' class='w-100' alt=''>",
