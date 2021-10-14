@@ -171,29 +171,6 @@
     "616": "Sur les 75 sociétés cotées en bourse, à fin 2020, les 10 plus fortes capitalisations représentent plus de 75 % de la capitalisation globale du marché.",
     "617": "Le volume global traité s’est, quant à lui, déprécié de 26,02 % en 2020 pour s’établir à 55,78 milliards de dirhams, contre 75,4 milliards l’année précédente. Cette variation résulte de l’effet combiné d’une baisse de 10,8 milliards de dirhams des transactions effectuées sur le marché des blocs et d’une hausse de 5,78 % du volume échangé sur le marché central à 33 milliards de dirhams."
   },
-  ".env-chiffre" : {
-    "11":"<span style=\"font-size: 20px; color:#1ab097; font-family: 'Cairoo' !important;\">2020</span> une année marquée par<br>  <span style=\"color:#1ab097;font-size: 20px !important\">Covid-19</span> <hr>",
-    "21":" Le PIB mondial a enregistré un recul de <span style=\"font-size: 20px !important; color:#1ab097; \">3,7% </span> en 2020<hr>",
-    "31":"Une récession économique nationale de <span style=\"font-size: 20px; color: #1ab097\">7% </span> en 2020 <hr> Un déficit budgétaire de <span style=\"font-size: 20px; color: #1ab097\">7.4% </span>du PIB",
-    "32":"<span style=\"font-size: 20px; color: #1ab097\">2021</span> Une année de croissance.<hr>",
-    "41":"Le nombre de transactions immobilières a connu une diminution de <span style=\"font-size: 20px; color: #1ab097 ;\">15.2% </span> <hr>",
-    "51":" Une baisse de <span style=\"font-size: 20px; color: #1ab097 ;\">4.7% </span>des crédits de consommation en 2020 <hr>",
-    "61":"Le déficit du marché monétaire s'est établi en moyenne à <span style=\"font-size: 20px; color: #1ab097 ;\">90Mds MAD</span> <hr>",
-    "62":"Progression des dépenses ordinaire de <span style=\"font-size: 20px; color: #1ab097 ;\">7.6 Mds MAD</span>et d'investissement de <span style=\"font-size: 20px; color: #1ab097 ;\">13.6 Mds MAD</span> <hr>",
-    "63":"Baisse de la capitalisation boursière de <span style=\"font-size: 20px; color: #1ab097 ;\">6.7%</span>par rapport à 2019. <hr>"
-  },
-  ".strat-chiffre" : {
-    "41":"<span style=\"font-size: 20px; color: #1293a9;\">N@chtary </span> <strong>un portail lancé en 2020 dédié aux fournisseurs</strong> <hr>"
-  },
-  ".perf-chiffre" : {
-    "11":"Un réseau CIH BANK qui compte plus de <span style=\"font-size: 30px; color: #68c4d7;\">300</span><span style=\"color: #68c4d7;\"> agences</span> <hr>",
-    "31":"A fin 2020, le taux de satisfaction global s'élevait à<span style=\"font-size: 20px; color: #68c4d7;\"> 92%</span> <hr>",
-    "51":"Une baisse de <span style=\"font-size: 30px; color: #1ab097 ;\">4.7% </span>des crédits de consommation en 2020 <hr>",
-    "52":"CIH BANK à contribuer financièrement au Fond de Solidarité COVID-19 à hauteur de <span style=\"font-size: 20px; color: #68c4d7;\"> 150 MDH</span>. <hr>",
-    "61":"Création de la Fondation CIH BANK en <span style=\"font-size: 20px; color: #68c4d7;\">2021</span>. <hr>",
-    "71": "<span style=\"font-size: 20px; color: #68c4d7;\">51.5 MDH</span est le montant d'investissement à bénéfice environnemental. <hr>"
-  },
-
   ".strat" : {
     "t1" : "M. Abdeljawad BEN MANSOUR <br><strong>Secrétaire Général du Groupe CIH BANK</strong>",
     "11": "La RSE vise à identifier les risques et les faiblesses de la banque dans son management, sa gestion des ressources, ses processus de recrutement ou encore son impact social, et à trouver les leviers pour y répondre. Concrètement, nous allons investir dans la RSE et donc tenter d’identifier des leviers pour améliorer le bien-être au travail de nos salariés. Résultat : non seulement nos salariés seront plus productifs, mais aussi les taux de démissions ou de départs seront plus bas avec une réduction des dépenses de recrutement ou de formation. En matière de protection de l’environnement, c’est la même chose. Si la banque met en place des processus pour réduire les gaspillages de ressources, les déchets ou les consommations d’énergie, elle réduit bien souvent dans le même temps ses dépenses.",
@@ -270,6 +247,42 @@
     "79": "CIH BANK négocie actuellement des lignes de financement de projets d’efficacité énergétique et d’énergies renouvelables, au profit des PME. La banque est par ailleurs en train de structurer le montage financier en cours de deux grands projets éoliens d’une capacité combinée de 162 Mégawatts pour un montant global de 2,7 milliards de dirhams. Un projet hydroélectrique est également à l’étude pour une enveloppe de financement de 260 millions de dirhams"
   },
 
+  ".rapp" : {
+    "p1" : "Sous la Présidence de M. Lotfi SEKKAT, Président Directeur Général du Crédit Immobilier et Hôtelier, société anonyme au Capital Social de 2.832.473.500 Dirhams divisé en 28.324.735 actions d’une valeur nominale de 100 Dirhams chacune, l’Assemblée Générale Ordinaire s’est réunie le 16 Juin 2021 à 15 heures, au siège social du CIH BANK sis à Casablanca 187, Avenue Hassan II. <br> Après avoir entendu le rapport de gestion du Conseil d’Administration et les rapports des commissaires aux comptes au titre de l’exercice clos le 31/12/2020, l’Assemblée Générale Ordinaire a approuvé à l’unanimité les comptes de l’exercice 2020, ainsi que l’ensemble des résolutions qui lui ont été soumises, telles qu’elles ont été publiées dans les journaux d’annonces légales :",
+    "p2" : "L’Assemblée Générale Ordinaire a décidé de fixer le montant des dividendes à servir au titre de l’exercice à :",
+    "p3" : "Le résultat des votes de l’Assemblée Générale Ordinaire du Crédit Immobilier et Hôtelier se présente comme suit :",
+    "p4" : "Conformément aux dispositions de l’article 136 de la loi 17-95 tel que modifié et complété par la loi 78-12. <br><br> (a) - Le nombre d’actions pour lesquelles des votes ont été valablement exprimés. <br> (b) - La proportion du capital représentée par ce vote. <br> (c) - Le nombre total des votes valablement exprimés : après exclusion des actionnaires ne devant pas prendre part au vote en vertu des dispositions de la loi 17-95.<br> (d) - Une action correspond à une voix.",
+    "li1" : "L’Economiste du 11/05/2021",
+    "li2" : "Le Matin du 11/05/2021",
+    "li3" : "Les Inspirations Eco du 11/05/2021",
+    "li4" : "Un dividende de 08 dirhams par action",
+    "li5" : "Le dividende sera mis en paiement à partir du 1er juillet 2021, en numéraire.",
+    "img" : "<img src=\"./images/rapp/rap3-1.png\" width=\"100%\" alt=\"\" data-aos=\"fade-up\" data-aos-duration=\"1000\" data-aos-easing=\"ease-out\" data-aos-offset=\"300\">"
+  },
+
+  ".env-chiffre" : {
+    "11":"<span style=\"font-size: 20px; color:#1ab097; font-family: 'Cairoo' !important;\">2020</span> une année marquée par<br>  <span style=\"color:#1ab097;font-size: 20px !important\">Covid-19</span> <hr>",
+    "21":" Le PIB mondial a enregistré un recul de <span style=\"font-size: 20px !important; color:#1ab097; \">3,7% </span> en 2020<hr>",
+    "31":"Une récession économique nationale de <span style=\"font-size: 20px; color: #1ab097\">7% </span> en 2020 <hr> Un déficit budgétaire de <span style=\"font-size: 20px; color: #1ab097\">7.4% </span>du PIB",
+    "32":"<span style=\"font-size: 20px; color: #1ab097\">2021</span> Une année de croissance.<hr>",
+    "41":"Le nombre de transactions immobilières a connu une diminution de <span style=\"font-size: 20px; color: #1ab097 ;\">15.2% </span> <hr>",
+    "51":" Une baisse de <span style=\"font-size: 20px; color: #1ab097 ;\">4.7% </span>des crédits de consommation en 2020 <hr>",
+    "61":"Le déficit du marché monétaire s'est établi en moyenne à <span style=\"font-size: 20px; color: #1ab097 ;\">90Mds MAD</span> <hr>",
+    "62":"Progression des dépenses ordinaire de <span style=\"font-size: 20px; color: #1ab097 ;\">7.6 Mds MAD</span>et d'investissement de <span style=\"font-size: 20px; color: #1ab097 ;\">13.6 Mds MAD</span> <hr>",
+    "63":"Baisse de la capitalisation boursière de <span style=\"font-size: 20px; color: #1ab097 ;\">6.7%</span>par rapport à 2019. <hr>"
+  },
+  ".strat-chiffre" : {
+    "41":"<span style=\"font-size: 20px; color: #1293a9;\">N@chtary </span> <strong>un portail lancé en 2020 dédié aux fournisseurs</strong> <hr>"
+  },
+  ".perf-chiffre" : {
+    "11":"Un réseau CIH BANK qui compte plus de <span style=\"font-size: 30px; color: #68c4d7;\">300</span><span style=\"color: #68c4d7;\"> agences</span> <hr>",
+    "31":"A fin 2020, le taux de satisfaction global s'élevait à<span style=\"font-size: 20px; color: #68c4d7;\"> 92%</span> <hr>",
+    "51":"Une baisse de <span style=\"font-size: 30px; color: #1ab097 ;\">4.7% </span>des crédits de consommation en 2020 <hr>",
+    "52":"CIH BANK à contribuer financièrement au Fond de Solidarité COVID-19 à hauteur de <span style=\"font-size: 20px; color: #68c4d7;\"> 150 MDH</span>. <hr>",
+    "61":"Création de la Fondation CIH BANK en <span style=\"font-size: 20px; color: #68c4d7;\">2021</span>. <hr>",
+    "71": "<span style=\"font-size: 20px; color: #68c4d7;\">51.5 MDH</span est le montant d'investissement à bénéfice environnemental. <hr>"
+  },
+
   ".slider-wrapper2" : {
     "read" : "En savoir plus"
   },
@@ -277,7 +290,7 @@
     "read" : "En savoir plus"
   },
   ".graphs" : {
-    "1" : "<img src='./images/graphs/CIH-GRAF-VF-1.gif' class='w-100' alt=''>",
+    "1" : "<img class='my-5' src='./images/chiffres.svg' width='100%' alt=''><img class='my-5' src='./images/graphs/CIH-GRAF-VF-1.gif' width='100%' alt=''><img class='my-5' src='./images/chiffres3.svg' width='100%' alt=''>",
     "2" : "<img src='./images/graphs/CIH-GRAF-VF-2.gif' class='w-100' alt=''>",
     "3" : "<img src='./images/graphs/CIH-GRAF-VF-3.gif' class='w-100' alt=''>",
     "4" : "<img src='./images/graphs/CIH-GRAF-VF-4.gif' class='w-100' alt=''>",
@@ -292,7 +305,11 @@
   },
   ".row" : {
     "pics" : "<img src=\"./images/fr/env5.png\" width=\"100%\" alt=\"\">",
-    "table" : "<img src=\"./images/fr/table.png\" width=\"100%\" alt=\"\">"
+    "table" : "<img src=\"./images/fr/table.png\" width=\"100%\" alt=\"\">",
+    "index-image" : "<img src=\"./images/index-fr.png\" id=\"img\">"
+  },
+  ".click" : {
+    "btn" : "Cliquez ici"
   }
   
 

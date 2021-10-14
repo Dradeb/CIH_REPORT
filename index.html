@@ -17,7 +17,6 @@
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
       background-image: linear-gradient(to bottom, #172157a9, #384485c0),
         url('images/meeting.jpg');
@@ -27,11 +26,11 @@
       height: 100vh;
       width: 100vw;
     }
-
+    @media (min-width:476px) {
     #img {
-      width: 550px
+      height: 550px;
     }
-
+  }
     @media (max-width:475px) {
       #img {
       width: 100%;
@@ -41,6 +40,9 @@
   <link rel="stylesheet" href="./nav/style.css">
   <script src="./nav/script.js"></script>
   <style>
+    body{
+      overflow: hidden;
+    }
     #particles-js canvas {
       display: block;
       vertical-align: bottom;
@@ -62,7 +64,6 @@
     }
   </style>
 </head>
-
 <body>
   <nav class="navbar sticky-top" style="position: fixed; left: 0; right: 0">
     <div class="container-fluid">
@@ -402,13 +403,13 @@
   <div id="particles-js"></div>
   <div class="container text-center h-100">
     <div class="row d-flex flex-column justify-content-around h-100">
-      <div class="col-12">
-        <img src="./images/Asset 6@288x.png"  id="img">
+      <div class="col-md-12" key="index-image">
+        <img src="./images/index-fr.png"  id="img">
       </div>
       <div class="col-12">
-        <a class="animate__animated animate__slower animate__heartBeat animate__infinite" href="./mot-du-president.html" style="color: white; display: flex; flex-direction: column; text-decoration: none; align-items: center; font-weight: 900; font-size: large;"><img
+        <a class="click animate__animated animate__slower animate__heartBeat animate__infinite" href="./mot-du-president.html" style="color: white; display: flex; flex-direction: column; text-decoration: none; align-items: center; font-weight: 900; font-size: large;"><img
              src="./images/Asset 7@288x.png"
-            width="80px" alt="">Cliquez ici</a>
+            width="80px" alt=""><p key="btn">Cliquez ici</p></a>
       </div>
     </div>
   </div>

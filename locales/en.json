@@ -276,7 +276,7 @@
     "read" : "Read more"
   },
   ".graphs" : {
-    "1" : "<img src='./images/graphs/1.gif' class='w-100' alt=''>",
+    "1" :  "<img class='my-5' src='./images/chiff1-en.svg' width='100%' alt=''><img class='my-5' src='./images/graphs/1.gif' width='100%' alt=''><img class='my-5' src='./images/chiff2-en.svg' width='100%' alt=''>",
     "2" : "<img src='./images/graphs/2.gif' class='w-100' alt=''>",
     "3" : "<img src='./images/graphs/3.gif' class='w-100' alt=''>",
     "4" : "<img src='./images/graphs/4.gif' class='w-100' alt=''>",
@@ -291,6 +291,10 @@
   },
   ".row" : {
     "pics" : "<img src=\"./images/fr/env5.png\" width=\"100%\" alt=\"\">",
-    "table" : "<img src=\"./images/fr/table.png\" width=\"100%\" alt=\"\">"
+    "table" : "<img src=\"./images/fr/table.png\" width=\"100%\" alt=\"\">",
+    "index-image" : "<img src=\"./images/index-en.png\" id=\"img\">"
+  },
+  ".click" : {
+    "btn" : "Click here"
   }
 }
