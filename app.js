@@ -61,7 +61,7 @@ document.addEventListener("scroll", function () {
         btn.style.color = "white";
         icon.setAttribute("src", "./images/white.png");
         $("#logo").attr("src", path2);
-        bar.setAttribute("src", "./images/bar.png");
+        bar.setAttribute("src", "./images/bar-fr.svg");
     }
 });
 
