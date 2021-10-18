@@ -23,9 +23,10 @@
 </head>
 
 <body>
-  <img class="animate__animated animate__shakeX animate__infinite animate__slower"
-    style="position: absolute; width: 40px; z-index: 10; top: 50%; transform: translateY(-50%); right: 25px; "
+  <div id="slideright" style="cursor: pointer; display: flex; justify-content: center; align-items: center; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); position: absolute; width: 45px; height: 45px; z-index: 10; top: 50%; transform: translateY(-50%); right: 25px; background-color: white; border-radius: 40px; ">
+    <img class="animate__animated animate__shakeX animate__infinite animate__slower" width="20px"
     src="./images/next.png" alt="">
+  </div>
   <img src="./images/bar.png" id="bar" alt=""
    lo.ico style="position: fixed; left: 35px; top:35px; height: 95vh; z-index: 24;">
     <nav class="navbar sticky-top" style="position: fixed; left: 0; right: 0">
@@ -649,7 +650,7 @@
             </p>
           </div>
         </div>
-        <div class="box">
+        <div class="box" id="lastbx">
           <div class="over-text">
             <div class="bg" style="background-image: url('timlineImages/23.png');"></div>
             <div class="overlay"></div>
@@ -661,6 +662,8 @@
               crédits immobiliers, bancassurance et financement des entreprises.
             </p>
           </div>
+        </div>
+        <div class="box holder">
         </div>
       </div>
     </div>
@@ -677,6 +680,7 @@
   <script>
     $(document).ready(function () {
 
+    
 
       if ($(window).width() > 600) {
         const direc = $(window).width() >= 600 ? 'horizontal' : 'vertical';
@@ -692,6 +696,7 @@
         $(".box").on("click", function () {
           if (!$(this).hasClass("hover")) {
             $(".box.hover").removeClass("hover");
+         
             setTimeout(() => {
               sb.updateMetrics();
               if ($(window).width() <= 600) {
@@ -703,7 +708,12 @@
 
         });
 
-
+        $("#slideright").click(function(){
+          var pos = $('.timeline-viewport').scrollLeft();
+          $(".timeline-viewport").animate({scrollLeft:$(".timeline-viewport").scrollLeft()+400},400);
+          // $(".timeline-viewport").scrollLeft($(".timeline-viewport").scrollLeft()+100)
+        });
+      
 
       } else {
 
