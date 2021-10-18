@@ -296,5 +296,19 @@
   },
   ".click" : {
     "btn" : "Click here"
+  },
+  ".tbl" : {
+    "01" : " <h5 class='my-3 text-dark'>Bilan au 31/12/2020 en Milliers de Dh</h5><img src='./images/rapp/en/1.svg' class='d-block w-100' alt='...'><h5 class='my-3 text-dark'>Hors bilan en Milliers de Dh</h5><img src='./images/rapp/en/2.svg' class='d-block w-100' alt='...'>",
+    "02" : "<h5 class='my-3 text-dark'>Bilan au 31/12/2020 en Milliers de Dh</h5><img src='./images/rapp/en/3.svg' class='d-block w-100' alt='...'><h5 class='my-3 text-dark'>Hors bilan en Milliers de Dh</h5><img src='./images/rapp/en/4.svg' class='d-block w-100' alt='...'>",
+    "03" : "<h5 class='my-3 text-dark'>Compte de produits et charges au 31/12/2020 en Milliers de Dh</h5><img src='./images/rapp/en/5.svg' class='d-block w-100' alt='...'>",
+    "04" : "<h5 class='my-3 text-dark'>Etat des soldes de gestion</h5><img src='./images/rapp/en/6.svg' class='d-block w-100' alt='...'>",
+    "05" : "<h5 class='my-3 text-dark'>Capacité d’autofinancement</h5><img src='./images/rapp/en/7.svg' class='d-block w-100' alt='...'>",
+    "06" : "<img src='./images/rapp/en/8.svg' width='100%' alt='' data-aos='fade-up' data-aos-duration='1000'data-aos-easing='ease-out' data-aos-offset='300'>",
+    "07" : "<img src='./images/rapp/en/9.svg' class='d-block w-100' alt='...'>",
+    "08" : "<img src='./images/rapp/en/10.svg' class='d-block w-100' alt='...'>",
+    "09" : "<img src='./images/rapp/en/11.svg' class='d-block w-100' alt='...'>",
+    "10" : "<img src='./images/rapp/en/12.svg' class='d-block w-100' alt='...'>",
+    "11" : "<img src='./images/rapp/en/13.svg' class='d-block w-100' alt='...'><img src='./images/rapp/en/14.svg' class='d-block w-100 mt-5' alt='...'>",
+    "12" : "<img src='./images/rapp/en/15.svg' class='d-block w-100' alt='...'>"
   }
 }
