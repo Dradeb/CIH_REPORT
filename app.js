@@ -102,6 +102,7 @@ function hello(i, filePath) {
     image.classList.add("animate__shakeY")
     image.classList.add("animate__slower")
     image.classList.add("animate__infinite")
+    image.classList.add("down");
     var cel = document.querySelectorAll(".carousel-cell.is-selected")[0];
     setTimeout(()=>{
         cel.appendChild(image);

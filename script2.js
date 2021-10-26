@@ -1,5 +1,5 @@
-var el = "<a href='timeline.html'><img src='./images/next.png' class='animate__animated animate__pulse animate__infinite' height='200px' style='position: relative; top: -75px' ></a>";
-var el2 = "<img src='./images/next.png' class='animate__animated animate__pulse animate__infinite' height='100px' style='position: relative; top: -55px' >";
+var el = "<a href='timeline.html'><img src='./images/next.svg' class='animate__animated animate__pulse animate__infinite' height='200px' style='position: relative; top: -75px' ></a>";
+var el2 = "<img src='./images/next.svg' class='animate__animated animate__pulse animate__infinite' height='100px' style='position: relative; top: -55px' >";
 var next = document.getElementsByClassName("next")[0];
 var prev = document.getElementsByClassName("previous")[0];
 next.innerHTML = el;
