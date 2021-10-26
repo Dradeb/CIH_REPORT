@@ -50,7 +50,7 @@
           <a id="btn" class="btn" style="font-weight: 700; font-size: small; color: white;"><span
               onclick="setLanguage('fr')" title="Français">FR</span> / <span onclick="setLanguage('ar')"
               title="العربية">AR</span> / <span onclick="setLanguage('en')" title="English">EN</span></a>
-          <img id="icon" onclick="openNav()" width="40" height="20px" src="./images/white.png" alt=""
+          <img id="icon" onclick="openNav()" width="40px" height="40px" src="./images/white.svg" alt=""
             style="cursor:pointer;">
         </form>
     </div>
@@ -572,10 +572,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script>
         
-    // Wrap every letter in a span
-    var textWrapper = document.querySelector('.ml6 .letters');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
     anime.timeline({ loop: false })
       .add({
         targets: '.ml6 .letter',

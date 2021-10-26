@@ -6,7 +6,7 @@ function openNav() {
         var lang = localStorage.getItem("language") == "ar" ? "ar" : "fr";
         var path2 = "./images/" + lang + "/Asset 3.png";
         btn.style.color = "white";
-        icon.setAttribute("src", "./images/white.png");
+        icon.setAttribute("src", "./images/white.svg");
         $("#logo").attr("src", path2);
         bar.setAttribute("src", "./images/bar.png");
     } else {

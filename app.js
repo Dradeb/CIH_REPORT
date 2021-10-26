@@ -52,14 +52,14 @@ document.addEventListener("scroll", function () {
         $("#logo").attr("src", path);
         // logo.setAttribute("src", path);
 
-        icon.setAttribute("src", "./images/black.png");
+        icon.setAttribute("src", "./images/black.svg");
         bar.setAttribute("src", "./images/bar2.png");
     } else if (window.scrollY < window.innerHeight && btn.style.color == "black") {
         nav.css("background", "#1b599400");
         //console.log("offset out else if")
         var path2 = "./images/"+lang+"/Asset 3.png";
         btn.style.color = "white";
-        icon.setAttribute("src", "./images/white.png");
+        icon.setAttribute("src", "./images/white.svg");
         $("#logo").attr("src", path2);
         bar.setAttribute("src", "./images/bar.png");
     }
@@ -93,8 +93,19 @@ function hello(i, filePath) {
     document.getElementsByClassName("carousel")[0].classList.remove("is-draggable");
 
     document.querySelectorAll(".is-selected h1")[0].classList.add("padd");
-
+    var image = document.createElement("img");
+    image.src ="./images/scroll.svg";
+    image.style.width = "80px"
+    image.style.position = "absolute"
+    image.style.bottom = "100px"
+    image.classList.add("animate__animated")
+    image.classList.add("animate__shakeY")
+    image.classList.add("animate__slower")
+    image.classList.add("animate__infinite")
     var cel = document.querySelectorAll(".carousel-cell.is-selected")[0];
+    setTimeout(()=>{
+        cel.appendChild(image);
+    }, 1000)
     cel.style.animationName = "scal" + i;
     cel.style.top = "0px";
     cel.style.animationDuration = ".5s";
