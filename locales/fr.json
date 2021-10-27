@@ -285,7 +285,8 @@
   },
 
   ".slider-wrapper2" : {
-    "read" : "En savoir plus"
+    "read" : "En savoir plus",
+    "prev" : "Article précédent"
   },
   ".slider-wrapper" : {
     "read" : "En savoir plus"

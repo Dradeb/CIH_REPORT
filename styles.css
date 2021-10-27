@@ -153,7 +153,6 @@ ul > li > a {
     }
   }
 }
-
 @media (max-width: 475px) {
   .overlay-scroll{
     display: none;
@@ -650,6 +649,7 @@ body {
   cursor: pointer;
   transition: all 0.4s ease;
 }
+
 .slider-wrapper:hover > img, .slider-wrapper2:hover > img {
   
   margin-left: 100%;

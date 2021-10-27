@@ -271,7 +271,8 @@
   },
 
   ".slider-wrapper2" : {
-    "read" : "Read more"
+    "read" : "Read more",
+    "prev" : "Previous article"
   },
   ".slider-wrapper" : {
     "read" : "Read more"
