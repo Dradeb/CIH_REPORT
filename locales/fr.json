@@ -311,7 +311,7 @@
     "index-image" : "<img src=\"./images/index-fr.png\" id=\"img\">"
   },
   ".click" : {
-    "btn" : "Cliquez ici"
+    "btn" : "Mot du président"
   },
   ".tbl" : {
     "01" : "<img src='./images/rapp/fr/1.svg' class='d-block w-100' alt='...'><img src='./images/rapp/fr/2.svg' class='d-block w-100' alt='...'>",

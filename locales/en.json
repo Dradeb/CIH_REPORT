@@ -297,7 +297,7 @@
     "index-image" : "<img src=\"./images/index-en.png\" id=\"img\">"
   },
   ".click" : {
-    "btn" : "Click here"
+    "btn" : "Word Of The President"
   },
   ".tbl" : {
     "01" : "<img src='./images/rapp/en/1.svg' class='d-block w-100' alt='...'><img src='./images/rapp/en/2.svg' class='d-block w-100' alt='...'>",

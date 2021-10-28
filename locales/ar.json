@@ -307,7 +307,7 @@
     "index-image" : "<img src=\"./images/index-ar.png\"  id=\"img\">"
   },
   ".click" : {
-    "btn":"إضغط هنا"
+    "btn":"كلمة سيد الرئيس"
   },
   ".tbl" : {
     "01" : "<img src='./images/rapp/ar/1.svg' class='d-block w-100' alt='...'><img src='./images/rapp/ar/2.svg' class='d-block w-100' alt='...'>",

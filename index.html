@@ -40,6 +40,15 @@
   <link rel="stylesheet" href="./nav/style.css">
   <script src="./nav/script.js"></script>
   <style>
+    @media screen and (max-width: 475px) {
+      .btm {
+        bottom: 110px !important;
+      }
+
+      .btm a {
+        right: 35% !important;
+      }
+    }
     body{
       overflow: hidden;
     }
@@ -401,15 +410,15 @@
     </div>
   </div>
   <div id="particles-js"></div>
-  <div class="container text-center h-100">
-    <div class="row d-flex flex-column justify-content-around h-100">
+  <div class="container text-center h-100 ">
+    <div class="row d-flex align-items-center h-100">
       <div class="col-md-12" key="index-image">
         <img src="./images/index-fr.png"  id="img">
       </div>
-      <div class="col-12">
-        <a class="click animate__animated animate__slower animate__heartBeat animate__infinite" href="./mot-du-president.html" style="color: white; display: flex; flex-direction: column; text-decoration: none; align-items: center; font-weight: 900; font-size: large;"><img
+      <div class="btm" style="position: absolute; left: 0;">
+        <a class="click animate__animated animate__slower animate__heartBeat animate__infinite" href="./mot-du-president.html" style="color: white; display: flex; flex-direction: column; text-decoration: none; align-items: center; font-weight: 900; font-size: large; position: absolute; right: 100px;"><img
              src="./images/arrow.png"
-            width="80px" alt=""><p key="btn">Cliquez ici</p></a>
+            width="80px" style="transform: rotate(-90deg);" alt=""><p key="btn" class="mt-4">Mot du président</p></a>
       </div>
     </div>
   </div>
