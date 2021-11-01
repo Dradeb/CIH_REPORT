@@ -365,6 +365,11 @@ body {
   color: whitesmoke;
   background: linear-gradient(90deg, #0f548f 0%, #58b3a4 50%) !important;
 }
+.carousel.car8,
+.heading8 {
+  color: whitesmoke;
+  background: linear-gradient(90deg, #0f548f 0%, #00A1E4 50%) !important;
+}
 /* .carousel.car1 .titre {
   background: linear-gradient(90deg, #4ba4e379 0%, #1b59946c 50%) !important;
 }
