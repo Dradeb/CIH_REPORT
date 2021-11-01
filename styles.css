@@ -355,6 +355,13 @@ body {
   color: whitesmoke;
   background: linear-gradient(90deg, #1293a9 0%, #9eaebb 50%) !important;
 }
+.flickity-prev-next-button {
+  height: fit-content !important;
+  width: fit-content !important;
+}
+.previous {
+  transform: translateY(-50%) rotateY(180deg) !important;
+}
 .carousel.car6,
 .heading6 {
   color: whitesmoke;
