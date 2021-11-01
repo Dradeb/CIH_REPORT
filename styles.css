@@ -156,7 +156,22 @@ ul > li > a {
     }
   }
 }
+
 @media (max-width: 475px) {
+  .previ {
+    position: absolute;
+    z-index: 5000;
+    bottom: 50px;
+    left: 25px;
+  }
+  #myVideo2{
+    height: 100vh;
+    position: absolute;
+  }
+  .slider-item {
+    height: 100vh;
+  }
+  
   .overlay-scroll{
     display: none;
   }
