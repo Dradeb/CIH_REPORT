@@ -1,6 +1,9 @@
 /* Open when someone clicks on the span element */
 function openNav() {
-    if (document.getElementById("myNav").style.left == "-100%") {
+    if (document.getElementById("myNav").style.left != "-100%") {
+        document.getElementById("myNav").style.left = "-100%";
+        document.getElementsByClassName('sticky-top')[0].style.background = "#06033600";
+    } else if(document.getElementById("myNav").style.left == "-100%") {
         document.getElementById("myNav").style.left = "0%";
         document.getElementsByClassName('sticky-top')[0].style.background = "#080f29";
         var lang = localStorage.getItem("language") == "ar" ? "ar" : "fr";
@@ -9,9 +12,6 @@ function openNav() {
         icon.setAttribute("src", "./images/white.svg");
         $("#logo").attr("src", path2);
         bar.setAttribute("src", "./images/bar.png");
-    } else {
-        document.getElementById("myNav").style.left = "-100%";
-        document.getElementsByClassName('sticky-top')[0].style.background = "#06033600";
     }
 }
 
