@@ -23,6 +23,7 @@
 .nextarticlewrapper{
   overflow: hidden;
 }
+
 ul > li > a {
   font-family: "Cairoo" !important;
   font-weight: 900 !important;
@@ -37,7 +38,9 @@ ul > li > a {
 }
 
 @media (min-width: 476px) {
-  
+  .video-wrapper {
+    padding-top: 100px;
+  }
   .padd {
     padding-left: 150px !important;
     transition: all 1s;
