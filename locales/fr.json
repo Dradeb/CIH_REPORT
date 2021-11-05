@@ -6,7 +6,8 @@
     "04": "Environnement",
     "05": "Stratégie et gouvernance",
     "06": "Performance et valeur partagée",
-    "07" : "Rapport financier"
+    "07" : "Rapport financier",
+    "08" : "Réseau"
   },
   ".link": {
     "01": "mot du président",
@@ -15,7 +16,8 @@
     "04": "Environnement",
     "05": "stratégie et gouvernance",
     "06": "performance et valeur partagée",
-    "07" : "rapport financier"
+    "07" : "rapport financier",
+    "08" : "Réseau"
   },
   ".overlay-item": {
     "011": "Mot Du Président",
@@ -49,7 +51,8 @@
     "073": "Comptes Sociaux",
     "074": "Résolutions",
     "075": "Rapport D’audit Sur Les États Financiers Consolidés",
-    "076": "Comptes Consolidés"
+    "076": "Comptes Consolidés",
+    "081": "Réseau"
   },
   ".slider-item": {
     "011": "Mot du président",
@@ -83,7 +86,8 @@
     "073": "Comptes sociaux",
     "074": "Résolutions",
     "075": "Rapport d’audit sur <br> les états financiers consolidés",
-    "076": "Comptes consolidés"
+    "076": "Comptes consolidés",
+    "081": "Réseau"
   },
   ".over-text": {
     "1920": "Création de la Caisse de Prêts Immobiliers du Maroc (CPIM).",
