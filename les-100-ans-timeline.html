@@ -40,6 +40,7 @@
 </head>
 
 <body>
+  <a href="./environnement.html" id="next-ar"></a>
   <div id="particles-js"></div>
   <img src="./images/bar.png" id="bar" alt=""
    lo.ico style="position: fixed; left: 35px; top:35px; height: 95vh; z-index: 24;">
@@ -504,20 +505,35 @@
         Les 100 ans en Timeline
       </h1>
     </div>
-    <div class="carousel-cell d-flex flex-column w-100">
-
+    <div class="carousel-cell">
+      <video muted loop id="myVideo2" class="animate__animated animate__zoomIn w-md-100">
+        <source src="./images/videos/timeline.mp4" type="video/mp4">
+      </video>
+      <div class="container cell-cont" style="position: absolute;">
+        <div class="slider-item row w-100 h-100 d-flex flex-column justify-content-between">
+          <h1 dir="auto" key="031" class="titre animate__animated animate__fadeInUp p-3"
+            style="font-size: 50px; font-weight: 900; font-family: 'Cairoo'; position:relative; bottom: -100px;">
+            Timeline</h1>
+            <a href="./timeline.html" class="read" style="width: max-content; align-self: flex-end; text-decoration: none;">
+            <div class="slider-wrapper" style="left: 0%; transform: translate(0%,0%);">
+              <span key="read">en savoir plus</span>
+                  <img src="images/circ.svg" alt="" srcset="">
+                  <p key="read">en savoir plus</p>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script>
     LoadScripts();
-
     function LoadScripts(async) {
       if (async === undefined) {
         async = false;
       }
       var scripts = [];
-      var _scripts = ['https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', './script2.js'];
+      var _scripts = ['https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', './script.js'];
 
       if (async) {
         LoadScriptsAsync(_scripts, scripts)
@@ -525,7 +541,6 @@
         LoadScriptsSync(_scripts, scripts)
       }
     }
-
     // what you are looking for :
     function LoadScriptsSync(_scripts, scripts) {
 
@@ -543,14 +558,12 @@
       }
       loopArray(_scripts, scripts);
     }
-
     // async load as in your code
     function LoadScriptsAsync(_scripts, scripts) {
       for (var i = 0; i < _scripts.length; i++) {
         loadScript(_scripts[i], scripts[i], function () { });
       }
     }
-
     // load script function with callback to handle synchronicity 
     function loadScript(src, script, callback) {
 
@@ -566,21 +579,8 @@
       script.src = src;
       document.getElementsByTagName('head')[0].appendChild(script);
     }
-
-
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <script>
-
-    anime.timeline({ loop: false })
-      .add({
-        targets: '.ml6 .letter',
-        translateY: ["1.1em", 0],
-        translateZ: 0,
-        duration: 1000,
-        delay: (el, i) => 50 * i
-      });
-  </script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="jquery.MultiLanguage.min.js"></script>
