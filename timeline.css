@@ -224,9 +224,15 @@
   }
 }
 @media screen and (min-width: 601px){
+  #nxt{
+    display: none;
+  }
     .timeline-container{padding: 0px 0px 0px 70px !important;}
 }
 @media screen and (max-width: 600px) {
+  #slideright{
+    display: none !important;
+  }
   .timeline-content {
     width: 100%;
     height: fit-content;

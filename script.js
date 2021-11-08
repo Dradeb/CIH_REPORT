@@ -24,12 +24,10 @@ var length = document.getElementsByClassName("carousel-cell").length;
 
 prv.addEventListener("click", ()=>{
     length+=1;
-    console.log(length)
     document.body.removeChild(a)
 })
 nxt.addEventListener("click", ()=>{
     length-=1
-    console.log(length)
     if (length == 1) {
         document.body.appendChild(a)
     }
