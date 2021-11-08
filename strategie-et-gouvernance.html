@@ -101,6 +101,7 @@
 
 <body style="position: relative;">
   <div id="Body">
+    <a href="./performance.html" id="next-ar"></a>
     <a id="back" href="./strategie-et-gouvernance.html"><img src="./images/back.svg" width="100px" alt=""
         style="position: fixed; top:50%; transform: translateY(-50%); left: 100px; z-index: 100;"></a>
     <img src="./images/bar.png" id="bar" alt=""
@@ -657,66 +658,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
       </script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script>
-      LoadScripts();
-
-      function LoadScripts(async) {
-        if (async === undefined) {
-          async = false;
-        }
-        var scripts = [];
-        var _scripts = ['https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', './script.js'];
-
-        if (async) {
-          LoadScriptsAsync(_scripts, scripts)
-        } else {
-          LoadScriptsSync(_scripts, scripts)
-        }
-      }
-
-      // what you are looking for :
-      function LoadScriptsSync(_scripts, scripts) {
-
-        var x = 0;
-        var loopArray = function (_scripts, scripts) {
-          // call itself
-          loadScript(_scripts[x], scripts[x], function () {
-            // set x to next item
-            x++;
-            // any more items in array?
-            if (x < _scripts.length) {
-              loopArray(_scripts, scripts);
-            }
-          });
-        }
-        loopArray(_scripts, scripts);
-      }
-
-      // async load as in your code
-      function LoadScriptsAsync(_scripts, scripts) {
-        for (var i = 0; i < _scripts.length; i++) {
-          loadScript(_scripts[i], scripts[i], function () { });
-        }
-      }
-
-      // load script function with callback to handle synchronicity 
-      function loadScript(src, script, callback) {
-
-        script = document.createElement('script');
-        script.onerror = function () {
-          // handling error when loading script
-          alert('Error to handle')
-        }
-        script.onload = function () {
-          console.log(src + ' loaded ')
-          callback();
-        }
-        script.src = src;
-        document.getElementsByTagName('head')[0].appendChild(script);
-      }
-
-
+    <script src="./load.js">
+      
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
