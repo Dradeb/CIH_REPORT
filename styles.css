@@ -38,6 +38,9 @@ ul > li > a {
 }
 
 @media (min-width: 476px) {
+  #nxt{
+    display: none;
+  }
   .video-wrapper {
     padding-top: 100px;
   }
@@ -158,6 +161,9 @@ ul > li > a {
 }
 
 @media (max-width: 475px) {
+  .mdp {
+    height:90% !important;
+  }
   .previ {
     position: absolute;
     z-index: 5000;
@@ -652,6 +658,7 @@ body {
 
 
 @media (max-width: 475px) {
+  
   .inner-wrapper{
     width: 100vw;
     height: 100vh;
