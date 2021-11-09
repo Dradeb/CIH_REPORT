@@ -53,7 +53,8 @@
     "074": "Resolutions",
     "075": "Audit report on the consolidated financial statements",
     "076": "CONSOLIDATED accounts",
-    "081" : "Our Branch Network"
+    "081" : "Our Branch Network",
+    "082": "Branch Network And New Openings"
   },
   ".slider-item": {
     "011": "Word of the president",
@@ -88,7 +89,8 @@
     "074": "Resolutions",
     "075": "Audit report on the consolidated financial statements",
     "076": "CONSOLIDATED accounts",
-    "081" : "Our Branch Network"
+    "081" : "Our Branch Network",
+    "082": "Branch Network And New Openings"
   },
   ".over-text": {
     "1920": "Creation of the Caisse de Prêts Immobiliers du Maroc (CPIM). ",
