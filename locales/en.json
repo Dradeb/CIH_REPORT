@@ -274,6 +274,9 @@
     "78": "Outlook 2021",
     "79": "CIH BANK is currently negotiating financing lines for energy efficiency and renewable energy projects for the benefit of SMEs. The bank is also in the process of structuring the financial package for two large wind power projects with a combined capacity of 162 Megawatts for a total amount of MAD 2.7 billion. A hydroelectric project is also under study for a financing amount of MAD 260 million."
   },
+  ".res-chiffre" :{
+    "01" : "<img src='./images/network.svg' width='100%' alt=''>"
+  },
 
   ".slider-wrapper2" : {
     "read" : "Read more",
