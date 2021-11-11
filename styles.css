@@ -659,7 +659,9 @@ body {
 
 
 @media (max-width: 475px) {
-  
+  .flickity-page-dots {
+    bottom: 75px;
+  }
   .inner-wrapper{
     width: 100vw;
     height: 100vh;
