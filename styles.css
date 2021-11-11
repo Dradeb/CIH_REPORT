@@ -38,6 +38,13 @@ ul > li > a {
 }
 
 @media (min-width: 476px) {
+  .mp{
+    width: 70%;
+  }
+  .scroll {
+    overflow-y: scroll;
+    height: 90vh !important;
+}
   #nxt{
     display: none;
   }
