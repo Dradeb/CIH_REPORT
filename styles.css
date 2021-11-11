@@ -773,7 +773,7 @@ body {
 
  .nextarticlewrapper{
     position :relative; 
-    z-index: -3; 
+    z-index: 0; 
     min-height: 100vh; 
     background-color: #1ab09700; 
     width: 100vw; 
