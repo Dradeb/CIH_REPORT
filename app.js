@@ -2,12 +2,7 @@
     function scro(name){
         document.getElementsByClassName(name)[0].scrollBy(415, 0);
       }
-      if (window.innerWidth <= 600) {
-          var navs = document.querySelectorAll(".overlay-content .row.d-flex");
-          for(var n in navs){
-              navs[n].scrollBy(80, 0)
-          }
-      }
+    
 $(document).ready(function(){
     // Must change script position in main files 
     let searchParams = new URLSearchParams(window.location.search);
