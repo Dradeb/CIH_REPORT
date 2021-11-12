@@ -12,6 +12,12 @@ function openNav() {
         icon.setAttribute("src", "./images/white.svg");
         $("#logo").attr("src", path2);
         bar.setAttribute("src", "./images/bar.png");
+        if (window.innerWidth <= 600) {
+            var navs = document.querySelectorAll(".overlay-content .row.d-flex");
+            for(var n in navs){
+                navs[n].scrollTo(80, 0)
+            }
+        }
     }
 }
 
