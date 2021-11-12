@@ -481,13 +481,15 @@ body {
 .carousel-cell svg {
   display: none;
 }
-
+.titre{
+  background-color: #00a0e463;
+}
 .carousel-cell.is-selected h1,
 .carousel-cell.is-selected a,
 .carousel-cell.is-selected .read,
 .carousel-cell.is-selected svg {
   display: block;
-  color: white;
+  color: whitesmoke;
 }
 
 @media screen and (min-width: 768px) {
