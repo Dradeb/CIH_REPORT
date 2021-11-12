@@ -38,6 +38,12 @@ ul > li > a {
 }
 
 @media (min-width: 476px) {
+  .overlay-scroll{
+    display: none;
+  }
+  .env-nav .overlay-scroll, .perf-nav .overlay-scroll {
+    display: block;
+  }
   .mp{
     width: 70%;
   }
