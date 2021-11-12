@@ -17,10 +17,15 @@
     .container {
       padding-top: 100px
     }
-    .c{
-      padding-top: 100px !important;
+    @media screen and (min-width: 475px) {
+      .c{
+        padding: 100px !important;
+      }
     }
     @media screen and (max-width: 475px) {
+      .c{
+        padding-top: 100px !important;
+      }
       .container {
         padding: 100px
       }
