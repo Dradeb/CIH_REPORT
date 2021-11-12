@@ -168,6 +168,9 @@ ul > li > a {
 }
 
 @media (max-width: 475px) {
+  .mdp-nav, .env-nav, .time-nav, .strat-nav, .perf-nav, .chiff-nav, .rap-nav, .res-nav {
+    align-items: center;
+  }
   .mdp {
     height:90% !important;
   }
@@ -187,7 +190,7 @@ ul > li > a {
   }
   
   .overlay-scroll{
-    display: none;
+    margin: auto;
   }
   .pre {
     width: 100% !important;

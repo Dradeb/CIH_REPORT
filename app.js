@@ -1,6 +1,6 @@
 
     function scro(name){
-        document.getElementsByClassName(name)[0].scrollTo(2500, 0);
+        document.getElementsByClassName(name)[0].scrollBy(415, 0);
       }
 $(document).ready(function(){
     // Must change script position in main files 
