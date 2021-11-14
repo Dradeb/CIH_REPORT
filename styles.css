@@ -494,7 +494,7 @@ body {
   display: none;
 }
 .titre{
-  background-color: #00a0e463;
+background: linear-gradient(90deg, rgba(0, 0, 0, 0.15) 25% , rgba(0, 0, 0, 0.1) 75%);
 }
 .carousel-cell.is-selected h1,
 .carousel-cell.is-selected a,
