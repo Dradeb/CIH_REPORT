@@ -74,8 +74,11 @@ if($("#particles-js") != null)
 
 }
 
-
+var t = $(".titre");
 function hello(i, filePath) {
+    t.animate({
+        display: 'none'
+      });
     $("#particles-js canvas").css("display", "none");
     if(window.innerWidth <= 476) {
         $(".is-selected .slider-item").removeClass("justify-content-between").addClass("justify-content-center").css("margin-top", "-100px");

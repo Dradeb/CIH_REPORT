@@ -343,9 +343,7 @@ ul > li > a {
   }
 }
 
-.carousel-cell video {
-  opacity: 0.8 !important;
-}
+
 
 #particles-js {
   position: absolute;
