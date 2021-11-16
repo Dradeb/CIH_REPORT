@@ -484,7 +484,14 @@ body {
   filter: none;
   filter: drop-shadow(8px 8px 10px rgb(7, 4, 4));
 }
-
+.nextarticle {
+  text-shadow: 1px 1px #073968 !important;
+}
+.strat-chiffre, .perf-chiffre, .env-chiffre{
+  font-size: 25px;
+  font-weight: 900;
+  font-family: Cairo;
+}
 .carousel-cell h1,
 .carousel-cell a,
 .carousel-cell .read,
@@ -492,7 +499,7 @@ body {
   display: none;
 }
 .titre{
-background: linear-gradient(90deg, rgba(0, 0, 0, 0.15) 25% , rgba(0, 0, 0, 0.1) 75%);
+  text-shadow: 2px 2px #073968;
 }
 .carousel-cell.is-selected h1,
 .carousel-cell.is-selected a,
