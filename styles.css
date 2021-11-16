@@ -492,6 +492,10 @@ body {
   font-weight: 900;
   font-family: Cairo;
 }
+.strat-chiffre p, .perf-chiffre p, .env-chiffre p {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
 .carousel-cell h1,
 .carousel-cell a,
 .carousel-cell .read,
