@@ -136,7 +136,13 @@ function hello(i, filePath) {
     var vid = document.getElementById("myVideo" + i);
     //var caro = document.getElementsByClassName("carousel")[0];
     vid.classList.add("bgvid");
-
+    if(window.innerWidth <= 476) {
+        var video1 = $(".is-selected video")
+        var video2 = $(".nextarticlewrapper video")
+            console.log(video1, video2)    
+        video1.addClass('vh-100')
+        video2.addClass("vh-100")
+    }
 
     vid.play();
     function loadDoc() {
