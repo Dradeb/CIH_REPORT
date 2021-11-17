@@ -175,7 +175,7 @@ ul > li > a {
 
 @media (max-width: 475px) {
   .is-selected video, .nextarticlewrapper video{
-    height: 100vh;
+    height: 100vh !important;
   }
   .overlay-scroll{
     display: none;
