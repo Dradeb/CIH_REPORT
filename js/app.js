@@ -73,7 +73,9 @@ if($("#particles-js") != null)
     });
 
 }
-
+if(window.innerWidth <= 700) {
+    $('video').attr("autoplay"," ");
+}
 function hello(i, filePath) {
     
     $("#particles-js canvas").css("display", "none");
