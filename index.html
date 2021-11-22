@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="../js/particles.js"></script>
+  <script src="./js/particles.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <title>CIH BANK Report</title>
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <style>
     * {
       margin: 0;
@@ -19,7 +19,7 @@
     }
     body {
       background-image: linear-gradient(to bottom, #172157a9, #384485c0),
-        url('../images/meeting.jpg');
+        url('./images/meeting.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -37,8 +37,8 @@
       }
     }
   </style>
-  <link rel="stylesheet" href="../nav/style.css">
-  <script src="../nav/script.js"></script>
+  <link rel="stylesheet" href="./nav/style.css">
+  <script src="./nav/script.js"></script>
   <style>
     @media screen and (max-width: 475px) {
       .btm {
@@ -72,18 +72,18 @@
       z-index: 2;
     }
   </style>
-  <link rel="shortcut icon" href="../images/lo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./images/lo.ico" type="image/x-icon">
 </head>
 <body>
-  <a id="nxt" href="../pages/mot-du-president.html" style="position: fixed; left: 50%; transform: translateX(-50%);bottom: 20px; z-index: 1000; text-decoration: none;" id="next-ar"><div class='animate__animated animate__pulse animate__infinite' style='position: relative; border-radius: 200px;  display:flex; justify-content: center; flex-direction: column; align-items:center;color:white; font-weight:700; height:100px'><img src='../images/next.svg' class='animate__animated animate__pulse animate__infinite nxt' height='60%' />Mot du président</div></a>
+  <a id="nxt" href="./pages/mot-du-president.html" style="position: fixed; left: 50%; transform: translateX(-50%);bottom: 20px; z-index: 1000; text-decoration: none;" id="next-ar"><div class='animate__animated animate__pulse animate__infinite' style='position: relative; border-radius: 200px;  display:flex; justify-content: center; flex-direction: column; align-items:center;color:white; font-weight:700; height:100px'><img src='../images/next.svg' class='animate__animated animate__pulse animate__infinite nxt' height='60%' />Mot du président</div></a>
   <nav class="navbar sticky-top" style="position: fixed; left: 0; right: 0">
     <div class="container-fluid">
-      <a href="#" class="navbar-brand d-flex align-items-center pt-3"><div key="logo"><img id="logo" src="../images/fr/Asset 3.png" height="40px" alt="" /></div>
+      <a href="#" class="navbar-brand d-flex align-items-center pt-3"><div key="logo"><img id="logo" src="./images/fr/Asset 3.png" height="40px" alt="" /></div>
         <form class="d-flex align-items-center">
           <a id="btn" class="btn" style="font-weight: 700; font-size: small; color: white;"><span
               onclick="setLanguage('fr')" title="Français">FR</span> / <span onclick="setLanguage('ar')"
               title="العربية">AR</span> / <span onclick="setLanguage('en')" title="English">EN</span></a>
-          <img id="icon" onclick="openNav()" width="40px" height="40px" src="../images/white.svg" alt=""
+          <img id="icon" onclick="openNav()" width="40px" height="40px" src="./images/white.svg" alt=""
             style="cursor:pointer;">
         </form>
     </div>
@@ -94,15 +94,15 @@
         <div class="container">
             <div class="row d-flex mdp-nav" style="flex-wrap: nowrap; overflow-x: scroll;">
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/mot-du-president.html">
-                        <img style="width: 50%; margin-bottom: 20px;" src="../images/numbers/01-animated.svg"
+                    <a class="overlay-item" href="./pages/mot-du-president.html">
+                        <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/01-animated.svg"
                             alt="">
                         <h6 key="011" style="color: whitesmoke;">Mot du président</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../president.html">
-                        <img style="width: 100%;" src="../images/nav/pre.PNG">
+                    <a class="overlay-item" href="./president.html">
+                        <img style="width: 100%;" src="./images/nav/pre.PNG">
                         <h6 key="012"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Mot du président</h6>
@@ -110,20 +110,20 @@
                 </div>
                 <img class="overlay-scroll animate__animated animate__infinite animate__shakeX animate__slower" onclick="scro('mdp-nav')"
                     style="position: absolute; right: 0px; width: 80px !important; cursor: pointer;"
-                    src="../images/next.png" alt="">
+                    src="./images/next.png" alt="">
             </div>
             <div class="row d-flex chiff-nav" style="flex-wrap: nowrap; overflow-x: scroll;">
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/cih-bank-en-bref.html">
+                    <a class="overlay-item" href="./pages/cih-bank-en-bref.html">
 
-                        <img style="width: 50%; margin-bottom: 20px;" src="../images/numbers/02-animated.svg"
+                        <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/02-animated.svg"
                             alt="">
                         <h6 key="021" style="color: whitesmoke;">CIH BANK EN BREF</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/cih-bank-en-bref.html?article=1">
-                        <img src="../images/nav/25.png" width="100%" alt="">
+                    <a class="overlay-item" href="./pages/cih-bank-en-bref.html?article=1">
+                        <img src="./images/nav/25.png" width="100%" alt="">
                         <h6 key="022"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Chiffres
@@ -132,20 +132,20 @@
                 </div>
                 <img class="overlay-scroll animate__animated animate__infinite animate__shakeX animate__slower" onclick="scro('chiff-nav')"
                     style="position: absolute; right: 0px; width: 80px !important; cursor: pointer;"
-                    src="../images/next.png" alt="">
+                    src="./images/next.png" alt="">
             </div>
             <div class="row d-flex time-nav" style="flex-wrap: nowrap; overflow-x: scroll;">
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/les-100-ans-timeline.html">
+                    <a class="overlay-item" href="./pages/les-100-ans-timeline.html">
 
-                        <img style="width: 50%; margin-bottom: 20px;" src="../images/numbers/03-animated.svg"
+                        <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/03-animated.svg"
                             alt="">
                         <h6 key="031" style="color: whitesmoke;">LES 100 ANS EN TIMELINE</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/timeline.html">
-                        <img style="width: 100%;" src="../images/timeline.png">
+                    <a class="overlay-item" href="./pages/timeline.html">
+                        <img style="width: 100%;" src="./images/timeline.png">
                         <h6 key="032"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Timeline</h6>
@@ -153,29 +153,29 @@
                 </div>
                 <img class="overlay-scroll animate__animated animate__infinite animate__shakeX animate__slower" onclick="scro('time-nav')"
                     style="position: absolute; right: 0px; width: 80px !important; cursor: pointer;"
-                    src="../images/next.png" alt="">
+                    src="./images/next.png" alt="">
             </div>
             <div class="row d-flex env-nav" style="flex-wrap: nowrap; overflow-x: scroll;">
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/environnement.html">
+                    <a class="overlay-item" href="./pages/environnement.html">
 
-                        <img style="width: 50%; margin-bottom: 20px;" src="../images/numbers/04-animated.svg"
+                        <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/04-animated.svg"
                             alt="">
                         <h6 key="041" style="color: whitesmoke;">Environnement</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/environnement.html?article=1">
-                        <img src="../images/nav/1.png" width="100%" alt="">
+                    <a class="overlay-item" href="./pages/environnement.html?article=1">
+                        <img src="./images/nav/1.png" width="100%" alt="">
                         <h6 key="042"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Environnement</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/environnement.html?article=2">
+                    <a class="overlay-item" href="./pages/environnement.html?article=2">
 
-                        <img src="../images/nav/19.png" width="100%" alt="">
+                        <img src="./images/nav/19.png" width="100%" alt="">
                         <h6 key="043"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Environnement <br>
@@ -184,9 +184,9 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/environnement.html?article=3">
+                    <a class="overlay-item" href="./pages/environnement.html?article=3">
 
-                        <img src="../images/nav/22.png" width="100%" alt="">
+                        <img src="./images/nav/22.png" width="100%" alt="">
                         <h6 key="044"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Environnement <br>
@@ -195,9 +195,9 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/environnement.html?article=4">
+                    <a class="overlay-item" href="./pages/environnement.html?article=4">
 
-                        <img src="../images/nav/8.png" width="100%" alt="">
+                        <img src="./images/nav/8.png" width="100%" alt="">
                         <h6 key="045"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Secteur
@@ -205,9 +205,9 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/environnement.html?article=5">
+                    <a class="overlay-item" href="./pages/environnement.html?article=5">
 
-                        <img src="../images/nav/13.png" width="100%" alt="">
+                        <img src="./images/nav/13.png" width="100%" alt="">
                         <h6 key="046"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Environnement bancaire et marchés
@@ -215,9 +215,9 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/environnement.html?article=6">
+                    <a class="overlay-item" href="./pages/environnement.html?article=6">
 
-                        <img src="../images/nav/10.png" width="100%" alt="">
+                        <img src="./images/nav/10.png" width="100%" alt="">
                         <h6 key="047"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Marché
@@ -226,30 +226,30 @@
                 </div>
                 <img onclick="scro('env-nav')" class="overlay-scroll animate__animated animate__infinite animate__shakeX animate__slower"
                     style="position: absolute; right: 0; width: 80px !important; cursor: pointer;"
-                    src="../images/next.png" alt="">
+                    src="./images/next.png" alt="">
             </div>
             <div class="row d-flex strat-nav" style="flex-wrap: nowrap; overflow-x: scroll;">
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/strategie-et-gouvernance.html">
+                    <a class="overlay-item" href="./pages/strategie-et-gouvernance.html">
 
-                        <img style="width: 50%; margin-bottom: 20px;" src="../images/numbers/05-animated.svg"
+                        <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/05-animated.svg"
                             alt="">
                         <h6 key="051" style="color: whitesmoke;">Stratégie et gouvernance</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/strategie-et-gouvernance.html?article=1">
+                    <a class="overlay-item" href="./pages/strategie-et-gouvernance.html?article=1">
 
-                        <img src="../images/nav/5.png" width="100%" alt="">
+                        <img src="./images/nav/5.png" width="100%" alt="">
                         <h6 key="052"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Gouvernance RSE</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/strategie-et-gouvernance.html?article=2">
+                    <a class="overlay-item" href="./pages/strategie-et-gouvernance.html?article=2">
 
-                        <img src="../images/nav/2.png" width="100%" alt="">
+                        <img src="./images/nav/2.png" width="100%" alt="">
                         <h6 key="053"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Éthique
@@ -258,18 +258,18 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/strategie-et-gouvernance.html?article=3">
+                    <a class="overlay-item" href="./pages/strategie-et-gouvernance.html?article=3">
 
-                        <img src="../images/nav/23.png" width="100%" alt="">
+                        <img src="./images/nav/23.png" width="100%" alt="">
                         <h6 key="054"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Médiation interne</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/strategie-et-gouvernance.html?article=4">
+                    <a class="overlay-item" href="./pages/strategie-et-gouvernance.html?article=4">
 
-                        <img src="../images/nav/16.png" width="100%" alt="">
+                        <img src="./images/nav/16.png" width="100%" alt="">
                         <h6 key="055"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Système
@@ -278,20 +278,20 @@
                 </div>
                 <img class="overlay-scroll animate__animated animate__infinite animate__shakeX animate__slower" onclick="scro('strat-nav')"
                     style="position: absolute; right: 0px; width: 80px !important; cursor: pointer;"
-                    src="../images/next.png" alt="">
+                    src="./images/next.png" alt="">
             </div>
             <div class="row d-flex perf-nav" style="flex-wrap: nowrap; overflow-x: scroll;">
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/performance.html">
-                        <img style="width: 50%; margin-bottom: 20px;" src="../images/numbers/06-animated.svg"
+                    <a class="overlay-item" href="./pages/performance.html">
+                        <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/06-animated.svg"
                             alt="">
                         <h6 key="061" style="color: whitesmoke;">Performance et valeur partagée</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/performance.html?article=1">
+                    <a class="overlay-item" href="./pages/performance.html?article=1">
 
-                        <img src="../images/nav/7.png" width="100%" alt="">
+                        <img src="./images/nav/7.png" width="100%" alt="">
                         <h6 key="062"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Faciliter <br>
@@ -299,9 +299,9 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/performance.html?article=2">
+                    <a class="overlay-item" href="./pages/performance.html?article=2">
 
-                        <img src="../images/nav/9.png" width="100%" alt="">
+                        <img src="./images/nav/9.png" width="100%" alt="">
                         <h6 key="063"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Tarification juste <br>
@@ -309,9 +309,9 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/performance.html?article=3">
+                    <a class="overlay-item" href="./pages/performance.html?article=3">
 
-                        <img src="../images/nav/24.png" width="100%" alt="">
+                        <img src="./images/nav/24.png" width="100%" alt="">
                         <h6 key="064"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Service
@@ -320,18 +320,18 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/performance.html?article=4">
+                    <a class="overlay-item" href="./pages/performance.html?article=4">
 
-                        <img src="../images/nav/17.png" width="100%" alt="">
+                        <img src="./images/nav/17.png" width="100%" alt="">
                         <h6 key="065"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Innovation</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/performance.html?article=5">
+                    <a class="overlay-item" href="./pages/performance.html?article=5">
 
-                        <img src="../images/nav/14.png" width="100%" alt="">
+                        <img src="./images/nav/14.png" width="100%" alt="">
                         <h6 key="066"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Capital
@@ -339,9 +339,9 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/performance.html?article=6">
+                    <a class="overlay-item" href="./pages/performance.html?article=6">
 
-                        <img src="../images/nav/6.png" width="100%" alt="">
+                        <img src="./images/nav/6.png" width="100%" alt="">
                         <h6 key="067"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Actions
@@ -350,9 +350,9 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/performance.html?article=7">
+                    <a class="overlay-item" href="./pages/performance.html?article=7">
 
-                        <img src="../images/nav/15.png" width="100%" alt="">
+                        <img src="./images/nav/15.png" width="100%" alt="">
                         <h6 key="068"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Contribuer à limiter <br>
@@ -362,21 +362,21 @@
                 </div>
                 <img class="overlay-scroll animate__animated animate__infinite animate__shakeX animate__slower" onclick="scro('perf-nav')"
                     style="position: absolute; right: 0px; width: 80px !important; cursor: pointer;"
-                    src="../images/next.png" alt="">
+                    src="./images/next.png" alt="">
             </div>
             <div class="row d-flex rap-nav" style="flex-wrap: nowrap; overflow-x: scroll;">
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/rapport-financier.html">
+                    <a class="overlay-item" href="./pages/rapport-financier.html">
 
-                        <img style="width: 50%; margin-bottom: 20px;" src="../images/numbers/07-animated.svg"
+                        <img style="width: 50%; margin-bottom: 20px;" src="./images/numbers/07-animated.svg"
                             alt="">
                         <h6 key="071" style="color: whitesmoke;">Rapport financier</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/rapport-financier.html?article=1">
+                    <a class="overlay-item" href="./pages/rapport-financier.html?article=1">
 
-                        <img src="../images/nav/20.png" width="100%" alt="">
+                        <img src="./images/nav/20.png" width="100%" alt="">
                         <h6 key="072"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Rapport
@@ -385,9 +385,9 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/rapport-financier.html?article=2">
+                    <a class="overlay-item" href="./pages/rapport-financier.html?article=2">
 
-                        <img src="../images/nav/18.png" width="100%" alt="">
+                        <img src="./images/nav/18.png" width="100%" alt="">
                         <h6 key="073"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Comptes
@@ -395,18 +395,18 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/rapport-financier.html?article=3">
+                    <a class="overlay-item" href="./pages/rapport-financier.html?article=3">
 
-                        <img src="../images/nav/4.png" width="100%" alt="">
+                        <img src="./images/nav/4.png" width="100%" alt="">
                         <h6 key="074"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Résolutions</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/rapport-financier.html?article=4">
+                    <a class="overlay-item" href="./pages/rapport-financier.html?article=4">
 
-                        <img src="../images/nav/12.png" width="100%" alt="">
+                        <img src="./images/nav/12.png" width="100%" alt="">
                         <h6 key="075"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Rapport
@@ -416,9 +416,9 @@
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/rapport-financier.html?article=5">
+                    <a class="overlay-item" href="./pages/rapport-financier.html?article=5">
 
-                        <img src="../images/nav/3.png" width="100%" alt="">
+                        <img src="./images/nav/3.png" width="100%" alt="">
                         <h6 key="076"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Comptes
@@ -427,18 +427,18 @@
                 </div>
                 <img class="overlay-scroll animate__animated animate__infinite animate__shakeX animate__slower" onclick="scro('rap-nav')"
                     style="position: absolute; right: 0px; width: 80px !important; cursor: pointer;"
-                    src="../images/next.png" alt="">
+                    src="./images/next.png" alt="">
             </div>
             <div class="row d-flex res-nav" style="flex-wrap: nowrap; overflow-x: scroll;">
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/reseau.html"><img style="width: 50%; margin-bottom: 20px;"
-                            src="../images/numbers/08-animated.svg" alt="">
+                    <a class="overlay-item" href="./pages/reseau.html"><img style="width: 50%; margin-bottom: 20px;"
+                            src="./images/numbers/08-animated.svg" alt="">
                         <h6 key="081" style="color: whitesmoke;">RÉSEAU</h6>
                     </a>
                 </div>
                 <div class="col-md-2 mb-4 nav-img">
-                    <a class="overlay-item" href="../pages/reseau.html?article=1">
-                        <img src="../images/nav/21.png" width="100%" alt="">
+                    <a class="overlay-item" href="./pages/reseau.html?article=1">
+                        <img src="./images/nav/21.png" width="100%" alt="">
                         <h6 key="082"
                             style="color: whitesmoke; position: absolute; top: 20%; text-align: left; left: 0; font-size: 25px; font-weight: bold;">
                             Nouvelles ouvertures
@@ -447,7 +447,7 @@
                 </div>
                 <img class="overlay-scroll animate__animated animate__infinite animate__shakeX animate__slower" onclick="scro('res-nav')"
                     style="position: absolute; right: 0px; width: 80px !important; cursor: pointer;"
-                    src="../images/next.png" alt="">
+                    src="./images/next.png" alt="">
             </div>
         </div>
     </div>
@@ -462,40 +462,40 @@
       ">
       <ul class="navigatee d-flex flex-column justify-content-center" style="position: absolute; height: 100vh;">
         <li class="nav-item navii-item">
-          <a class="link" href="../pages/mot-du-president.html">
+          <a class="link" href="./pages/mot-du-president.html">
             <span>01</span><span class="span" dir="auto" key="01">mot du président</span>
           </a>
         </li>
         <li class="nav-item navii-item">
-          <a class="link" href="../pages/cih-bank-en-bref.html"><span>02</span><span class="span" dir="auto" key="02">CIH BANK
+          <a class="link" href="./pages/cih-bank-en-bref.html"><span>02</span><span class="span" dir="auto" key="02">CIH BANK
               EN
               BREF</span></a>
         </li>
         <li class="nav-item navii-item">
-          <a class="link" href="../pages/les-100-ans-timeline.html"><span>03</span><span class="span" dir="auto" key="03">LES
+          <a class="link" href="./pages/les-100-ans-timeline.html"><span>03</span><span class="span" dir="auto" key="03">LES
               100 ANS
               EN
               TIMELINE</span></a>
         </li>
         <li class="nav-item navii-item">
-          <a class="link" href="../pages/environnement.html"><span>04</span><span class="span" dir="auto"
+          <a class="link" href="./pages/environnement.html"><span>04</span><span class="span" dir="auto"
               key="04">Environnement</span></a>
         </li>
         <li class="nav-item navii-item">
-          <a class="link" href="../pages/strategie-et-gouvernance.html"><span>05</span><span class="span" dir="auto"
+          <a class="link" href="./pages/strategie-et-gouvernance.html"><span>05</span><span class="span" dir="auto"
               key="05">stratégie et
               gouvernance</span></a>
         </li>
         <li class="nav-item navii-item">
-          <a class="link" href="../pages/performance.html"><span>06</span><span class="span" dir="auto"
+          <a class="link" href="./pages/performance.html"><span>06</span><span class="span" dir="auto"
               key="06">performance et valeur
               partagée</span></a>
         </li>
         <li class="nav-item navii-item">
-          <a class="link" href="../pages/rapport-financier.html"><span>07</span><span class="span" dir="auto" key="07">rapport financier</span></a>
+          <a class="link" href="./pages/rapport-financier.html"><span>07</span><span class="span" dir="auto" key="07">rapport financier</span></a>
         </li>
         <li class="nav-item navii-item">
-          <a class="link" href="../pages/reseau.html"><span>08</span><span class="span" dir="auto" key="08">RÉSEAU</span></a>
+          <a class="link" href="./pages/reseau.html"><span>08</span><span class="span" dir="auto" key="08">RÉSEAU</span></a>
         </li>
       </ul>
     </div>
@@ -503,13 +503,13 @@
   <div class="container text-center h-100 ">
     <div class="row d-flex align-items-center h-100">
       <div class="col-10 mx-auto" key="index-image">
-        <img src="../images/index-fr.png"  id="img">
+        <img src="./images/index-fr.png"  id="img">
       </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="../js/jquery.MultiLanguage.min.js"></script>
-  <script src="../js/app.js"></script>
+  <script src="./js/languages.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 </html>
