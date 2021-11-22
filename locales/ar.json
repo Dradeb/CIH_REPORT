@@ -318,7 +318,7 @@
   ".row" : {
     "pics" : "<img src=\"../images/ar/env5.png\" width=\"100%\" alt=\"\">",
     "table" : "<img src=\"../images/ar/table.png\" width=\"100%\" alt=\"\">",
-    "index-image" : "<img src=\"../images/index-ar.png\"  id=\"img\">"
+    "index-image" : "<img src=\"./images/index-ar.png\"  id=\"img\">"
   },
   ".click" : {
     "btn":"كلمة سيد الرئيس"
