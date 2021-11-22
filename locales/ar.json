@@ -313,7 +313,8 @@
     "9" : "<img src='../images/graphs/CIH-GRAF-VA-9.gif' class='w-100' alt=''>"
   },
   ".navbar-brand" :  {
-    "logo" : "<img id=\"logo\" src=\"../images/ar/Asset 3.png\" height=\"40px\" alt=\"\" />"
+    "logo" : "<img id=\"logo\" src=\"../images/ar/Asset 3.png\" height=\"40px\" alt=\"\" />",
+    "logo2" : "<img id=\"logo\" src=\"./images/ar/Asset 3.png\" height=\"40px\" alt=\"\" />"
   },
   ".row" : {
     "pics" : "<img src=\"../images/ar/env5.png\" width=\"100%\" alt=\"\">",

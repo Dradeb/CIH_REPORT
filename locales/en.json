@@ -302,7 +302,8 @@
     "9" : "<img src='../images/graphs/9.gif' class='w-100' alt=''>"
   },
   ".navbar-brand" :  {
-    "logo" : "<img id=\"logo\" src=\"../images/fr/Asset 3.png\" height=\"40px\" alt=\"\" />"
+    "logo" : "<img id=\"logo\" src=\"../images/fr/Asset 3.png\" height=\"40px\" alt=\"\" />",
+    "logo2" : "<img id=\"logo\" src=\"./images/fr/Asset 3.png\" height=\"40px\" alt=\"\" />"
   },
   ".row" : {
     "pics" : "<img src=\"../images/fr/env5.png\" width=\"100%\" alt=\"\">",
