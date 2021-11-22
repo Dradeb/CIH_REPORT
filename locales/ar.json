@@ -336,5 +336,8 @@
     "10" : "<img src='../images/rapp/ar/12.svg' class='d-block w-100' alt='...'>",
     "11" : "<img src='../images/rapp/ar/13.svg' class='d-block w-100' alt='...'><img src='../images/rapp/ar/14.svg' class='d-block w-100 mt-5' alt='...'>",
     "12" : "<img src='../images/rapp/ar/15.svg' class='d-block w-100' alt='...'>"
+  },
+  ".nt" : {
+    "nxt" : "الفصل الموالي"
   }
 }

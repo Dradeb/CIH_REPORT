@@ -4,7 +4,7 @@ var next = document.getElementsByClassName("next")[0];
 var prev = document.getElementsByClassName("previous")[0];
 next.innerHTML = el;
 prev.innerHTML = el2;
-var el3 = "<div class='animate__animated animate__pulse animate__infinite' style='position: relative; border-radius: 200px;  display:flex; justify-content: center; flex-direction: column; align-items:center;color:white; font-weight:700; width:100px; height:100px'><img src='../images/next.svg' class='animate__animated animate__pulse animate__infinite nxt' height='60%' /></div>"
+var el3 = "<div class='animate__animated animate__pulse animate__infinite nt' style='position: relative; border-radius: 200px;  display:flex; justify-content: center; flex-direction: column; align-items:center;color:white; font-weight:700; width:100px; height:100px'><img src='../images/next.svg' class='animate__animated animate__pulse animate__infinite nxt' height='60%' /><p class='text-center' key='nxt'>Chapitre suivant</p></div>"
 var nxt = document.getElementsByClassName("nxt")[0];
 var prv = document.getElementsByClassName("prv")[0];
 var div = document.createElement("div")
