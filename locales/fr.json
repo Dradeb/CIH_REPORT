@@ -123,11 +123,11 @@
   },
   ".env": {
     "t1": "Une crise internationale sans précédent",
-    "11": "L’année 2020 a été marquée par la pandémie de Covid-19 dont les répercussion socioéconomiques ont durement touché l’ensemble des pays. Outre la récession généralisée qu’elle a provoqué, cette crise a également impacté les chaînes de production globalisées, notamment en créant ou  aggravant les pénuries de matières premières dans le monde entier.",
+    "11": "L’année 2020 a été marquée par la pandémie de Covid-19 dont les répercussions socioéconomiques ont durement touché l’ensemble des pays. Outre la récession généralisée qu’elle a provoqué, cette crise a également impacté les chaînes de production globalisées, notamment en créant ou  aggravant les pénuries de matières premières dans le monde entier.",
     "12": "Au Maroc, la crise du coronavirus a entrainé la première récession depuis de nombreuses années. Touchés à des degrés divers, les secteurs d’activités ont toutefois su faire preuve de résilience, en grande partie grâce à l’important dispositif de soutien aux entreprises mis en place par le gouvernement via le Fonds spécial Covid-19.",
     "13": "Malgré ce contexte difficile, le secteur bancaire a enregistré des performances encourageantes à nuancer néanmoins par la hausse conséquente du risque de crédit.",
 
-    "t2": "La crise sanitaire induite par la pandémie de Covid-19 qui a provoqué une récession économique historique. Cette contraction profonde de l’économie mondiale a ainsi bouleversé les chaînes internationales d’approvisionnement et de production.",
+    "t2": "La crise sanitaire induite par la pandémie de Covid-19 a provoqué une récession économique historique. Cette contraction profonde de l’économie mondiale a ainsi bouleversé les chaînes internationales d’approvisionnement et de production.",
     "21": "Les mesures de confinement ont aggravé le chômage dans de nombreux pays. Contrairement à la crise de 2008, la baisse du PIB en 2020 n’a pas uniquement concerné les économies avancées, mais aussi la plupart des pays émergents, à l’exception de la Chine.",
     "22": "Globalement, le PIB mondial a enregistré un recul de <span style=\"font-size: 20px; color:#1ab097\">3,7</span> % en 2020 après avoir connu une croissance de <span style=\"font-size: 20px; color:#1ab097\">2,8 %</span> en 2019. Une récession a ainsi été légèrement moins sévère que prévu.",
     "23": "En 2021, les perspectives s’éclaircissent grâce aux différentes campagnes de vaccination en cours, mais aussi au maintien des dispositifs de soutien aux entreprises et aux ménages mis en place par les gouvernements. Le PIB mondial devrait atteindre <span style=\"font-size: 20px; color:#1ab097\">4,3 %</span> en 2021. Cependant, ces perspectives sont sujettes à une incertitude extrême, directement liée à l’évolution de la situation sanitaire.",
@@ -272,7 +272,7 @@
     "li3" : "Les Inspirations Eco du 11/05/2021",
     "li4" : "Un dividende de 08 dirhams par action",
     "li5" : "Le dividende sera mis en paiement à partir du 1er juillet 2021, en numéraire.",
-    "img" : "<img src=\"../images/rapp/rap3-1.png\" width=\"100%\" alt=\"\" data-aos=\"fade-up\" data-aos-duration=\"1000\" data-aos-easing=\"ease-out\" data-aos-offset=\"300\">"
+    "img" : "<img src=\"../../images/rapp/rap3-1.png\" width=\"100%\" alt=\"\" data-aos=\"fade-up\" data-aos-duration=\"1000\" data-aos-easing=\"ease-out\" data-aos-offset=\"300\">"
   },
 
   ".env-chiffre" : {
@@ -329,18 +329,18 @@
     "btn" : "Mot du président"
   },
   ".tbl" : {
-    "01" : "<img src='../images/rapp/fr/1.svg' class='d-block w-100' alt='...'><img src='../images/rapp/fr/2.svg' class='d-block w-100' alt='...'>",
-    "02" : "<img src='../images/rapp/fr/3.svg' class='d-block w-100' alt='...'><img src='../images/rapp/fr/4.svg' class='d-block w-100' alt='...'>",
-    "03" : "<img src='../images/rapp/fr/5.svg' class='d-block w-100' alt='...'>",
-    "04" : "<img src='../images/rapp/fr/6.svg' class='d-block w-100' alt='...'>",
-    "05" : "<img src='../images/rapp/fr/7.svg' class='d-block w-100' alt='...'>",
-    "06" : "<img src='../images/rapp/fr/8.svg' width='100%' alt='' data-aos='fade-up' data-aos-duration='1000'data-aos-easing='ease-out' data-aos-offset='300'>",
-    "07" : "<img src='../images/rapp/fr/9.svg' class='d-block w-100' alt='...'>",
-    "08" : "<img src='../images/rapp/fr/10.svg' class='d-block w-100' alt='...'>",
-    "09" : "<img src='../images/rapp/fr/11.svg' class='d-block w-100' alt='...'>",
-    "10" : "<img src='../images/rapp/fr/12.svg' class='d-block w-100' alt='...'>",
-    "11" : "<img src='../images/rapp/fr/13.svg' class='d-block w-100' alt='...'><img src='../images/rapp/fr/14.svg' class='d-block w-100 mt-5' alt='...'>",
-    "12" : "<img src='../images/rapp/fr/15.svg' class='d-block w-100' alt='...'>"
+    "01" : "<img src='../../images/rapp/fr/1.svg' class='d-block w-100' alt='...'><img src='../../images/rapp/fr/2.svg' class='d-block w-100' alt='...'>",
+    "02" : "<img src='../../images/rapp/fr/3.svg' class='d-block w-100' alt='...'><img src='../../images/rapp/fr/4.svg' class='d-block w-100' alt='...'>",
+    "03" : "<img src='../../images/rapp/fr/5.svg' class='d-block w-100' alt='...'>",
+    "04" : "<img src='../../images/rapp/fr/6.svg' class='d-block w-100' alt='...'>",
+    "05" : "<img src='../../images/rapp/fr/7.svg' class='d-block w-100' alt='...'>",
+    "06" : "<img src='../../images/rapp/fr/8.svg' width='100%' alt='' data-aos='fade-up' data-aos-duration='1000'data-aos-easing='ease-out' data-aos-offset='300'>",
+    "07" : "<img src='../../images/rapp/fr/9.svg' class='d-block w-100' alt='...'>",
+    "08" : "<img src='../../images/rapp/fr/10.svg' class='d-block w-100' alt='...'>",
+    "09" : "<img src='../../images/rapp/fr/11.svg' class='d-block w-100' alt='...'>",
+    "10" : "<img src='../../images/rapp/fr/12.svg' class='d-block w-100' alt='...'>",
+    "11" : "<img src='../../images/rapp/fr/13.svg' class='d-block w-100' alt='...'><img src='../../images/rapp/fr/14.svg' class='d-block w-100 mt-5' alt='...'>",
+    "12" : "<img src='../../images/rapp/fr/15.svg' class='d-block w-100' alt='...'>"
   },
   ".nt" : {
     "nxt" : "Chapitre suivant"

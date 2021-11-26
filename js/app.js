@@ -177,7 +177,7 @@ function hello(i, filePath) {
                   var k = 0;
                   while (k <= 5) {
                   
-                      if(filePath == "../rapp" + k + ".html"){
+                      if(filePath == "../articles/report/rapp" + k + ".html"){
                            $("body").append("<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj\" crossorigin=\"anonymous\"></script>");
                             if($("#carouselExampleIndicators") != null)
                             {   

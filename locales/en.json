@@ -1,6 +1,6 @@
 {
   "head": {
-    "01": "Word Of The President",
+    "01": "Chairman's Statment",
     "02": "CIH BANK Key performance indicators",
     "03": "Our 100 Year Timeline",
     "04": "Economic Overview",
@@ -11,7 +11,7 @@
   },
 
   ".link": {
-    "01": "word of The president",
+    "01": "Chairman's Statment",
     "02": "CIH BANK Key performance indicators",
     "03": "Our 100 year timeline",
     "04": "Economic Overview",
@@ -21,16 +21,16 @@
     "08": "Our Branch Network"
   },
   ".overlay-item": {
-    "011": "Word of the president",
-    "012": "Word of the president",
+    "011": "Chairman's Statment",
+    "012": "Chairman's Statment",
     "021": "CIH BANK Key performance indicators",
     "022": "Key numbers",
     "031": "Our 100 year timeline",
     "032": "timeline",
     "041": "Economic Overview",
     "042": "Environment",
-    "043": "International economic environment",
-    "044": "National economic environment",
+    "043": "International economic overview",
+    "044": "National economic overview",
     "045": "Real estate sector",
     "046": "Banking environment and financial markets",
     "047": "Interest rate market ",
@@ -57,16 +57,16 @@
     "082": "Branch Network And New Openings"
   },
   ".slider-item": {
-    "011": "Word of the president",
-    "012": "Word of the president",
+    "011": "Chairman's Statment",
+    "012": "Chairman's Statment",
     "021": "CIH BANK Key performance indicators",
     "022": "Key numbers",
     "031": "Our 100 year timeline",
     "032": "timeline",
     "041": "Economic Overview",
     "042": "Environment",
-    "043": "International economic environment",
-    "044": "National economic environment",
+    "043": "International economic overview",
+    "044": "National economic overview",
     "045": "Real estate sector",
     "046": "Banking environment and financial markets",
     "047": "Interest rate market ",
@@ -313,21 +313,21 @@
     "index-image" : "<img src=\"./images/index-en.png\" id=\"img\">"
   },
   ".click" : {
-    "btn" : "Word Of The President"
+    "btn" : "Chairman's Statment"
   },
   ".tbl" : {
-    "01" : "<img src='../images/rapp/en/1.svg' class='d-block w-100' alt='...'><img src='../images/rapp/en/2.svg' class='d-block w-100' alt='...'>",
-    "02" : "<img src='../images/rapp/en/3.svg' class='d-block w-100' alt='...'><img src='../images/rapp/en/4.svg' class='d-block w-100' alt='...'>",
-    "03" : "<img src='../images/rapp/en/5.svg' class='d-block w-100' alt='...'>",
-    "04" : "<img src='../images/rapp/en/6.svg' class='d-block w-100' alt='...'>",
-    "05" : "<img src='../images/rapp/en/7.svg' class='d-block w-100' alt='...'>",
-    "06" : "<img src='../images/rapp/en/8.svg' width='100%' alt='' data-aos='fade-up' data-aos-duration='1000'data-aos-easing='ease-out' data-aos-offset='300'>",
-    "07" : "<img src='../images/rapp/en/9.svg' class='d-block w-100' alt='...'>",
-    "08" : "<img src='../images/rapp/en/10.svg' class='d-block w-100' alt='...'>",
-    "09" : "<img src='../images/rapp/en/11.svg' class='d-block w-100' alt='...'>",
-    "10" : "<img src='../images/rapp/en/12.svg' class='d-block w-100' alt='...'>",
-    "11" : "<img src='../images/rapp/en/13.svg' class='d-block w-100' alt='...'><img src='../images/rapp/en/14.svg' class='d-block w-100 mt-5' alt='...'>",
-    "12" : "<img src='../images/rapp/en/15.svg' class='d-block w-100' alt='...'>"
+    "01" : "<img src='../../images/rapp/en/1.svg' class='d-block w-100' alt='...'><img src='../../images/rapp/en/2.svg' class='d-block w-100' alt='...'>",
+    "02" : "<img src='../../images/rapp/en/3.svg' class='d-block w-100' alt='...'><img src='../../images/rapp/en/4.svg' class='d-block w-100' alt='...'>",
+    "03" : "<img src='../../images/rapp/en/5.svg' class='d-block w-100' alt='...'>",
+    "04" : "<img src='../../images/rapp/en/6.svg' class='d-block w-100' alt='...'>",
+    "05" : "<img src='../../images/rapp/en/7.svg' class='d-block w-100' alt='...'>",
+    "06" : "<img src='../../images/rapp/en/8.svg' width='100%' alt='' data-aos='fade-up' data-aos-duration='1000'data-aos-easing='ease-out' data-aos-offset='300'>",
+    "07" : "<img src='../../images/rapp/en/9.svg' class='d-block w-100' alt='...'>",
+    "08" : "<img src='../../images/rapp/en/10.svg' class='d-block w-100' alt='...'>",
+    "09" : "<img src='../../images/rapp/en/11.svg' class='d-block w-100' alt='...'>",
+    "10" : "<img src='../../images/rapp/en/12.svg' class='d-block w-100' alt='...'>",
+    "11" : "<img src='../../images/rapp/en/13.svg' class='d-block w-100' alt='...'><img src='../../images/rapp/en/14.svg' class='d-block w-100 mt-5' alt='...'>",
+    "12" : "<img src='../../images/rapp/en/15.svg' class='d-block w-100' alt='...'>"
   },
   ".nt" : {
     "nxt" : "Next chapter"
