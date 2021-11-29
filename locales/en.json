@@ -308,8 +308,8 @@
     "logo2" : "<img id=\"logo\" src=\"./images/fr/Asset 3.png\" height=\"40px\" alt=\"\" />"
   },
   ".row" : {
-    "pics" : "<img src=\"../images/fr/env5.png\" width=\"100%\" alt=\"\">",
-    "table" : "<img src=\"../images/fr/table.png\" width=\"100%\" alt=\"\">",
+    "pics" : "<img src=\"../images/en/env5.png\" width=\"100%\" alt=\"\">",
+    "table" : "<img src=\"../images/en/table.png\" width=\"100%\" alt=\"\">",
     "index-image" : "<img src=\"./images/index-en.png\" id=\"img\">"
   },
   ".click" : {
